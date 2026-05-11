@@ -2,7 +2,7 @@ import Parser from 'rss-parser';
 const parser = new Parser();
 
 export default async function handler(req, res) {
-  const { country = 'FR' } = req.query;
+ const country = req.query.country || 'FR';
   try {
     const url = `https://trends.google.com/trends/trendingsearches/daily/rss?geo=${country.toUpperCase()}`;
     const feed = await parser.parseURL(url);

@@ -3,8 +3,7 @@ async function loadTrends(country = 'FR') {
   container.innerHTML = '<li class="trend-item">Mise à jour...</li>';
   
   try {
-    // Utilisation d'un chemin relatif pour que ça marche sur le domaine .com
-    const response = await fetch(`/api/trends?country=${country}`);
+    const response = await fetch(`https://searchgtrends-api.vercel.app/api/trends?country=${country}`);
     const data = await response.json();
     
     if (data.error) {
@@ -25,3 +24,6 @@ async function loadTrends(country = 'FR') {
     container.innerHTML = '<li class="trend-item">Serveur en maintenance, réessayez dans 1 min.</li>';
   }
 }
+
+document.getElementById("year").textContent = new Date().getFullYear();
+loadTrends("FR");

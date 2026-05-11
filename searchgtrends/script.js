@@ -1,11 +1,17 @@
 async function loadTrends(country = 'FR') {
   const container = document.getElementById('trend-list-container');
-  container.innerHTML = '<li class="trend-item">Mise à jour des tendances...</li>';
+  container.innerHTML = '<li class="trend-item">Mise à jour...</li>';
   
   try {
+    // Utilisation d'un chemin relatif pour que ça marche sur le domaine .com
     const response = await fetch(`/api/trends?country=${country}`);
     const data = await response.json();
     
+    if (data.error) {
+       container.innerHTML = `<li class="trend-item">${data.error}</li>`;
+       return;
+    }
+
     container.innerHTML = data.map(item => `
       <li class="trend-item" onclick="window.open('${item.link}', '_blank')">
         <div>
@@ -16,9 +22,6 @@ async function loadTrends(country = 'FR') {
       </li>
     `).join('');
   } catch (e) {
-    container.innerHTML = '<li class="trend-item">Erreur lors du chargement.</li>';
+    container.innerHTML = '<li class="trend-item">Serveur en maintenance, réessayez dans 1 min.</li>';
   }
 }
-
-document.getElementById("year").textContent = new Date().getFullYear();
-loadTrends('FR');

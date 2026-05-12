@@ -1,16 +1,6 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-V8FNMBSMBK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-V8FNMBSMBK');
-</script>
- <!-- end Google tag (gtag.js) -->
     <!-- Google Tag Manager -->
     <script>
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -39,7 +29,79 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+    <!-- Bannière de consentement RGPD -->
+    <div id="consent-banner" style="
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #111;
+      color: white;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: sans-serif;
+      z-index: 9999;
+    ">
+      <span>
+        Nous utilisons des cookies pour mesurer l’audience et améliorer SearchGTrends.
+      </span>
+
+      <div>
+        <button id="consent-accept" style="
+          background: #4CAF50;
+          color: white;
+          border: none;
+          padding: 10px 15px;
+          margin-right: 10px;
+          cursor: pointer;
+        ">Accepter</button>
+
+        <button id="consent-deny" style="
+          background: #777;
+          color: white;
+          border: none;
+          padding: 10px 15px;
+          cursor: pointer;
+        ">Refuser</button>
+      </div>
+    </div>
+
+    <!-- Script de gestion du consentement -->
+    <script>
+      function updateConsent(status) {
+        gtag('consent', 'update', {
+          ad_storage: status,
+          analytics_storage: status
+        });
+      }
+
+      const banner = document.getElementById("consent-banner");
+      const acceptBtn = document.getElementById("consent-accept");
+      const denyBtn = document.getElementById("consent-deny");
+
+      const saved = localStorage.getItem("sgt-consent");
+      if (saved) {
+        banner.style.display = "none";
+        updateConsent(saved);
+      }
+
+      acceptBtn.onclick = () => {
+        localStorage.setItem("sgt-consent", "granted");
+        updateConsent("granted");
+        banner.style.display = "none";
+      };
+
+      denyBtn.onclick = () => {
+        localStorage.setItem("sgt-consent", "denied");
+        updateConsent("denied");
+        banner.style.display = "none";
+      };
+    </script>
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
+

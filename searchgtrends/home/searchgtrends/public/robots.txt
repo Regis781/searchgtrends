@@ -2,9 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-# Autorisation explicite pour Google
-User-agent: Googlebot
-Allow: /
-
-# Sitemap
-Sitemap: https://searchgtrends.com/sitemap.xml
+Sitemap: https://www.searchgtrends.com/sitemap.xml

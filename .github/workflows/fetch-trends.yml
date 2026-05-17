@@ -1,11 +1,8 @@
 name: 🔄 Fetch Trends Daily
 
 on:
-  # Déclenche tous les jours à 6h UTC (8h Paris)
   schedule:
     - cron: '0 6 * * *'
-
-  # Permet de déclencher manuellement depuis GitHub
   workflow_dispatch:
 
 jobs:
@@ -14,7 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write   # Nécessaire pour committer trends.json
+      contents: write
+
+    defaults:
+      run:
+        working-directory: home/searchgtrends/searchgtrends
 
     steps:
       - name: Checkout repo
@@ -62,17 +63,14 @@ jobs:
             curl -X POST "$VERCEL_DEPLOY_HOOK"
             echo "✅ Vercel redeploy déclenché"
           else
-            echo "ℹ️  Pas de VERCEL_DEPLOY_HOOK configuré — Vercel redéploie automatiquement sur push"
+            echo "ℹ️  Vercel redéploie automatiquement sur push"
           fi
 
       - name: Summary
         run: |
           echo "## 📊 Résultat du fetch" >> $GITHUB_STEP_SUMMARY
           echo "- Date : $(date -u)" >> $GITHUB_STEP_SUMMARY
-          echo "- Fichier : \`public/data/trends.json\`" >> $GITHUB_STEP_SUMMARY
           if [ -f public/data/trends.json ]; then
             COUNTRIES=$(node -e "const d=JSON.parse(require('fs').readFileSync('public/data/trends.json')); console.log(d.countries.length)")
-            API_COUNT=$(node -e "const d=JSON.parse(require('fs').readFileSync('public/data/trends.json')); console.log(d.countries.filter(c=>c.source==='api').length)")
             echo "- Pays récupérés : $COUNTRIES" >> $GITHUB_STEP_SUMMARY
-            echo "- Avec données API réelles : $API_COUNT" >> $GITHUB_STEP_SUMMARY
           fi

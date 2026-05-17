@@ -24,9 +24,9 @@ function HomePage() {
   const [showCharts, setShowCharts] = useState(false)
 
   const currentCountry = countries.find(c => c.code === selectedCode) ?? countries[0]
-  const filtered = selectedCat === 'Tous'
-    ? currentCountry.trends
-    : currentCountry.trends.filter(t => t.category === selectedCat)
+  const filtered = currentCountry
+    ? (selectedCat === 'Tous' ? currentCountry.trends : currentCountry.trends.filter(t => t.category === selectedCat))
+    : []
 
   const topGlobal = countries
     .flatMap(c => c.trends.map(t => ({ ...t, country: c })))

@@ -24,15 +24,12 @@ function HomePage() {
   const [showCharts, setShowCharts] = useState(false)
 
   const currentCountry = countries.find(c => c.code === selectedCode) ?? countries[0]
-
-  const safeTrends = currentCountry?.trends ?? []
-
   const filtered = selectedCat === 'Tous'
-    ? safeTrends
-    : safeTrends.filter(t => t.category === selectedCat)
+    ? currentCountry.trends
+    : currentCountry.trends.filter(t => t.category === selectedCat)
 
   const topGlobal = countries
-    .flatMap(c => (c?.trends ?? []).map(t => ({ ...t, country: c })))
+    .flatMap(c => c.trends.map(t => ({ ...t, country: c })))
     .sort((a, b) => b.change - a.change)
     .slice(0, 5)
 

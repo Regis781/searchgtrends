@@ -1,10 +1,3 @@
-/**
- * useTrends.ts
- * 
- * Charge les données depuis /data/trends.json (généré chaque jour par GitHub Actions)
- * Fallback sur les données statiques si le fichier n'existe pas encore
- */
-
 import { useState, useEffect } from 'react'
 import { countries as staticCountries } from '@/data/trends'
 import type { CountryData } from '@/data/trends'
@@ -14,7 +7,7 @@ type TrendsState = {
   generatedAt: string | null
   loading: boolean
   error: string | null
-  isLive: boolean  // true = données API, false = données statiques
+  isLive: boolean
 }
 
 export function useTrends(): TrendsState {
@@ -31,7 +24,6 @@ export function useTrends(): TrendsState {
 
     async function load() {
       try {
-        // Ajout d'un cache-buster pour forcer le rechargement quotidien
         const today = new Date().toISOString().split('T')[0]
         const res = await fetch(`/data/trends.json?v=${today}`, {
           signal: controller.signal,
@@ -42,9 +34,10 @@ export function useTrends(): TrendsState {
 
         const json = await res.json()
 
-        // Validation basique
-        if (!json.countries || !Array.isArray(json.countries)) {
-          throw new Error('Format invalide')
+        // Si le fichier est invalide ou vide (placeholder), on garde les données statiques
+        if (!json.countries || !Array.isArray(json.countries) || json.countries.length === 0) {
+          setState(prev => ({ ...prev, loading: false }))
+          return
         }
 
         setState({
@@ -56,14 +49,8 @@ export function useTrends(): TrendsState {
         })
       } catch (err) {
         if ((err as Error).name === 'AbortError') return
-
-        console.warn('trends.json non disponible, utilisation des données statiques:', err)
-        setState(prev => ({
-          ...prev,
-          loading: false,
-          error: null, // Pas d'erreur visible — fallback silencieux
-          isLive: false,
-        }))
+        // Fallback silencieux sur les données statiques
+        setState(prev => ({ ...prev, loading: false, isLive: false }))
       }
     }
 

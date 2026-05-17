@@ -1,5 +1,1605 @@
 {
-  "_comment": "Ce fichier est généré automatiquement par GitHub Actions chaque jour. Ne pas modifier manuellement.",
-  "generatedAt": null,
-  "countries": []
+  "generatedAt": "2026-05-17T15:04:11.678Z",
+  "countries": [
+    {
+      "code": "FR",
+      "name": "France",
+      "flag": "🇫🇷",
+      "geo": "FR",
+      "trends": [
+        {
+          "keyword": "Ligue 1",
+          "volume": 95,
+          "change": 6,
+          "category": "Actualité",
+          "history": [
+            63,
+            84,
+            58,
+            87,
+            64,
+            73,
+            87
+          ]
+        },
+        {
+          "keyword": "IA générative",
+          "volume": 88,
+          "change": 22,
+          "category": "Actualité",
+          "history": [
+            79,
+            89,
+            49,
+            78,
+            53,
+            49,
+            42
+          ]
+        },
+        {
+          "keyword": "Météo Paris",
+          "volume": 81,
+          "change": 3,
+          "category": "Actualité",
+          "history": [
+            57,
+            55,
+            80,
+            43,
+            42,
+            48,
+            58
+          ]
+        },
+        {
+          "keyword": "Netflix",
+          "volume": 74,
+          "change": 42,
+          "category": "Divertissement",
+          "history": [
+            55,
+            65,
+            55,
+            57,
+            61,
+            68,
+            59
+          ]
+        },
+        {
+          "keyword": "CAC 40",
+          "volume": 67,
+          "change": 25,
+          "category": "Actualité",
+          "history": [
+            61,
+            68,
+            45,
+            70,
+            67,
+            77,
+            52
+          ]
+        },
+        {
+          "keyword": "Roland Garros",
+          "volume": 60,
+          "change": 50,
+          "category": "Actualité",
+          "history": [
+            76,
+            80,
+            61,
+            83,
+            58,
+            60,
+            74
+          ]
+        },
+        {
+          "keyword": "ChatGPT",
+          "volume": 53,
+          "change": 7,
+          "category": "Tech",
+          "history": [
+            75,
+            59,
+            68,
+            81,
+            68,
+            50,
+            64
+          ]
+        },
+        {
+          "keyword": "Inflation",
+          "volume": 46,
+          "change": 20,
+          "category": "Sport",
+          "history": [
+            58,
+            55,
+            61,
+            63,
+            72,
+            45,
+            62
+          ]
+        },
+        {
+          "keyword": "Grève",
+          "volume": 39,
+          "change": 35,
+          "category": "Actualité",
+          "history": [
+            90,
+            63,
+            60,
+            62,
+            74,
+            79,
+            45
+          ]
+        },
+        {
+          "keyword": "Macron",
+          "volume": 32,
+          "change": 32,
+          "category": "Actualité",
+          "history": [
+            79,
+            44,
+            83,
+            55,
+            41,
+            68,
+            48
+          ]
+        }
+      ],
+      "updatedAt": "2026-05-17T15:04:11.523Z",
+      "source": "fallback"
+    },
+    {
+      "code": "US",
+      "name": "États-Unis",
+      "flag": "🇺🇸",
+      "geo": "US",
+      "trends": [
+        {
+          "keyword": "NBA",
+          "volume": 95,
+          "change": 44,
+          "category": "Sport",
+          "history": [
+            80,
+            80,
+            78,
+            43,
+            56,
+            80,
+            82
+          ]
+        },
+        {
+          "keyword": "GPT-5",
+          "volume": 88,
+          "change": 13,
+          "category": "Actualité",
+          "history": [
+            52,
+            74,
+            56,
+            71,
+            75,
+            54,
+            59
+          ]
+        },
+        {
+          "keyword": "Taylor Swift",
+          "volume": 81,
+          "change": 6,
+          "category": "Actualité",
+          "history": [
+            67,
+            48,
+            62,
+            85,
+            88,
+            87,
+            88
+          ]
+        },
+        {
+          "keyword": "Stock market",
+          "volume": 74,
+          "change": 52,
+          "category": "Économie",
+          "history": [
+            68,
+            82,
+            71,
+            77,
+            56,
+            79,
+            79
+          ]
+        },
+        {
+          "keyword": "Weather",
+          "volume": 67,
+          "change": 24,
+          "category": "Actualité",
+          "history": [
+            72,
+            87,
+            44,
+            42,
+            50,
+            73,
+            81
+          ]
+        },
+        {
+          "keyword": "Apple",
+          "volume": 60,
+          "change": 40,
+          "category": "Tech",
+          "history": [
+            51,
+            61,
+            43,
+            52,
+            72,
+            68,
+            81
+          ]
+        },
+        {
+          "keyword": "Immigration",
+          "volume": 53,
+          "change": 4,
+          "category": "Actualité",
+          "history": [
+            68,
+            51,
+            45,
+            85,
+            55,
+            60,
+            83
+          ]
+        },
+        {
+          "keyword": "Bitcoin",
+          "volume": 46,
+          "change": 3,
+          "category": "Économie",
+          "history": [
+            41,
+            70,
+            56,
+            68,
+            85,
+            66,
+            90
+          ]
+        },
+        {
+          "keyword": "Super Bowl",
+          "volume": 39,
+          "change": 35,
+          "category": "Actualité",
+          "history": [
+            50,
+            66,
+            90,
+            79,
+            62,
+            46,
+            79
+          ]
+        },
+        {
+          "keyword": "Netflix",
+          "volume": 32,
+          "change": 23,
+          "category": "Divertissement",
+          "history": [
+            62,
+            43,
+            89,
+            83,
+            47,
+            49,
+            42
+          ]
+        }
+      ],
+      "updatedAt": "2026-05-17T15:04:11.539Z",
+      "source": "fallback"
+    },
+    {
+      "code": "GB",
+      "name": "Royaume-Uni",
+      "flag": "🇬🇧",
+      "geo": "GB",
+      "trends": [
+        {
+          "keyword": "Premier League",
+          "volume": 95,
+          "change": 3,
+          "category": "Sport",
+          "history": [
+            41,
+            52,
+            40,
+            65,
+            82,
+            50,
+            67
+          ]
+        },
+        {
+          "keyword": "NHS",
+          "volume": 88,
+          "change": 33,
+          "category": "Actualité",
+          "history": [
+            55,
+            56,
+            74,
+            67,
+            50,
+            69,
+            53
+          ]
+        },
+        {
+          "keyword": "AI regulation",
+          "volume": 81,
+          "change": 21,
+          "category": "Tech",
+          "history": [
+            84,
+            80,
+            70,
+            57,
+            88,
+            72,
+            64
+          ]
+        },
+        {
+          "keyword": "Cost of living",
+          "volume": 74,
+          "change": 21,
+          "category": "Actualité",
+          "history": [
+            56,
+            89,
+            46,
+            81,
+            63,
+            55,
+            61
+          ]
+        },
+        {
+          "keyword": "Wimbledon",
+          "volume": 67,
+          "change": 50,
+          "category": "Actualité",
+          "history": [
+            58,
+            50,
+            86,
+            51,
+            88,
+            87,
+            50
+          ]
+        },
+        {
+          "keyword": "FTSE",
+          "volume": 60,
+          "change": 39,
+          "category": "Actualité",
+          "history": [
+            84,
+            69,
+            77,
+            61,
+            54,
+            85,
+            63
+          ]
+        },
+        {
+          "keyword": "Labour Party",
+          "volume": 53,
+          "change": 4,
+          "category": "Actualité",
+          "history": [
+            78,
+            59,
+            56,
+            52,
+            84,
+            52,
+            48
+          ]
+        },
+        {
+          "keyword": "BBC",
+          "volume": 46,
+          "change": 3,
+          "category": "Actualité",
+          "history": [
+            81,
+            86,
+            77,
+            50,
+            82,
+            58,
+            80
+          ]
+        },
+        {
+          "keyword": "King Charles",
+          "volume": 39,
+          "change": 8,
+          "category": "Actualité",
+          "history": [
+            80,
+            66,
+            52,
+            42,
+            56,
+            88,
+            72
+          ]
+        },
+        {
+          "keyword": "Brexit",
+          "volume": 32,
+          "change": 23,
+          "category": "Actualité",
+          "history": [
+            76,
+            53,
+            75,
+            88,
+            51,
+            72,
+            54
+          ]
+        }
+      ],
+      "updatedAt": "2026-05-17T15:04:11.551Z",
+      "source": "fallback"
+    },
+    {
+      "code": "DE",
+      "name": "Allemagne",
+      "flag": "🇩🇪",
+      "geo": "DE",
+      "trends": [
+        {
+          "keyword": "Bundesliga",
+          "volume": 95,
+          "change": 25,
+          "category": "Sport",
+          "history": [
+            69,
+            58,
+            80,
+            43,
+            61,
+            60,
+            85
+          ]
+        },
+        {
+          "keyword": "KI",
+          "volume": 88,
+          "change": 18,
+          "category": "Actualité",
+          "history": [
+            83,
+            48,
+            43,
+            81,
+            69,
+            88,
+            86
+          ]
+        },
+        {
+          "keyword": "Energiekosten",
+          "volume": 81,
+          "change": 43,
+          "category": "Actualité",
+          "history": [
+            49,
+            73,
+            66,
+            89,
+            66,
+            77,
+            76
+          ]
+        },
+        {
+          "keyword": "Oktoberfest",
+          "volume": 74,
+          "change": 9,
+          "category": "Actualité",
+          "history": [
+            62,
+            68,
+            78,
+            77,
+            74,
+            85,
+            74
+          ]
+        },
+        {
+          "keyword": "Bundestag",
+          "volume": 67,
+          "change": 42,
+          "category": "Actualité",
+          "history": [
+            74,
+            82,
+            62,
+            69,
+            61,
+            86,
+            86
+          ]
+        },
+        {
+          "keyword": "Tesla",
+          "volume": 60,
+          "change": 38,
+          "category": "Actualité",
+          "history": [
+            67,
+            49,
+            76,
+            65,
+            88,
+            46,
+            69
+          ]
+        },
+        {
+          "keyword": "DAX",
+          "volume": 53,
+          "change": 34,
+          "category": "Actualité",
+          "history": [
+            44,
+            49,
+            68,
+            82,
+            61,
+            54,
+            85
+          ]
+        },
+        {
+          "keyword": "Champions League",
+          "volume": 46,
+          "change": 45,
+          "category": "Sport",
+          "history": [
+            53,
+            51,
+            47,
+            74,
+            64,
+            53,
+            46
+          ]
+        },
+        {
+          "keyword": "Wetter",
+          "volume": 39,
+          "change": 25,
+          "category": "Actualité",
+          "history": [
+            82,
+            56,
+            62,
+            63,
+            77,
+            63,
+            47
+          ]
+        },
+        {
+          "keyword": "Inflation",
+          "volume": 32,
+          "change": 51,
+          "category": "Sport",
+          "history": [
+            71,
+            50,
+            52,
+            48,
+            70,
+            71,
+            89
+          ]
+        }
+      ],
+      "updatedAt": "2026-05-17T15:04:11.569Z",
+      "source": "fallback"
+    },
+    {
+      "code": "JP",
+      "name": "Japon",
+      "flag": "🇯🇵",
+      "geo": "JP",
+      "trends": [
+        {
+          "keyword": "アニメ",
+          "volume": 95,
+          "change": 34,
+          "category": "Actualité",
+          "history": [
+            54,
+            61,
+            90,
+            41,
+            70,
+            88,
+            40
+          ]
+        },
+        {
+          "keyword": "地震",
+          "volume": 88,
+          "change": 9,
+          "category": "Actualité",
+          "history": [
+            82,
+            69,
+            86,
+            81,
+            84,
+            74,
+            71
+          ]
+        },
+        {
+          "keyword": "Nvidia",
+          "volume": 81,
+          "change": 44,
+          "category": "Actualité",
+          "history": [
+            66,
+            68,
+            70,
+            64,
+            48,
+            76,
+            45
+          ]
+        },
+        {
+          "keyword": "野球",
+          "volume": 74,
+          "change": 22,
+          "category": "Actualité",
+          "history": [
+            69,
+            46,
+            57,
+            76,
+            73,
+            45,
+            70
+          ]
+        },
+        {
+          "keyword": "ChatGPT",
+          "volume": 67,
+          "change": 37,
+          "category": "Tech",
+          "history": [
+            68,
+            46,
+            66,
+            86,
+            42,
+            53,
+            42
+          ]
+        },
+        {
+          "keyword": "花粉症",
+          "volume": 60,
+          "change": 44,
+          "category": "Actualité",
+          "history": [
+            79,
+            77,
+            55,
+            66,
+            53,
+            48,
+            82
+          ]
+        },
+        {
+          "keyword": "円安",
+          "volume": 53,
+          "change": 22,
+          "category": "Actualité",
+          "history": [
+            63,
+            74,
+            64,
+            40,
+            67,
+            41,
+            51
+          ]
+        },
+        {
+          "keyword": "Netflix",
+          "volume": 46,
+          "change": 12,
+          "category": "Divertissement",
+          "history": [
+            79,
+            72,
+            72,
+            77,
+            43,
+            68,
+            73
+          ]
+        },
+        {
+          "keyword": "オリンピック",
+          "volume": 39,
+          "change": 30,
+          "category": "Actualité",
+          "history": [
+            42,
+            67,
+            89,
+            79,
+            53,
+            89,
+            48
+          ]
+        },
+        {
+          "keyword": "選挙",
+          "volume": 32,
+          "change": 29,
+          "category": "Actualité",
+          "history": [
+            61,
+            56,
+            50,
+            79,
+            51,
+            89,
+            52
+          ]
+        }
+      ],
+      "updatedAt": "2026-05-17T15:04:11.587Z",
+      "source": "fallback"
+    },
+    {
+      "code": "BR",
+      "name": "Brésil",
+      "flag": "🇧🇷",
+      "geo": "BR",
+      "trends": [
+        {
+          "keyword": "Futebol",
+          "volume": 95,
+          "change": 22,
+          "category": "Actualité",
+          "history": [
+            47,
+            86,
+            84,
+            84,
+            57,
+            45,
+            48
+          ]
+        },
+        {
+          "keyword": "Carnaval",
+          "volume": 88,
+          "change": 2,
+          "category": "Actualité",
+          "history": [
+            86,
+            57,
+            87,
+            59,
+            54,
+            46,
+            56
+          ]
+        },
+        {
+          "keyword": "IA",
+          "volume": 81,
+          "change": 51,
+          "category": "Actualité",
+          "history": [
+            45,
+            74,
+            43,
+            59,
+            63,
+            60,
+            42
+          ]
+        },
+        {
+          "keyword": "Lula",
+          "volume": 74,
+          "change": 50,
+          "category": "Actualité",
+          "history": [
+            69,
+            86,
+            75,
+            66,
+            80,
+            41,
+            54
+          ]
+        },
+        {
+          "keyword": "Dólar",
+          "volume": 67,
+          "change": 45,
+          "category": "Actualité",
+          "history": [
+            60,
+            68,
+            69,
+            76,
+            73,
+            89,
+            56
+          ]
+        },
+        {
+          "keyword": "Dengue",
+          "volume": 60,
+          "change": 19,
+          "category": "Actualité",
+          "history": [
+            43,
+            48,
+            59,
+            87,
+            69,
+            66,
+            79
+          ]
+        },
+        {
+          "keyword": "Netflix",
+          "volume": 53,
+          "change": 19,
+          "category": "Divertissement",
+          "history": [
+            88,
+            54,
+            52,
+            56,
+            63,
+            84,
+            45
+          ]
+        },
+        {
+          "keyword": "Bitcoin",
+          "volume": 46,
+          "change": 26,
+          "category": "Économie",
+          "history": [
+            68,
+            86,
+            61,
+            78,
+            69,
+            75,
+            75
+          ]
+        },
+        {
+          "keyword": "Neymar",
+          "volume": 39,
+          "change": 38,
+          "category": "Actualité",
+          "history": [
+            50,
+            59,
+            53,
+            77,
+            76,
+            48,
+            61
+          ]
+        },
+        {
+          "keyword": "ChatGPT",
+          "volume": 32,
+          "change": 51,
+          "category": "Tech",
+          "history": [
+            76,
+            78,
+            49,
+            71,
+            44,
+            47,
+            47
+          ]
+        }
+      ],
+      "updatedAt": "2026-05-17T15:04:11.610Z",
+      "source": "fallback"
+    },
+    {
+      "code": "IN",
+      "name": "Inde",
+      "flag": "🇮🇳",
+      "geo": "IN",
+      "trends": [
+        {
+          "keyword": "Cricket IPL",
+          "volume": 95,
+          "change": 12,
+          "category": "Sport",
+          "history": [
+            58,
+            59,
+            44,
+            84,
+            53,
+            88,
+            80
+          ]
+        },
+        {
+          "keyword": "AI Jobs",
+          "volume": 88,
+          "change": 22,
+          "category": "Tech",
+          "history": [
+            57,
+            71,
+            62,
+            86,
+            40,
+            53,
+            85
+          ]
+        },
+        {
+          "keyword": "Monsoon",
+          "volume": 81,
+          "change": 2,
+          "category": "Actualité",
+          "history": [
+            49,
+            43,
+            65,
+            47,
+            44,
+            56,
+            80
+          ]
+        },
+        {
+          "keyword": "Modi",
+          "volume": 74,
+          "change": 24,
+          "category": "Actualité",
+          "history": [
+            67,
+            58,
+            65,
+            65,
+            66,
+            56,
+            56
+          ]
+        },
+        {
+          "keyword": "Bollywood",
+          "volume": 67,
+          "change": 3,
+          "category": "Actualité",
+          "history": [
+            87,
+            74,
+            87,
+            50,
+            44,
+            85,
+            87
+          ]
+        },
+        {
+          "keyword": "Sensex",
+          "volume": 60,
+          "change": 48,
+          "category": "Actualité",
+          "history": [
+            78,
+            60,
+            88,
+            72,
+            79,
+            42,
+            65
+          ]
+        },
+        {
+          "keyword": "ChatGPT",
+          "volume": 53,
+          "change": 3,
+          "category": "Tech",
+          "history": [
+            63,
+            53,
+            60,
+            41,
+            53,
+            86,
+            45
+          ]
+        },
+        {
+          "keyword": "Dengue",
+          "volume": 46,
+          "change": 29,
+          "category": "Actualité",
+          "history": [
+            62,
+            52,
+            45,
+            49,
+            68,
+            88,
+            42
+          ]
+        },
+        {
+          "keyword": "Rupee",
+          "volume": 39,
+          "change": 32,
+          "category": "Actualité",
+          "history": [
+            56,
+            71,
+            78,
+            57,
+            43,
+            83,
+            58
+          ]
+        },
+        {
+          "keyword": "Yoga",
+          "volume": 32,
+          "change": 19,
+          "category": "Actualité",
+          "history": [
+            78,
+            49,
+            67,
+            73,
+            76,
+            73,
+            60
+          ]
+        }
+      ],
+      "updatedAt": "2026-05-17T15:04:11.630Z",
+      "source": "fallback"
+    },
+    {
+      "code": "KR",
+      "name": "Corée du Sud",
+      "flag": "🇰🇷",
+      "geo": "KR",
+      "trends": [
+        {
+          "keyword": "K-드라마",
+          "volume": 95,
+          "change": 41,
+          "category": "Actualité",
+          "history": [
+            52,
+            65,
+            51,
+            65,
+            82,
+            68,
+            49
+          ]
+        },
+        {
+          "keyword": "삼성",
+          "volume": 88,
+          "change": 48,
+          "category": "Actualité",
+          "history": [
+            42,
+            82,
+            56,
+            50,
+            42,
+            64,
+            75
+          ]
+        },
+        {
+          "keyword": "BTS",
+          "volume": 81,
+          "change": 45,
+          "category": "Actualité",
+          "history": [
+            89,
+            57,
+            55,
+            54,
+            52,
+            45,
+            59
+          ]
+        },
+        {
+          "keyword": "코스피",
+          "volume": 74,
+          "change": 31,
+          "category": "Actualité",
+          "history": [
+            57,
+            77,
+            86,
+            69,
+            67,
+            63,
+            51
+          ]
+        },
+        {
+          "keyword": "손흥민",
+          "volume": 67,
+          "change": 19,
+          "category": "Actualité",
+          "history": [
+            48,
+            45,
+            72,
+            61,
+            51,
+            54,
+            82
+          ]
+        },
+        {
+          "keyword": "ChatGPT",
+          "volume": 60,
+          "change": 25,
+          "category": "Tech",
+          "history": [
+            60,
+            77,
+            47,
+            50,
+            84,
+            63,
+            56
+          ]
+        },
+        {
+          "keyword": "부동산",
+          "volume": 53,
+          "change": 31,
+          "category": "Actualité",
+          "history": [
+            85,
+            48,
+            68,
+            70,
+            45,
+            56,
+            57
+          ]
+        },
+        {
+          "keyword": "건강",
+          "volume": 46,
+          "change": 26,
+          "category": "Actualité",
+          "history": [
+            75,
+            55,
+            41,
+            60,
+            63,
+            59,
+            57
+          ]
+        },
+        {
+          "keyword": "선거",
+          "volume": 39,
+          "change": 7,
+          "category": "Actualité",
+          "history": [
+            60,
+            62,
+            46,
+            60,
+            64,
+            76,
+            82
+          ]
+        },
+        {
+          "keyword": "넷플릭스",
+          "volume": 32,
+          "change": 11,
+          "category": "Actualité",
+          "history": [
+            56,
+            41,
+            46,
+            78,
+            56,
+            81,
+            75
+          ]
+        }
+      ],
+      "updatedAt": "2026-05-17T15:04:11.642Z",
+      "source": "fallback"
+    },
+    {
+      "code": "MX",
+      "name": "Mexique",
+      "flag": "🇲🇽",
+      "geo": "MX",
+      "trends": [
+        {
+          "keyword": "Liga MX",
+          "volume": 95,
+          "change": 45,
+          "category": "Sport",
+          "history": [
+            72,
+            85,
+            70,
+            82,
+            84,
+            90,
+            52
+          ]
+        },
+        {
+          "keyword": "Sheinbaum",
+          "volume": 88,
+          "change": 21,
+          "category": "Sport",
+          "history": [
+            76,
+            60,
+            77,
+            87,
+            60,
+            59,
+            60
+          ]
+        },
+        {
+          "keyword": "Peso",
+          "volume": 81,
+          "change": 6,
+          "category": "Actualité",
+          "history": [
+            43,
+            89,
+            60,
+            54,
+            70,
+            85,
+            48
+          ]
+        },
+        {
+          "keyword": "Narcos",
+          "volume": 74,
+          "change": 19,
+          "category": "Actualité",
+          "history": [
+            70,
+            70,
+            66,
+            47,
+            62,
+            49,
+            55
+          ]
+        },
+        {
+          "keyword": "IA",
+          "volume": 67,
+          "change": 26,
+          "category": "Actualité",
+          "history": [
+            87,
+            46,
+            87,
+            84,
+            80,
+            68,
+            58
+          ]
+        },
+        {
+          "keyword": "Telenovela",
+          "volume": 60,
+          "change": 10,
+          "category": "Actualité",
+          "history": [
+            57,
+            70,
+            47,
+            70,
+            82,
+            82,
+            46
+          ]
+        },
+        {
+          "keyword": "Diabetes",
+          "volume": 53,
+          "change": 15,
+          "category": "Actualité",
+          "history": [
+            81,
+            44,
+            48,
+            66,
+            70,
+            84,
+            57
+          ]
+        },
+        {
+          "keyword": "Bitcoin",
+          "volume": 46,
+          "change": 25,
+          "category": "Économie",
+          "history": [
+            57,
+            46,
+            56,
+            87,
+            50,
+            43,
+            44
+          ]
+        },
+        {
+          "keyword": "Copa",
+          "volume": 39,
+          "change": 13,
+          "category": "Actualité",
+          "history": [
+            67,
+            85,
+            44,
+            45,
+            57,
+            82,
+            84
+          ]
+        },
+        {
+          "keyword": "ChatGPT",
+          "volume": 32,
+          "change": 26,
+          "category": "Tech",
+          "history": [
+            45,
+            83,
+            72,
+            80,
+            56,
+            64,
+            67
+          ]
+        }
+      ],
+      "updatedAt": "2026-05-17T15:04:11.658Z",
+      "source": "fallback"
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "flag": "🇳🇬",
+      "geo": "NG",
+      "trends": [
+        {
+          "keyword": "AFCON",
+          "volume": 95,
+          "change": 16,
+          "category": "Actualité",
+          "history": [
+            83,
+            56,
+            67,
+            65,
+            51,
+            51,
+            53
+          ]
+        },
+        {
+          "keyword": "Naira",
+          "volume": 88,
+          "change": 4,
+          "category": "Tech",
+          "history": [
+            55,
+            71,
+            68,
+            47,
+            46,
+            88,
+            68
+          ]
+        },
+        {
+          "keyword": "Afrobeats",
+          "volume": 81,
+          "change": 42,
+          "category": "Actualité",
+          "history": [
+            77,
+            53,
+            54,
+            88,
+            46,
+            57,
+            60
+          ]
+        },
+        {
+          "keyword": "Fintech",
+          "volume": 74,
+          "change": 38,
+          "category": "Tech",
+          "history": [
+            75,
+            47,
+            82,
+            46,
+            83,
+            59,
+            77
+          ]
+        },
+        {
+          "keyword": "Tinubu",
+          "volume": 67,
+          "change": 42,
+          "category": "Actualité",
+          "history": [
+            61,
+            89,
+            71,
+            84,
+            46,
+            62,
+            40
+          ]
+        },
+        {
+          "keyword": "Nollywood",
+          "volume": 60,
+          "change": 36,
+          "category": "Actualité",
+          "history": [
+            75,
+            47,
+            88,
+            85,
+            44,
+            81,
+            47
+          ]
+        },
+        {
+          "keyword": "Malaria",
+          "volume": 53,
+          "change": 45,
+          "category": "Actualité",
+          "history": [
+            45,
+            85,
+            51,
+            66,
+            88,
+            42,
+            86
+          ]
+        },
+        {
+          "keyword": "Bitcoin",
+          "volume": 46,
+          "change": 43,
+          "category": "Économie",
+          "history": [
+            61,
+            87,
+            46,
+            59,
+            46,
+            52,
+            86
+          ]
+        },
+        {
+          "keyword": "AI Africa",
+          "volume": 39,
+          "change": 44,
+          "category": "Tech",
+          "history": [
+            88,
+            49,
+            41,
+            41,
+            57,
+            58,
+            86
+          ]
+        },
+        {
+          "keyword": "Lagos",
+          "volume": 32,
+          "change": 49,
+          "category": "Actualité",
+          "history": [
+            85,
+            44,
+            52,
+            58,
+            45,
+            87,
+            58
+          ]
+        }
+      ],
+      "updatedAt": "2026-05-17T15:04:11.678Z",
+      "source": "fallback"
+    }
+  ]
 }

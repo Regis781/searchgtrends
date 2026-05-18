@@ -1,14 +1,7 @@
 /**
  * fetch-trends.mjs
- * 
- * Récupère les tendances Google via RapidAPI (gratuit jusqu'à 500 req/mois)
- * et génère public/data/trends.json
- * 
- * API utilisée : "Google Trends" sur RapidAPI
- * https://rapidapi.com/explorebase/api/google-trends8
- * 
- * Variables d'environnement requises :
- *   RAPIDAPI_KEY  — ta clé RapidAPI (à ajouter dans GitHub Secrets)
+ * API : Google Trends sur RapidAPI (google-trends8.p.rapidapi.com)
+ * Endpoint : /trendings?region_code=FR&date=2026-05-17&hl=fr-FR
  */
 
 import { writeFileSync, mkdirSync } from 'fs'
@@ -18,161 +11,115 @@ import { fileURLToPath } from 'url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const OUTPUT = join(__dirname, '../public/data/trends.json')
 
-// Pays à récupérer avec leurs codes ISO
 const COUNTRIES = [
-  { code: 'FR', name: 'France', flag: '🇫🇷', geo: 'FR' },
-  { code: 'US', name: 'États-Unis', flag: '🇺🇸', geo: 'US' },
-  { code: 'GB', name: 'Royaume-Uni', flag: '🇬🇧', geo: 'GB' },
-  { code: 'DE', name: 'Allemagne', flag: '🇩🇪', geo: 'DE' },
-  { code: 'JP', name: 'Japon', flag: '🇯🇵', geo: 'JP' },
-  { code: 'BR', name: 'Brésil', flag: '🇧🇷', geo: 'BR' },
-  { code: 'IN', name: 'Inde', flag: '🇮🇳', geo: 'IN' },
-  { code: 'KR', name: 'Corée du Sud', flag: '🇰🇷', geo: 'KR' },
-  { code: 'MX', name: 'Mexique', flag: '🇲🇽', geo: 'MX' },
-  { code: 'NG', name: 'Nigeria', flag: '🇳🇬', geo: 'NG' },
+  { code: 'FR', name: 'France',        flag: '🇫🇷', geo: 'FR', hl: 'fr-FR' },
+  { code: 'US', name: 'États-Unis',    flag: '🇺🇸', geo: 'US', hl: 'en-US' },
+  { code: 'GB', name: 'Royaume-Uni',   flag: '🇬🇧', geo: 'GB', hl: 'en-GB' },
+  { code: 'DE', name: 'Allemagne',     flag: '🇩🇪', geo: 'DE', hl: 'de-DE' },
+  { code: 'JP', name: 'Japon',         flag: '🇯🇵', geo: 'JP', hl: 'ja-JP' },
+  { code: 'BR', name: 'Brésil',        flag: '🇧🇷', geo: 'BR', hl: 'pt-BR' },
+  { code: 'IN', name: 'Inde',          flag: '🇮🇳', geo: 'IN', hl: 'en-IN' },
+  { code: 'KR', name: 'Corée du Sud',  flag: '🇰🇷', geo: 'KR', hl: 'ko-KR' },
+  { code: 'MX', name: 'Mexique',       flag: '🇲🇽', geo: 'MX', hl: 'es-MX' },
+  { code: 'NG', name: 'Nigeria',       flag: '🇳🇬', geo: 'NG', hl: 'en-NG' },
 ]
 
 const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY
+const HOST = 'google-trends8.p.rapidapi.com'
+const TODAY = new Date().toISOString().split('T')[0]
 
 if (!RAPIDAPI_KEY) {
-  console.error('❌ RAPIDAPI_KEY manquante. Ajoutez-la dans GitHub Secrets.')
+  console.error('❌ RAPIDAPI_KEY manquante.')
   process.exit(1)
 }
 
-// Catégories basiques par mots-clés
+const sleep = ms => new Promise(r => setTimeout(r, ms))
+
 function guessCategory(keyword) {
   const k = keyword.toLowerCase()
-  if (/foot|basket|tennis|sport|liga|league|nba|nfl|cricket|foot|rugby|golf|swim|olymp/.test(k)) return 'Sport'
-  if (/ai|tech|gpu|iphone|android|app|software|cyber|robot|chatgpt|openai|google|meta|apple/.test(k)) return 'Tech'
-  if (/film|série|netflix|music|concert|album|movie|cinema|tv|show|star|celebrity/.test(k)) return 'Divertissement'
-  if (/santé|health|virus|vaccin|médecin|hospital|diet|covid|cancer|drug|symptom/.test(k)) return 'Santé'
-  if (/bourse|stock|bitcoin|crypto|inflation|économie|bank|dollar|euro|invest|market/.test(k)) return 'Économie'
+  if (/foot|basket|tennis|sport|liga|league|nba|nfl|cricket|rugby|golf|olymp|champion/.test(k)) return 'Sport'
+  if (/ai|tech|gpu|iphone|android|app|chatgpt|openai|google|meta|apple|robot|cyber/.test(k)) return 'Tech'
+  if (/film|série|netflix|music|concert|album|movie|cinema|tv|show|star|celebrity|kpop|bts/.test(k)) return 'Divertissement'
+  if (/santé|health|virus|vaccin|médecin|hospital|diet|covid|cancer|drug|symptom|dengue/.test(k)) return 'Santé'
+  if (/bourse|stock|bitcoin|crypto|inflation|bank|dollar|euro|invest|market|naira|peso|rupee/.test(k)) return 'Économie'
   return 'Actualité'
 }
 
-// Délai entre les requêtes pour éviter le rate limiting
-const sleep = ms => new Promise(r => setTimeout(r, ms))
-
-async function fetchTrendingSearches(geo) {
-  const url = `https://google-trends8.p.rapidapi.com/trending_now?geo=${geo}`
-  
-  const res = await fetch(url, {
-    headers: {
-      'x-rapidapi-key': RAPIDAPI_KEY,
-      'x-rapidapi-host': 'google-trends8.p.rapidapi.com',
-    },
-  })
-
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status} pour ${geo}: ${await res.text()}`)
-  }
-
-  return res.json()
-}
-
-async function fetchInterest(keyword, geo) {
-  const url = `https://google-trends8.p.rapidapi.com/interest_over_time?keyword=${encodeURIComponent(keyword)}&geo=${geo}&time=now+7-d`
-  
-  const res = await fetch(url, {
-    headers: {
-      'x-rapidapi-key': RAPIDAPI_KEY,
-      'x-rapidapi-host': 'google-trends8.p.rapidapi.com',
-    },
-  })
-
-  if (!res.ok) return null
-  return res.json()
-}
-
-function parseTrending(raw, geo) {
-  // L'API retourne différentes structures selon la version
-  // On gère les deux formats principaux
+function parseTrendings(data, geo) {
+  // Format retourné par google-trends8 /trendings
   let items = []
-  
-  if (Array.isArray(raw)) {
-    items = raw
-  } else if (raw?.default?.trendingSearchesDays) {
-    items = raw.default.trendingSearchesDays[0]?.trendingSearches || []
-  } else if (raw?.trending_searches) {
-    items = raw.trending_searches
+
+  if (Array.isArray(data)) {
+    items = data
+  } else if (data?.trending_searches) {
+    items = data.trending_searches
+  } else if (data?.default?.trendingSearchesDays?.[0]?.trendingSearches) {
+    items = data.default.trendingSearchesDays[0].trendingSearches
+  } else if (typeof data === 'object') {
+    // Essai de trouver un tableau dans les valeurs
+    const arr = Object.values(data).find(v => Array.isArray(v))
+    if (arr) items = arr
   }
 
   return items.slice(0, 10).map((item, i) => {
-    // Normalisation selon le format
-    const keyword = item?.title?.query || item?.keyword || item?.query || item?.title || String(item)
-    const traffic = item?.formattedTrafficSize || item?.traffic || ''
-    const change = item?.relatedQueries?.[0]?.value 
-      ? Math.round(Math.random() * 80 + 10)
-      : Math.round(Math.random() * 60 + 5)
+    const keyword =
+      item?.query || item?.title?.query || item?.keyword ||
+      item?.title || item?.term || String(item)
+
+    const traffic = item?.formattedTrafficSize || ''
+    const changeBase = traffic.includes('M') ? 80 : traffic.includes('K') ? 40 : 20
 
     return {
-      keyword,
-      volume: Math.max(20, 100 - i * 8 + Math.floor(Math.random() * 10)),
-      change: i < 3 ? change : Math.round(Math.random() * 30 + 2),
-      category: guessCategory(keyword),
+      keyword: String(keyword).trim(),
+      volume: Math.max(20, 100 - i * 8),
+      change: Math.round(changeBase + Math.random() * 40),
+      category: guessCategory(String(keyword)),
       history: Array.from({ length: 7 }, () => Math.round(40 + Math.random() * 50)),
     }
   }).filter(t => t.keyword && t.keyword.length > 1)
 }
 
-async function main() {
-  console.log('🚀 Démarrage fetch-trends...')
-  console.log(`📅 ${new Date().toISOString()}`)
+async function fetchCountry(country) {
+  const url = `https://${HOST}/trendings?region_code=${country.geo}&date=${TODAY}&hl=${country.hl}`
+  console.log(`  → GET ${url}`)
 
-  mkdirSync(join(__dirname, '../public/data'), { recursive: true })
+  const res = await fetch(url, {
+    headers: {
+      'x-rapidapi-key': RAPIDAPI_KEY,
+      'x-rapidapi-host': HOST,
+    },
+  })
 
-  const results = []
+  const text = await res.text()
 
-  for (const country of COUNTRIES) {
-    console.log(`\n🔍 Fetching ${country.flag} ${country.name} (${country.geo})...`)
-    
-    try {
-      const raw = await fetchTrendingSearches(country.geo)
-      const trends = parseTrending(raw, country.geo)
-
-      if (trends.length === 0) {
-        console.warn(`  ⚠️  Aucune tendance parsée pour ${country.name}`)
-        results.push({ ...country, trends: getFallback(country.code), updatedAt: new Date().toISOString(), source: 'fallback' })
-      } else {
-        console.log(`  ✅ ${trends.length} tendances récupérées`)
-        results.push({ ...country, trends, updatedAt: new Date().toISOString(), source: 'api' })
-      }
-
-      // Pause entre requêtes (évite rate limiting)
-      await sleep(1200)
-
-    } catch (err) {
-      console.error(`  ❌ Erreur pour ${country.name}: ${err.message}`)
-      results.push({ ...country, trends: getFallback(country.code), updatedAt: new Date().toISOString(), source: 'fallback' })
-    }
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}: ${text.slice(0, 200)}`)
   }
 
-  const output = {
-    generatedAt: new Date().toISOString(),
-    countries: results,
+  let json
+  try {
+    json = JSON.parse(text)
+  } catch {
+    throw new Error(`JSON invalide: ${text.slice(0, 100)}`)
   }
 
-  writeFileSync(OUTPUT, JSON.stringify(output, null, 2), 'utf-8')
-  console.log(`\n✅ trends.json généré → ${OUTPUT}`)
-  console.log(`📊 ${results.filter(r => r.source === 'api').length}/${results.length} pays avec données réelles`)
+  return json
 }
 
-// Données de secours si l'API échoue pour un pays
 function getFallback(code) {
   const fallbacks = {
-    FR: ['Ligue 1', 'IA générative', 'Météo Paris', 'Netflix', 'CAC 40', 'Roland Garros', 'ChatGPT', 'Inflation', 'Grève', 'Macron'],
-    US: ['NBA', 'GPT-5', 'Taylor Swift', 'Stock market', 'Weather', 'Apple', 'Immigration', 'Bitcoin', 'Super Bowl', 'Netflix'],
-    GB: ['Premier League', 'NHS', 'AI regulation', 'Cost of living', 'Wimbledon', 'FTSE', 'Labour Party', 'BBC', 'King Charles', 'Brexit'],
-    DE: ['Bundesliga', 'KI', 'Energiekosten', 'Oktoberfest', 'Bundestag', 'Tesla', 'DAX', 'Champions League', 'Wetter', 'Inflation'],
-    JP: ['アニメ', '地震', 'Nvidia', '野球', 'ChatGPT', '花粉症', '円安', 'Netflix', 'オリンピック', '選挙'],
-    BR: ['Futebol', 'Carnaval', 'IA', 'Lula', 'Dólar', 'Dengue', 'Netflix', 'Bitcoin', 'Neymar', 'ChatGPT'],
-    IN: ['Cricket IPL', 'AI Jobs', 'Monsoon', 'Modi', 'Bollywood', 'Sensex', 'ChatGPT', 'Dengue', 'Rupee', 'Yoga'],
-    KR: ['K-드라마', '삼성', 'BTS', '코스피', '손흥민', 'ChatGPT', '부동산', '건강', '선거', '넷플릭스'],
-    MX: ['Liga MX', 'Sheinbaum', 'Peso', 'Narcos', 'IA', 'Telenovela', 'Diabetes', 'Bitcoin', 'Copa', 'ChatGPT'],
-    NG: ['AFCON', 'Naira', 'Afrobeats', 'Fintech', 'Tinubu', 'Nollywood', 'Malaria', 'Bitcoin', 'AI Africa', 'Lagos'],
+    FR: ['Ligue 1','IA générative','Météo Paris','Netflix','CAC 40','Roland Garros','ChatGPT','Inflation','Grève','Macron'],
+    US: ['NBA','GPT-5','Taylor Swift','Stock market','Hurricane','Apple','Immigration','Bitcoin','Super Bowl','Netflix'],
+    GB: ['Premier League','NHS','AI regulation','Cost of living','Wimbledon','FTSE','Labour Party','BBC','King Charles','Brexit'],
+    DE: ['Bundesliga','KI','Energiekosten','Oktoberfest','Bundestag','Tesla','DAX','Champions League','Wetter','Inflation'],
+    JP: ['アニメ','地震','Nvidia','野球','ChatGPT','花粉症','円安','Netflix','オリンピック','選挙'],
+    BR: ['Futebol','Carnaval','IA','Lula','Dólar','Dengue','Netflix','Bitcoin','Neymar','ChatGPT'],
+    IN: ['Cricket IPL','AI Jobs','Monsoon','Modi','Bollywood','Sensex','ChatGPT','Dengue','Rupee','Yoga'],
+    KR: ['K-드라마','삼성','BTS','코스피','손흥민','ChatGPT','부동산','건강','선거','넷플릭스'],
+    MX: ['Liga MX','Sheinbaum','Peso','Narcos','IA','Telenovela','Diabetes','Bitcoin','Copa','ChatGPT'],
+    NG: ['AFCON','Naira','Afrobeats','Fintech','Tinubu','Nollywood','Malaria','Bitcoin','AI Africa','Lagos'],
   }
-  const keywords = fallbacks[code] || fallbacks['FR']
-  return keywords.map((keyword, i) => ({
+  return (fallbacks[code] || fallbacks['FR']).map((keyword, i) => ({
     keyword,
     volume: Math.max(20, 95 - i * 7),
     change: Math.round(Math.random() * 50 + 2),
@@ -181,7 +128,46 @@ function getFallback(code) {
   }))
 }
 
+async function main() {
+  console.log('🚀 fetch-trends démarré')
+  console.log(`📅 ${new Date().toISOString()}`)
+  console.log(`🌍 ${COUNTRIES.length} pays à récupérer\n`)
+
+  mkdirSync(join(__dirname, '../public/data'), { recursive: true })
+
+  const results = []
+  let apiSuccess = 0
+
+  for (const country of COUNTRIES) {
+    console.log(`🔍 Fetching ${country.flag} ${country.name} (${country.geo})...`)
+    try {
+      const raw = await fetchCountry(country)
+      const trends = parseTrendings(raw, country.geo)
+
+      if (trends.length === 0) {
+        console.log(`  ⚠️  0 tendances parsées — fallback`)
+        results.push({ ...country, trends: getFallback(country.code), updatedAt: new Date().toISOString(), source: 'fallback' })
+      } else {
+        console.log(`  ✅ ${trends.length} tendances`)
+        results.push({ ...country, trends, updatedAt: new Date().toISOString(), source: 'api' })
+        apiSuccess++
+      }
+    } catch (err) {
+      console.log(`  ❌ ${err.message} — fallback`)
+      results.push({ ...country, trends: getFallback(country.code), updatedAt: new Date().toISOString(), source: 'fallback' })
+    }
+
+    await sleep(1500)
+  }
+
+  const output = { generatedAt: new Date().toISOString(), countries: results }
+  writeFileSync(OUTPUT, JSON.stringify(output, null, 2), 'utf-8')
+
+  console.log(`\n✅ trends.json généré`)
+  console.log(`📊 ${apiSuccess}/${COUNTRIES.length} pays avec données API réelles`)
+}
+
 main().catch(err => {
-  console.error('💥 Erreur fatale:', err)
+  console.error('💥', err)
   process.exit(1)
 })

@@ -26,7 +26,8 @@ const COUNTRIES = [
 
 const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY
 const HOST = 'google-trends8.p.rapidapi.com'
-const TODAY = new Date().toISOString().split('T')[0]
+const now = new Date()
+const TODAY = `${String(now.getMonth() + 1).padStart(2, '0')}/${String(now.getDate()).padStart(2, '0')}/${now.getFullYear()}`
 
 if (!RAPIDAPI_KEY) {
   console.error('❌ RAPIDAPI_KEY manquante.')

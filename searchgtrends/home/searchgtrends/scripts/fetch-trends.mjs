@@ -26,8 +26,8 @@ const COUNTRIES = [
 
 const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY
 const HOST = 'google-trends8.p.rapidapi.com'
-const now = new Date()
-const TODAY = `${String(now.getMonth() + 1).padStart(2, '0')}/${String(now.getDate()).padStart(2, '0')}/${now.getFullYear()}`
+
+const TODAY = new Date().toISOString().slice(0, 10)
 
 if (!RAPIDAPI_KEY) {
   console.error('❌ RAPIDAPI_KEY manquante.')
@@ -81,7 +81,7 @@ function parseTrendings(data, geo) {
 }
 
 async function fetchCountry(country) {
-  const url = `https://${HOST}/trendings?region_code=${country.geo}&date=${TODAY}&hl=${country.hl}`
+  const url = `https://${HOST}/trendings?region_code=${country.geo}&date=${TODAY}`
   console.log(`  → GET ${url}`)
 
   const res = await fetch(url, {

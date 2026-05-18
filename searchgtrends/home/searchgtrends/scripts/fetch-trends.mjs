@@ -81,7 +81,7 @@ function parseTrendings(data, geo) {
 }
 
 async function fetchCountry(country) {
-  const url = `https://${HOST}/trendings?region_code=${country.geo}&date=${TODAY}`
+  const url = `https://${HOST}/trendings?region_code=${country.geo}`
   console.log(`  → GET ${url}`)
 
   const res = await fetch(url, {

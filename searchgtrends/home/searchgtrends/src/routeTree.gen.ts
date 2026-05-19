@@ -11,8 +11,10 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as AProposRouteImport } from './routes/a-propos'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as TrendingIndexRouteImport } from './routes/trending/index'
 import { Route as TendancesIndexRouteImport } from './routes/tendances/index'
 import { Route as PaysIndexRouteImport } from './routes/pays/index'
+import { Route as AiGeoIndexRouteImport } from './routes/ai-geo/index'
 import { Route as PaysCodeRouteImport } from './routes/pays/$code'
 
 const AProposRoute = AProposRouteImport.update({
@@ -25,6 +27,11 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const TrendingIndexRoute = TrendingIndexRouteImport.update({
+  id: '/trending/',
+  path: '/trending/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TendancesIndexRoute = TendancesIndexRouteImport.update({
   id: '/tendances/',
   path: '/tendances/',
@@ -33,6 +40,11 @@ const TendancesIndexRoute = TendancesIndexRouteImport.update({
 const PaysIndexRoute = PaysIndexRouteImport.update({
   id: '/pays/',
   path: '/pays/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AiGeoIndexRoute = AiGeoIndexRouteImport.update({
+  id: '/ai-geo/',
+  path: '/ai-geo/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PaysCodeRoute = PaysCodeRouteImport.update({
@@ -45,38 +57,68 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/a-propos': typeof AProposRoute
   '/pays/$code': typeof PaysCodeRoute
+  '/ai-geo/': typeof AiGeoIndexRoute
   '/pays/': typeof PaysIndexRoute
   '/tendances/': typeof TendancesIndexRoute
+  '/trending/': typeof TrendingIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/a-propos': typeof AProposRoute
   '/pays/$code': typeof PaysCodeRoute
+  '/ai-geo': typeof AiGeoIndexRoute
   '/pays': typeof PaysIndexRoute
   '/tendances': typeof TendancesIndexRoute
+  '/trending': typeof TrendingIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/a-propos': typeof AProposRoute
   '/pays/$code': typeof PaysCodeRoute
+  '/ai-geo/': typeof AiGeoIndexRoute
   '/pays/': typeof PaysIndexRoute
   '/tendances/': typeof TendancesIndexRoute
+  '/trending/': typeof TrendingIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/a-propos' | '/pays/$code' | '/pays/' | '/tendances/'
+  fullPaths:
+    | '/'
+    | '/a-propos'
+    | '/pays/$code'
+    | '/ai-geo/'
+    | '/pays/'
+    | '/tendances/'
+    | '/trending/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/a-propos' | '/pays/$code' | '/pays' | '/tendances'
-  id: '__root__' | '/' | '/a-propos' | '/pays/$code' | '/pays/' | '/tendances/'
+  to:
+    | '/'
+    | '/a-propos'
+    | '/pays/$code'
+    | '/ai-geo'
+    | '/pays'
+    | '/tendances'
+    | '/trending'
+  id:
+    | '__root__'
+    | '/'
+    | '/a-propos'
+    | '/pays/$code'
+    | '/ai-geo/'
+    | '/pays/'
+    | '/tendances/'
+    | '/trending/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AProposRoute: typeof AProposRoute
   PaysCodeRoute: typeof PaysCodeRoute
+  AiGeoIndexRoute: typeof AiGeoIndexRoute
   PaysIndexRoute: typeof PaysIndexRoute
   TendancesIndexRoute: typeof TendancesIndexRoute
+  TrendingIndexRoute: typeof TrendingIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -95,6 +137,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/trending/': {
+      id: '/trending/'
+      path: '/trending'
+      fullPath: '/trending/'
+      preLoaderRoute: typeof TrendingIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/tendances/': {
       id: '/tendances/'
       path: '/tendances'
@@ -107,6 +156,13 @@ declare module '@tanstack/react-router' {
       path: '/pays'
       fullPath: '/pays/'
       preLoaderRoute: typeof PaysIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ai-geo/': {
+      id: '/ai-geo/'
+      path: '/ai-geo'
+      fullPath: '/ai-geo/'
+      preLoaderRoute: typeof AiGeoIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/pays/$code': {
@@ -123,8 +179,10 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AProposRoute: AProposRoute,
   PaysCodeRoute: PaysCodeRoute,
+  AiGeoIndexRoute: AiGeoIndexRoute,
   PaysIndexRoute: PaysIndexRoute,
   TendancesIndexRoute: TendancesIndexRoute,
+  TrendingIndexRoute: TrendingIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

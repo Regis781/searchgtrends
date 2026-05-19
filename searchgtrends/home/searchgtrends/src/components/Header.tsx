@@ -1,54 +1,66 @@
 import { Link, useRouterState } from '@tanstack/react-router'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export function Header() {
+  const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
   const path = useRouterState({ select: s => s.location.pathname })
 
+  useEffect(() => {
+    const fn = () => setScrolled(window.scrollY > 30)
+    window.addEventListener('scroll', fn, { passive: true })
+    return () => window.removeEventListener('scroll', fn)
+  }, [])
+  useEffect(() => setOpen(false), [path])
+
   const nav = [
-    ["/", "Accueil"],
-    ["/pays", "Par pays"],
-    ["/tendances", "Tendances"],
-    ["/a-propos", "À propos"],
+    ['/trending', '🔥 Trending Now'],
+    ['/pays', 'Par pays'],
+    ['/ai-geo', 'AI × GEO'],
+    ['/tendances', 'Classement'],
   ]
 
   return (
-    <header style={{ background: 'white', borderBottom: '1px solid #e4e7ef', position: 'sticky', top: 0, zIndex: 50 }}>
-      <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px', height: 60, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-        <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: 8, textDecoration: 'none' }}>
-          <div style={{ width: 32, height: 32, background: '#4f46e5', borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <header style={{
+      position: 'fixed', top: 0, insetInline: 0, zIndex: 100,
+      background: scrolled ? 'rgba(7,8,13,0.95)' : 'transparent',
+      backdropFilter: scrolled ? 'blur(20px)' : 'none',
+      borderBottom: scrolled ? '1px solid rgba(255,255,255,0.07)' : '1px solid transparent',
+      transition: 'all 0.3s',
+    }}>
+      <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px', height: 64, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        {/* Logo */}
+        <Link to="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 10 }}>
+          <div style={{ width: 34, height: 34, background: 'linear-gradient(135deg, #6366f1, #a855f7)', borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 0 20px rgba(99,102,241,0.4)' }}>
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
             </svg>
           </div>
-          <span className="font-display" style={{ fontSize: 18, fontWeight: 700, color: '#0f1117' }}>
-            Search<span style={{ color: '#4f46e5' }}>GTrends</span>
+          <span className="font-display" style={{ fontSize: 17, fontWeight: 800, color: '#f0f2f8', letterSpacing: '-0.02em' }}>
+            Search<span className="gradient-text">GTrends</span>
           </span>
         </Link>
 
-        <nav style={{ display: 'flex', gap: 4 }} className="desktop-nav">
+        {/* Desktop nav */}
+        <nav style={{ display: 'flex', gap: 4, alignItems: 'center' }}>
           {nav.map(([to, label]) => (
             <Link key={to} to={to} style={{
-              padding: '6px 14px',
-              borderRadius: 8,
-              fontSize: 14,
-              fontWeight: 500,
-              textDecoration: 'none',
-              color: path === to ? '#4f46e5' : '#6b7280',
-              background: path === to ? '#ede9fe' : 'transparent',
-              transition: 'all 0.15s',
+              padding: '7px 14px', borderRadius: 10, fontSize: 13, fontWeight: 500,
+              textDecoration: 'none', transition: 'all 0.15s',
+              color: path.startsWith(to) ? '#a5b4fc' : 'rgba(240,242,248,0.6)',
+              background: path.startsWith(to) ? 'rgba(99,102,241,0.15)' : 'transparent',
             }}>
               {label}
             </Link>
           ))}
+          <Link to="/trending" style={{
+            marginLeft: 8, padding: '7px 16px', borderRadius: 10, fontSize: 13, fontWeight: 600,
+            background: 'linear-gradient(135deg, #6366f1, #a855f7)', color: 'white',
+            textDecoration: 'none', boxShadow: '0 0 20px rgba(99,102,241,0.3)',
+          }}>
+            Live →
+          </Link>
         </nav>
-
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 6, background: '#f0fdf4', border: '1px solid #bbf7d0', borderRadius: 999, padding: '4px 12px' }}>
-            <span className="live-dot" />
-            <span style={{ fontSize: 12, color: '#16a34a', fontWeight: 500 }}>Live</span>
-          </div>
-        </div>
       </div>
     </header>
   )

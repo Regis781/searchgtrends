@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as ContactRouteImport } from './routes/contact'
 import { Route as AProposRouteImport } from './routes/a-propos'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as TrendingIndexRouteImport } from './routes/trending/index'
@@ -17,7 +18,15 @@ import { Route as PaysIndexRouteImport } from './routes/pays/index'
 import { Route as MethodologieIndexRouteImport } from './routes/methodologie/index'
 import { Route as AiGeoIndexRouteImport } from './routes/ai-geo/index'
 import { Route as PaysCodeRouteImport } from './routes/pays/$code'
+import { Route as LegalMentionsLegalesRouteImport } from './routes/legal/mentions-legales'
+import { Route as LegalCookiesRouteImport } from './routes/legal/cookies'
+import { Route as LegalConfidentialiteRouteImport } from './routes/legal/confidentialite'
 
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AProposRoute = AProposRouteImport.update({
   id: '/a-propos',
   path: '/a-propos',
@@ -58,10 +67,29 @@ const PaysCodeRoute = PaysCodeRouteImport.update({
   path: '/pays/$code',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LegalMentionsLegalesRoute = LegalMentionsLegalesRouteImport.update({
+  id: '/legal/mentions-legales',
+  path: '/legal/mentions-legales',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LegalCookiesRoute = LegalCookiesRouteImport.update({
+  id: '/legal/cookies',
+  path: '/legal/cookies',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LegalConfidentialiteRoute = LegalConfidentialiteRouteImport.update({
+  id: '/legal/confidentialite',
+  path: '/legal/confidentialite',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/a-propos': typeof AProposRoute
+  '/contact': typeof ContactRoute
+  '/legal/confidentialite': typeof LegalConfidentialiteRoute
+  '/legal/cookies': typeof LegalCookiesRoute
+  '/legal/mentions-legales': typeof LegalMentionsLegalesRoute
   '/pays/$code': typeof PaysCodeRoute
   '/ai-geo/': typeof AiGeoIndexRoute
   '/methodologie/': typeof MethodologieIndexRoute
@@ -72,6 +100,10 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/a-propos': typeof AProposRoute
+  '/contact': typeof ContactRoute
+  '/legal/confidentialite': typeof LegalConfidentialiteRoute
+  '/legal/cookies': typeof LegalCookiesRoute
+  '/legal/mentions-legales': typeof LegalMentionsLegalesRoute
   '/pays/$code': typeof PaysCodeRoute
   '/ai-geo': typeof AiGeoIndexRoute
   '/methodologie': typeof MethodologieIndexRoute
@@ -83,6 +115,10 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/a-propos': typeof AProposRoute
+  '/contact': typeof ContactRoute
+  '/legal/confidentialite': typeof LegalConfidentialiteRoute
+  '/legal/cookies': typeof LegalCookiesRoute
+  '/legal/mentions-legales': typeof LegalMentionsLegalesRoute
   '/pays/$code': typeof PaysCodeRoute
   '/ai-geo/': typeof AiGeoIndexRoute
   '/methodologie/': typeof MethodologieIndexRoute
@@ -95,6 +131,10 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/a-propos'
+    | '/contact'
+    | '/legal/confidentialite'
+    | '/legal/cookies'
+    | '/legal/mentions-legales'
     | '/pays/$code'
     | '/ai-geo/'
     | '/methodologie/'
@@ -105,6 +145,10 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/a-propos'
+    | '/contact'
+    | '/legal/confidentialite'
+    | '/legal/cookies'
+    | '/legal/mentions-legales'
     | '/pays/$code'
     | '/ai-geo'
     | '/methodologie'
@@ -115,6 +159,10 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/a-propos'
+    | '/contact'
+    | '/legal/confidentialite'
+    | '/legal/cookies'
+    | '/legal/mentions-legales'
     | '/pays/$code'
     | '/ai-geo/'
     | '/methodologie/'
@@ -126,6 +174,10 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AProposRoute: typeof AProposRoute
+  ContactRoute: typeof ContactRoute
+  LegalConfidentialiteRoute: typeof LegalConfidentialiteRoute
+  LegalCookiesRoute: typeof LegalCookiesRoute
+  LegalMentionsLegalesRoute: typeof LegalMentionsLegalesRoute
   PaysCodeRoute: typeof PaysCodeRoute
   AiGeoIndexRoute: typeof AiGeoIndexRoute
   MethodologieIndexRoute: typeof MethodologieIndexRoute
@@ -136,6 +188,13 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/a-propos': {
       id: '/a-propos'
       path: '/a-propos'
@@ -192,12 +251,37 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PaysCodeRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/legal/mentions-legales': {
+      id: '/legal/mentions-legales'
+      path: '/legal/mentions-legales'
+      fullPath: '/legal/mentions-legales'
+      preLoaderRoute: typeof LegalMentionsLegalesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/legal/cookies': {
+      id: '/legal/cookies'
+      path: '/legal/cookies'
+      fullPath: '/legal/cookies'
+      preLoaderRoute: typeof LegalCookiesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/legal/confidentialite': {
+      id: '/legal/confidentialite'
+      path: '/legal/confidentialite'
+      fullPath: '/legal/confidentialite'
+      preLoaderRoute: typeof LegalConfidentialiteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AProposRoute: AProposRoute,
+  ContactRoute: ContactRoute,
+  LegalConfidentialiteRoute: LegalConfidentialiteRoute,
+  LegalCookiesRoute: LegalCookiesRoute,
+  LegalMentionsLegalesRoute: LegalMentionsLegalesRoute,
   PaysCodeRoute: PaysCodeRoute,
   AiGeoIndexRoute: AiGeoIndexRoute,
   MethodologieIndexRoute: MethodologieIndexRoute,

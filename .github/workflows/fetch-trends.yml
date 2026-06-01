@@ -22,7 +22,12 @@ jobs:
       - name: Find project directory
         id: finddir
         run: |
-          DIR=$(find . -name "package.json" -not -path "*/node_modules/*" | head -1 | xargs dirname)
+          # Trouve le dossier contenant package.json et nettoie le chemin (retire le './' initial)
+          DIR=$(find . -name "package.json" -not -path "*/node_modules/*" | head -1 | xargs dirname | sed 's|^\./||')
+          
+          # Si le projet est à la racine, on s'assure que la variable reste vide pour GitHub Actions
+          if [ "$DIR" = "." ]; then DIR=""; fi
+          
           echo "dir=$DIR" >> $GITHUB_OUTPUT
           echo "Found project at: $DIR"
 
@@ -70,4 +75,3 @@ jobs:
           else
             echo "ℹ️  Vercel redéploie automatiquement sur push"
           fi
-

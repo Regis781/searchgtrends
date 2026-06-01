@@ -19,18 +19,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Find project directory
-        id: finddir
-        run: |
-          # Trouve le dossier contenant package.json et nettoie le chemin (retire le './' initial)
-          DIR=$(find . -name "package.json" -not -path "*/node_modules/*" | head -1 | xargs dirname | sed 's|^\./||')
-          
-          # Si le projet est à la racine, on s'assure que la variable reste vide pour GitHub Actions
-          if [ "$DIR" = "." ]; then DIR=""; fi
-          
-          echo "dir=$DIR" >> $GITHUB_OUTPUT
-          echo "Found project at: $DIR"
-
       - name: Setup Node.js 20
         uses: actions/setup-node@v4
         with:
@@ -38,13 +26,13 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ${{ steps.finddir.outputs.dir }}
+        working-directory: searchtrends
 
       - name: Fetch trends from RapidAPI
         env:
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
         run: node scripts/fetch-trends.mjs
-        working-directory: ${{ steps.finddir.outputs.dir }}
+        working-directory: searchtrends
 
       - name: Check if trends.json changed
         id: diff

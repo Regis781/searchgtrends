@@ -1,11 +1,8 @@
 name: 🔄 Fetch Trends Daily
 
 on:
-  # Déclenche tous les jours à 6h UTC (8h Paris)
   schedule:
     - cron: '0 6 * * *'
-
-  # Permet de déclencher manuellement depuis GitHub
   workflow_dispatch:
 
 jobs:
@@ -14,7 +11,12 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write   # Nécessaire pour committer trends.json
+      contents: write
+
+    # 🎯 CONFIGURATION CRUCIALE : On dit à GitHub de travailler dans le bon sous-dossier
+    defaults:
+      run:
+        working-directory: searchgtrends/home/searchgtrends
 
     env:
       FORCE_JUST_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -34,10 +36,8 @@ jobs:
         run: npm ci
 
       - name: Fetch trends from RapidAPI
-        id: fetch_script
         env:
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
-        # continue-on-error: true # Optionnel : décommentez si vous voulez que le workflow continue même si l'API crash
         run: node scripts/fetch-trends.mjs
 
       - name: Check if trends.json changed
@@ -52,9 +52,12 @@ jobs:
 
       - name: Commit updated trends.json
         if: steps.diff.outputs.changed == 'true'
+        # On doit repasser temporairement à la racine pour le commit Git global
+        working-directory: ./ 
         run: |
           git config user.name "SearchGTrends Bot"
           git config user.email "bot@searchgtrends.com"
+          git add searchgtrends/home/searchgtrends/public/data/trends.json
           git commit -m "🔄 Auto-update trends — $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
 
@@ -67,22 +70,18 @@ jobs:
             curl -X POST "$VERCEL_DEPLOY_HOOK"
             echo "✅ Vercel redeploy déclenché"
           else
-            echo "ℹ️ Pas de VERCEL_DEPLOY_HOOK configuré — Vercel redéploie automatiquement sur push"
+            echo "ℹ️ Pas de VERCEL_DEPLOY_HOOK configuré"
           fi
 
       - name: Summary
-        if: always() # TRÈS IMPORTANT : s'exécute même si le script de fetch a planté
+        if: always()
         run: |
           echo "## 📊 Résultat du fetch" >> $GITHUB_STEP_SUMMARY
           echo "- Date : $(date -u)" >> $GITHUB_STEP_SUMMARY
-          echo "- Fichier cible : \`public/data/trends.json\`" >> $GITHUB_STEP_SUMMARY
           
           if [ -f public/data/trends.json ]; then
             COUNTRIES=$(node -e "try { const d=JSON.parse(require('fs').readFileSync('public/data/trends.json')); console.log(d.countries?.length || 0); } catch(e) { console.log(0); }")
-            API_COUNT=$(node -e "try { const d=JSON.parse(require('fs').readFileSync('public/data/trends.json')); console.log(d.countries?.filter(c=>c.source==='api').length || 0); } catch(e) { console.log(0); }")
             echo "- Pays enregistrés : $COUNTRIES" >> $GITHUB_STEP_SUMMARY
-            echo "- Avec données API réelles : $API_COUNT" >> $GITHUB_STEP_SUMMARY
           else
-            echo "- ❌ Le fichier \`public/data/trends.json\` n'a pas pu être généré (Erreur lors du fetch ou dossier manquant)." >> $GITHUB_STEP_SUMMARY
+            echo "- ❌ Le fichier \`trends.json\` n'a pas pu être trouvé dans le dossier public." >> $GITHUB_STEP_SUMMARY
           fi
-          

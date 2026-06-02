@@ -16,32 +16,38 @@ jobs:
     permissions:
       contents: write   # Nécessaire pour committer trends.json
 
+    env:
+      FORCE_JUST_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup Node.js 20
+      - name: Setup Node.js 24
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-         
+          node-version: '24'
+          
       - name: Install dependencies
         run: npm ci
 
       - name: Fetch trends from RapidAPI
+        id: fetch_script
         env:
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        # continue-on-error: true # Optionnel : décommentez si vous voulez que le workflow continue même si l'API crash
         run: node scripts/fetch-trends.mjs
 
       - name: Check if trends.json changed
         id: diff
         run: |
-          if git diff --quiet public/data/trends.json 2>/dev/null || [ ! -f public/data/trends.json ]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-          else
+          git add public/data/trends.json 2>/dev/null || true
+          if git diff-index --quiet HEAD public/data/trends.json 2>/dev/null; then
             echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Commit updated trends.json
@@ -49,7 +55,6 @@ jobs:
         run: |
           git config user.name "SearchGTrends Bot"
           git config user.email "bot@searchgtrends.com"
-          git add public/data/trends.json
           git commit -m "🔄 Auto-update trends — $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
 
@@ -62,17 +67,22 @@ jobs:
             curl -X POST "$VERCEL_DEPLOY_HOOK"
             echo "✅ Vercel redeploy déclenché"
           else
-            echo "ℹ️  Pas de VERCEL_DEPLOY_HOOK configuré — Vercel redéploie automatiquement sur push"
+            echo "ℹ️ Pas de VERCEL_DEPLOY_HOOK configuré — Vercel redéploie automatiquement sur push"
           fi
 
       - name: Summary
+        if: always() # TRÈS IMPORTANT : s'exécute même si le script de fetch a planté
         run: |
           echo "## 📊 Résultat du fetch" >> $GITHUB_STEP_SUMMARY
           echo "- Date : $(date -u)" >> $GITHUB_STEP_SUMMARY
-          echo "- Fichier : \`public/data/trends.json\`" >> $GITHUB_STEP_SUMMARY
+          echo "- Fichier cible : \`public/data/trends.json\`" >> $GITHUB_STEP_SUMMARY
+          
           if [ -f public/data/trends.json ]; then
-            COUNTRIES=$(node -e "const d=JSON.parse(require('fs').readFileSync('public/data/trends.json')); console.log(d.countries.length)")
-            API_COUNT=$(node -e "const d=JSON.parse(require('fs').readFileSync('public/data/trends.json')); console.log(d.countries.filter(c=>c.source==='api').length)")
-            echo "- Pays récupérés : $COUNTRIES" >> $GITHUB_STEP_SUMMARY
+            COUNTRIES=$(node -e "try { const d=JSON.parse(require('fs').readFileSync('public/data/trends.json')); console.log(d.countries?.length || 0); } catch(e) { console.log(0); }")
+            API_COUNT=$(node -e "try { const d=JSON.parse(require('fs').readFileSync('public/data/trends.json')); console.log(d.countries?.filter(c=>c.source==='api').length || 0); } catch(e) { console.log(0); }")
+            echo "- Pays enregistrés : $COUNTRIES" >> $GITHUB_STEP_SUMMARY
             echo "- Avec données API réelles : $API_COUNT" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- ❌ Le fichier \`public/data/trends.json\` n'a pas pu être généré (Erreur lors du fetch ou dossier manquant)." >> $GITHUB_STEP_SUMMARY
           fi
+          

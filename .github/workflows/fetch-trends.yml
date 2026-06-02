@@ -13,13 +13,14 @@ jobs:
     permissions:
       contents: write
 
-    # 🎯 CONFIGURATION CRUCIALE : On dit à GitHub de travailler dans le bon sous-dossier
+    # 🎯 CONFIGURATION DU REPERTOIRE DE TRAVAIL
     defaults:
       run:
         working-directory: searchgtrends/home/searchgtrends
 
+    # Correction de la clé d'environnement pour forcer Node 24 sur les actions du marketplace
     env:
-      FORCE_JUST_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout repo
@@ -52,7 +53,7 @@ jobs:
 
       - name: Commit updated trends.json
         if: steps.diff.outputs.changed == 'true'
-        # On doit repasser temporairement à la racine pour le commit Git global
+        # On repasse temporairement à la racine pour appliquer le commit Git globalement
         working-directory: ./ 
         run: |
           git config user.name "SearchGTrends Bot"
@@ -79,7 +80,8 @@ jobs:
           echo "## 📊 Résultat du fetch" >> $GITHUB_STEP_SUMMARY
           echo "- Date : $(date -u)" >> $GITHUB_STEP_SUMMARY
           
-          if [ -f public/data/trends.json ]; then
+          # Utilisation du chemin relatif par rapport au working-directory actif
+          if [ -f "public/data/trends.json" ]; then
             COUNTRIES=$(node -e "try { const d=JSON.parse(require('fs').readFileSync('public/data/trends.json')); console.log(d.countries?.length || 0); } catch(e) { console.log(0); }")
             echo "- Pays enregistrés : $COUNTRIES" >> $GITHUB_STEP_SUMMARY
           else

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T10:35:21.063Z",
+  "generatedAt": "2026-09-02T10:00:27.419Z",
   "countries": [
     {
       "code": "FR",
@@ -9,157 +9,157 @@
       "hl": "fr-FR",
       "trends": [
         {
-          "keyword": "lionel richie",
+          "keyword": "erin piacenti",
           "volume": 100,
-          "change": 53,
+          "change": 59,
           "category": "Actualité",
           "history": [
-            83,
-            76,
-            69,
-            73,
-            48,
-            41,
-            84
-          ]
-        },
-        {
-          "keyword": "tupac",
-          "volume": 92,
-          "change": 55,
-          "category": "Actualité",
-          "history": [
-            64,
-            67,
-            79,
-            77,
-            65,
-            74,
-            56
-          ]
-        },
-        {
-          "keyword": "barcelona vs rayo vallecano",
-          "volume": 84,
-          "change": 28,
-          "category": "Actualité",
-          "history": [
-            44,
-            53,
-            50,
-            76,
-            68,
             87,
-            49
+            60,
+            57,
+            43,
+            51,
+            41,
+            67
           ]
         },
         {
-          "keyword": "brewers vs cubs",
-          "volume": 76,
-          "change": 53,
+          "keyword": "cardinals vs dodgers",
+          "volume": 92,
+          "change": 40,
           "category": "Actualité",
           "history": [
-            47,
-            68,
-            70,
-            66,
-            73,
-            64,
+            54,
+            83,
+            57,
+            82,
+            75,
+            74,
             53
           ]
         },
         {
-          "keyword": "barcelona - rayo vallecano",
-          "volume": 68,
-          "change": 48,
-          "category": "Actualité",
+          "keyword": "rosanna scotto cries live on air",
+          "volume": 84,
+          "change": 41,
+          "category": "Tech",
           "history": [
-            50,
-            55,
-            86,
-            62,
-            67,
-            65,
-            76
-          ]
-        },
-        {
-          "keyword": "yankees vs angels",
-          "volume": 60,
-          "change": 35,
-          "category": "Actualité",
-          "history": [
-            45,
-            52,
-            89,
-            41,
-            78,
             76,
-            45
-          ]
-        },
-        {
-          "keyword": "phillies vs diamondbacks",
-          "volume": 52,
-          "change": 34,
-          "category": "Actualité",
-          "history": [
-            90,
-            80,
-            62,
-            85,
-            86,
-            60,
-            66
-          ]
-        },
-        {
-          "keyword": "xylitol cardiovascular risk study",
-          "volume": 44,
-          "change": 31,
-          "category": "Actualité",
-          "history": [
-            75,
-            89,
-            69,
-            81,
-            42,
-            72,
-            56
-          ]
-        },
-        {
-          "keyword": "mariners vs red sox",
-          "volume": 36,
-          "change": 43,
-          "category": "Actualité",
-          "history": [
-            62,
+            77,
+            76,
+            71,
             48,
-            52,
-            45,
-            79,
-            62,
-            66
+            90,
+            75
           ]
         },
         {
-          "keyword": "tropical storm houston",
-          "volume": 28,
+          "keyword": "john roberts white house dissent",
+          "volume": 76,
+          "change": 25,
+          "category": "Actualité",
+          "history": [
+            48,
+            46,
+            41,
+            51,
+            74,
+            58,
+            73
+          ]
+        },
+        {
+          "keyword": "dyson toothbrush",
+          "volume": 68,
+          "change": 55,
+          "category": "Actualité",
+          "history": [
+            65,
+            65,
+            61,
+            73,
+            50,
+            45,
+            49
+          ]
+        },
+        {
+          "keyword": "giants vs pirates",
+          "volume": 60,
+          "change": 36,
+          "category": "Actualité",
+          "history": [
+            67,
+            44,
+            45,
+            57,
+            77,
+            60,
+            61
+          ]
+        },
+        {
+          "keyword": "mike johnson",
+          "volume": 52,
+          "change": 59,
+          "category": "Actualité",
+          "history": [
+            42,
+            79,
+            71,
+            44,
+            53,
+            79,
+            84
+          ]
+        },
+        {
+          "keyword": "braves vs nationals",
+          "volume": 44,
           "change": 43,
           "category": "Actualité",
           "history": [
-            66,
-            45,
-            76,
+            61,
+            50,
+            43,
+            56,
+            54,
+            67,
+            55
+          ]
+        },
+        {
+          "keyword": "stan kroenke",
+          "volume": 36,
+          "change": 25,
+          "category": "Actualité",
+          "history": [
+            68,
+            41,
             88,
-            83,
-            82,
-            41
+            46,
+            76,
+            62,
+            40
+          ]
+        },
+        {
+          "keyword": "blue jays vs guardians",
+          "volume": 28,
+          "change": 29,
+          "category": "Actualité",
+          "history": [
+            88,
+            48,
+            77,
+            59,
+            57,
+            41,
+            85
           ]
         }
       ],
-      "updatedAt": "2026-09-01T10:35:04.066Z",
+      "updatedAt": "2026-09-02T10:00:10.653Z",
       "source": "api"
     },
     {
@@ -170,157 +170,157 @@
       "hl": "en-US",
       "trends": [
         {
-          "keyword": "lionel richie",
+          "keyword": "erin piacenti",
           "volume": 100,
-          "change": 28,
+          "change": 58,
           "category": "Actualité",
           "history": [
-            44,
-            80,
-            72,
-            68,
-            43,
-            64,
-            69
-          ]
-        },
-        {
-          "keyword": "tupac",
-          "volume": 92,
-          "change": 25,
-          "category": "Actualité",
-          "history": [
-            78,
-            56,
-            53,
-            81,
-            86,
-            47,
-            68
-          ]
-        },
-        {
-          "keyword": "barcelona vs rayo vallecano",
-          "volume": 84,
-          "change": 55,
-          "category": "Actualité",
-          "history": [
-            50,
-            46,
-            79,
-            58,
-            66,
-            47,
-            50
-          ]
-        },
-        {
-          "keyword": "brewers vs cubs",
-          "volume": 76,
-          "change": 44,
-          "category": "Actualité",
-          "history": [
-            84,
-            69,
-            51,
-            86,
-            56,
-            51,
-            69
-          ]
-        },
-        {
-          "keyword": "barcelona - rayo vallecano",
-          "volume": 68,
-          "change": 43,
-          "category": "Actualité",
-          "history": [
-            57,
-            44,
-            72,
-            49,
-            77,
-            52,
-            83
-          ]
-        },
-        {
-          "keyword": "yankees vs angels",
-          "volume": 60,
-          "change": 25,
-          "category": "Actualité",
-          "history": [
-            83,
-            57,
             65,
+            50,
+            70,
+            46,
+            84,
+            58,
+            53
+          ]
+        },
+        {
+          "keyword": "cardinals vs dodgers",
+          "volume": 92,
+          "change": 52,
+          "category": "Actualité",
+          "history": [
+            49,
+            85,
+            55,
+            72,
+            40,
+            72,
+            48
+          ]
+        },
+        {
+          "keyword": "rosanna scotto cries live on air",
+          "volume": 84,
+          "change": 33,
+          "category": "Tech",
+          "history": [
+            45,
+            68,
+            90,
+            70,
+            60,
+            42,
+            88
+          ]
+        },
+        {
+          "keyword": "john roberts white house dissent",
+          "volume": 76,
+          "change": 25,
+          "category": "Actualité",
+          "history": [
+            80,
+            42,
+            86,
+            56,
+            65,
+            84,
+            46
+          ]
+        },
+        {
+          "keyword": "dyson toothbrush",
+          "volume": 68,
+          "change": 52,
+          "category": "Actualité",
+          "history": [
+            63,
+            82,
+            72,
+            77,
+            56,
+            81,
+            84
+          ]
+        },
+        {
+          "keyword": "giants vs pirates",
+          "volume": 60,
+          "change": 59,
+          "category": "Actualité",
+          "history": [
+            57,
+            86,
+            63,
+            62,
+            79,
+            72,
+            81
+          ]
+        },
+        {
+          "keyword": "mike johnson",
+          "volume": 52,
+          "change": 34,
+          "category": "Actualité",
+          "history": [
             64,
-            88,
-            76,
+            51,
+            42,
+            60,
+            63,
+            68,
             66
           ]
         },
         {
-          "keyword": "phillies vs diamondbacks",
-          "volume": 52,
-          "change": 36,
-          "category": "Actualité",
-          "history": [
-            58,
-            59,
-            42,
-            84,
-            72,
-            76,
-            75
-          ]
-        },
-        {
-          "keyword": "xylitol cardiovascular risk study",
+          "keyword": "braves vs nationals",
           "volume": 44,
-          "change": 30,
+          "change": 50,
           "category": "Actualité",
           "history": [
-            83,
-            49,
-            59,
-            76,
-            47,
-            83,
-            43
+            89,
+            65,
+            62,
+            69,
+            67,
+            86,
+            80
           ]
         },
         {
-          "keyword": "mariners vs red sox",
+          "keyword": "stan kroenke",
           "volume": 36,
-          "change": 46,
+          "change": 35,
           "category": "Actualité",
           "history": [
-            74,
-            47,
-            45,
-            41,
-            44,
-            44,
-            47
+            76,
+            82,
+            80,
+            42,
+            68,
+            65,
+            63
           ]
         },
         {
-          "keyword": "tropical storm houston",
+          "keyword": "blue jays vs guardians",
           "volume": 28,
-          "change": 28,
+          "change": 43,
           "category": "Actualité",
           "history": [
-            83,
-            56,
-            52,
-            77,
-            64,
-            54,
-            59
+            86,
+            85,
+            73,
+            44,
+            41,
+            78,
+            42
           ]
         }
       ],
-      "updatedAt": "2026-09-01T10:35:06.007Z",
+      "updatedAt": "2026-09-02T10:00:12.409Z",
       "source": "api"
     },
     {
@@ -331,157 +331,157 @@
       "hl": "en-GB",
       "trends": [
         {
-          "keyword": "lionel richie",
+          "keyword": "erin piacenti",
           "volume": 100,
-          "change": 39,
+          "change": 32,
           "category": "Actualité",
           "history": [
-            66,
-            86,
-            71,
-            60,
-            48,
-            74,
-            69
-          ]
-        },
-        {
-          "keyword": "tupac",
-          "volume": 92,
-          "change": 54,
-          "category": "Actualité",
-          "history": [
-            77,
-            49,
-            59,
-            82,
-            49,
+            61,
+            54,
+            64,
             87,
-            76
+            89,
+            45,
+            61
           ]
         },
         {
-          "keyword": "barcelona vs rayo vallecano",
-          "volume": 84,
-          "change": 35,
+          "keyword": "cardinals vs dodgers",
+          "volume": 92,
+          "change": 43,
           "category": "Actualité",
           "history": [
-            49,
+            58,
+            81,
+            68,
+            87,
+            44,
             52,
-            49,
-            49,
-            67,
-            49,
-            87
+            61
           ]
         },
         {
-          "keyword": "brewers vs cubs",
-          "volume": 76,
-          "change": 53,
-          "category": "Actualité",
+          "keyword": "rosanna scotto cries live on air",
+          "volume": 84,
+          "change": 42,
+          "category": "Tech",
           "history": [
-            74,
-            74,
+            55,
             70,
-            90,
-            42,
-            60,
-            77
-          ]
-        },
-        {
-          "keyword": "barcelona - rayo vallecano",
-          "volume": 68,
-          "change": 51,
-          "category": "Actualité",
-          "history": [
-            76,
-            49,
-            66,
-            73,
-            57,
-            74,
-            81
-          ]
-        },
-        {
-          "keyword": "yankees vs angels",
-          "volume": 60,
-          "change": 30,
-          "category": "Actualité",
-          "history": [
-            51,
-            75,
+            72,
             86,
-            43,
-            77,
-            57,
-            53
+            85,
+            72,
+            49
           ]
         },
         {
-          "keyword": "phillies vs diamondbacks",
-          "volume": 52,
-          "change": 48,
+          "keyword": "john roberts white house dissent",
+          "volume": 76,
+          "change": 36,
+          "category": "Actualité",
+          "history": [
+            43,
+            73,
+            79,
+            46,
+            55,
+            76,
+            78
+          ]
+        },
+        {
+          "keyword": "dyson toothbrush",
+          "volume": 68,
+          "change": 43,
+          "category": "Actualité",
+          "history": [
+            69,
+            46,
+            76,
+            76,
+            72,
+            78,
+            56
+          ]
+        },
+        {
+          "keyword": "giants vs pirates",
+          "volume": 60,
+          "change": 52,
           "category": "Actualité",
           "history": [
             70,
-            47,
-            85,
-            43,
-            83,
-            85,
-            65
+            80,
+            52,
+            80,
+            41,
+            55,
+            80
           ]
         },
         {
-          "keyword": "xylitol cardiovascular risk study",
-          "volume": 44,
+          "keyword": "mike johnson",
+          "volume": 52,
           "change": 50,
           "category": "Actualité",
           "history": [
             81,
-            55,
-            78,
-            44,
-            79,
-            40,
-            58
-          ]
-        },
-        {
-          "keyword": "mariners vs red sox",
-          "volume": 36,
-          "change": 24,
-          "category": "Actualité",
-          "history": [
-            79,
-            78,
-            47,
-            43,
-            90,
-            71,
-            88
-          ]
-        },
-        {
-          "keyword": "tropical storm houston",
-          "volume": 28,
-          "change": 42,
-          "category": "Actualité",
-          "history": [
-            45,
-            83,
-            68,
-            66,
             72,
-            74,
-            53
+            90,
+            83,
+            48,
+            57,
+            85
+          ]
+        },
+        {
+          "keyword": "braves vs nationals",
+          "volume": 44,
+          "change": 34,
+          "category": "Actualité",
+          "history": [
+            66,
+            56,
+            51,
+            80,
+            77,
+            78,
+            89
+          ]
+        },
+        {
+          "keyword": "stan kroenke",
+          "volume": 36,
+          "change": 31,
+          "category": "Actualité",
+          "history": [
+            81,
+            69,
+            73,
+            64,
+            56,
+            79,
+            69
+          ]
+        },
+        {
+          "keyword": "blue jays vs guardians",
+          "volume": 28,
+          "change": 27,
+          "category": "Actualité",
+          "history": [
+            59,
+            69,
+            77,
+            50,
+            61,
+            42,
+            76
           ]
         }
       ],
-      "updatedAt": "2026-09-01T10:35:07.766Z",
+      "updatedAt": "2026-09-02T10:00:14.062Z",
       "source": "api"
     },
     {
@@ -492,157 +492,157 @@
       "hl": "de-DE",
       "trends": [
         {
-          "keyword": "lionel richie",
+          "keyword": "erin piacenti",
           "volume": 100,
-          "change": 37,
-          "category": "Actualité",
-          "history": [
-            63,
-            89,
-            48,
-            85,
-            75,
-            86,
-            48
-          ]
-        },
-        {
-          "keyword": "tupac",
-          "volume": 92,
-          "change": 31,
-          "category": "Actualité",
-          "history": [
-            70,
-            85,
-            47,
-            56,
-            43,
-            80,
-            90
-          ]
-        },
-        {
-          "keyword": "barcelona vs rayo vallecano",
-          "volume": 84,
-          "change": 55,
-          "category": "Actualité",
-          "history": [
-            65,
-            67,
-            74,
-            58,
-            53,
-            52,
-            49
-          ]
-        },
-        {
-          "keyword": "brewers vs cubs",
-          "volume": 76,
-          "change": 46,
-          "category": "Actualité",
-          "history": [
-            52,
-            55,
-            65,
-            89,
-            57,
-            47,
-            61
-          ]
-        },
-        {
-          "keyword": "barcelona - rayo vallecano",
-          "volume": 68,
-          "change": 23,
-          "category": "Actualité",
-          "history": [
-            72,
-            77,
-            86,
-            81,
-            44,
-            47,
-            40
-          ]
-        },
-        {
-          "keyword": "yankees vs angels",
-          "volume": 60,
-          "change": 28,
-          "category": "Actualité",
-          "history": [
-            70,
-            63,
-            57,
-            47,
-            67,
-            87,
-            49
-          ]
-        },
-        {
-          "keyword": "phillies vs diamondbacks",
-          "volume": 52,
-          "change": 53,
-          "category": "Actualité",
-          "history": [
-            54,
-            81,
-            85,
-            66,
-            57,
-            58,
-            67
-          ]
-        },
-        {
-          "keyword": "xylitol cardiovascular risk study",
-          "volume": 44,
-          "change": 39,
-          "category": "Actualité",
-          "history": [
-            81,
-            55,
-            85,
-            50,
-            70,
-            43,
-            69
-          ]
-        },
-        {
-          "keyword": "mariners vs red sox",
-          "volume": 36,
           "change": 36,
           "category": "Actualité",
           "history": [
-            59,
-            57,
-            45,
+            70,
+            67,
+            71,
+            52,
             80,
-            79,
-            77,
-            90
+            45,
+            75
           ]
         },
         {
-          "keyword": "tropical storm houston",
-          "volume": 28,
-          "change": 49,
+          "keyword": "cardinals vs dodgers",
+          "volume": 92,
+          "change": 53,
           "category": "Actualité",
           "history": [
-            64,
-            51,
             81,
-            45,
+            63,
+            59,
+            75,
+            44,
+            63,
+            51
+          ]
+        },
+        {
+          "keyword": "rosanna scotto cries live on air",
+          "volume": 84,
+          "change": 43,
+          "category": "Tech",
+          "history": [
+            77,
+            61,
+            63,
+            44,
+            53,
+            68,
+            86
+          ]
+        },
+        {
+          "keyword": "john roberts white house dissent",
+          "volume": 76,
+          "change": 38,
+          "category": "Actualité",
+          "history": [
+            90,
             42,
+            77,
+            45,
+            41,
+            76,
+            65
+          ]
+        },
+        {
+          "keyword": "dyson toothbrush",
+          "volume": 68,
+          "change": 30,
+          "category": "Actualité",
+          "history": [
+            51,
+            69,
+            61,
+            58,
+            41,
+            65,
+            86
+          ]
+        },
+        {
+          "keyword": "giants vs pirates",
+          "volume": 60,
+          "change": 25,
+          "category": "Actualité",
+          "history": [
+            65,
+            86,
+            56,
+            43,
+            85,
+            61,
+            70
+          ]
+        },
+        {
+          "keyword": "mike johnson",
+          "volume": 52,
+          "change": 33,
+          "category": "Actualité",
+          "history": [
+            65,
             82,
-            40
+            44,
+            77,
+            61,
+            72,
+            76
+          ]
+        },
+        {
+          "keyword": "braves vs nationals",
+          "volume": 44,
+          "change": 59,
+          "category": "Actualité",
+          "history": [
+            72,
+            87,
+            56,
+            45,
+            85,
+            75,
+            87
+          ]
+        },
+        {
+          "keyword": "stan kroenke",
+          "volume": 36,
+          "change": 29,
+          "category": "Actualité",
+          "history": [
+            72,
+            67,
+            63,
+            71,
+            83,
+            78,
+            66
+          ]
+        },
+        {
+          "keyword": "blue jays vs guardians",
+          "volume": 28,
+          "change": 45,
+          "category": "Actualité",
+          "history": [
+            69,
+            87,
+            80,
+            87,
+            88,
+            55,
+            64
           ]
         }
       ],
-      "updatedAt": "2026-09-01T10:35:09.514Z",
+      "updatedAt": "2026-09-02T10:00:15.729Z",
       "source": "api"
     },
     {
@@ -653,157 +653,157 @@
       "hl": "ja-JP",
       "trends": [
         {
-          "keyword": "lionel richie",
+          "keyword": "erin piacenti",
           "volume": 100,
-          "change": 26,
+          "change": 28,
           "category": "Actualité",
           "history": [
-            57,
-            87,
-            77,
-            70,
+            84,
+            82,
+            83,
+            75,
+            73,
+            89,
+            88
+          ]
+        },
+        {
+          "keyword": "cardinals vs dodgers",
+          "volume": 92,
+          "change": 33,
+          "category": "Actualité",
+          "history": [
+            81,
+            49,
+            54,
+            52,
+            53,
+            62,
+            80
+          ]
+        },
+        {
+          "keyword": "rosanna scotto cries live on air",
+          "volume": 84,
+          "change": 55,
+          "category": "Tech",
+          "history": [
+            43,
+            83,
+            54,
+            73,
+            49,
+            88,
+            89
+          ]
+        },
+        {
+          "keyword": "john roberts white house dissent",
+          "volume": 76,
+          "change": 41,
+          "category": "Actualité",
+          "history": [
             65,
+            67,
+            66,
+            88,
+            40,
+            68,
+            89
+          ]
+        },
+        {
+          "keyword": "dyson toothbrush",
+          "volume": 68,
+          "change": 42,
+          "category": "Actualité",
+          "history": [
+            46,
+            55,
+            56,
+            46,
+            48,
             71,
+            76
+          ]
+        },
+        {
+          "keyword": "giants vs pirates",
+          "volume": 60,
+          "change": 51,
+          "category": "Actualité",
+          "history": [
+            42,
+            63,
+            46,
+            82,
+            89,
+            66,
+            53
+          ]
+        },
+        {
+          "keyword": "mike johnson",
+          "volume": 52,
+          "change": 50,
+          "category": "Actualité",
+          "history": [
+            54,
+            46,
+            42,
+            73,
+            78,
+            62,
             41
           ]
         },
         {
-          "keyword": "tupac",
-          "volume": 92,
-          "change": 37,
-          "category": "Actualité",
-          "history": [
-            75,
-            51,
-            43,
-            78,
-            61,
-            89,
-            46
-          ]
-        },
-        {
-          "keyword": "barcelona vs rayo vallecano",
-          "volume": 84,
-          "change": 56,
-          "category": "Actualité",
-          "history": [
-            87,
-            67,
-            79,
-            44,
-            73,
-            40,
-            69
-          ]
-        },
-        {
-          "keyword": "brewers vs cubs",
-          "volume": 76,
-          "change": 38,
-          "category": "Actualité",
-          "history": [
-            44,
-            68,
-            85,
-            48,
-            78,
-            47,
-            73
-          ]
-        },
-        {
-          "keyword": "barcelona - rayo vallecano",
-          "volume": 68,
-          "change": 37,
-          "category": "Actualité",
-          "history": [
-            43,
-            42,
-            78,
-            45,
-            65,
-            75,
-            55
-          ]
-        },
-        {
-          "keyword": "yankees vs angels",
-          "volume": 60,
-          "change": 49,
-          "category": "Actualité",
-          "history": [
-            50,
-            50,
-            50,
-            76,
-            55,
-            89,
-            77
-          ]
-        },
-        {
-          "keyword": "phillies vs diamondbacks",
-          "volume": 52,
-          "change": 40,
-          "category": "Actualité",
-          "history": [
-            73,
-            89,
-            82,
-            51,
-            61,
-            77,
-            49
-          ]
-        },
-        {
-          "keyword": "xylitol cardiovascular risk study",
+          "keyword": "braves vs nationals",
           "volume": 44,
-          "change": 29,
+          "change": 39,
           "category": "Actualité",
           "history": [
-            47,
-            60,
-            89,
-            44,
-            50,
-            52,
-            46
-          ]
-        },
-        {
-          "keyword": "mariners vs red sox",
-          "volume": 36,
-          "change": 44,
-          "category": "Actualité",
-          "history": [
-            59,
-            59,
-            74,
+            90,
             55,
-            47,
-            57,
-            54
+            51,
+            44,
+            46,
+            82,
+            61
           ]
         },
         {
-          "keyword": "tropical storm houston",
-          "volume": 28,
-          "change": 55,
+          "keyword": "stan kroenke",
+          "volume": 36,
+          "change": 58,
           "category": "Actualité",
           "history": [
+            53,
             87,
-            70,
-            78,
             54,
-            46,
-            41,
-            46
+            52,
+            61,
+            78,
+            72
+          ]
+        },
+        {
+          "keyword": "blue jays vs guardians",
+          "volume": 28,
+          "change": 22,
+          "category": "Actualité",
+          "history": [
+            77,
+            64,
+            61,
+            63,
+            82,
+            69,
+            86
           ]
         }
       ],
-      "updatedAt": "2026-09-01T10:35:11.202Z",
+      "updatedAt": "2026-09-02T10:00:17.486Z",
       "source": "api"
     },
     {
@@ -814,157 +814,157 @@
       "hl": "pt-BR",
       "trends": [
         {
-          "keyword": "lionel richie",
+          "keyword": "erin piacenti",
           "volume": 100,
-          "change": 55,
+          "change": 34,
           "category": "Actualité",
           "history": [
-            75,
+            52,
             53,
-            51,
-            69,
-            64,
-            71,
-            78
+            42,
+            46,
+            78,
+            63,
+            43
           ]
         },
         {
-          "keyword": "tupac",
+          "keyword": "cardinals vs dodgers",
           "volume": 92,
-          "change": 27,
+          "change": 55,
           "category": "Actualité",
           "history": [
-            62,
-            76,
-            71,
-            54,
-            44,
-            40,
+            81,
+            82,
+            85,
+            85,
+            55,
+            59,
             45
           ]
         },
         {
-          "keyword": "barcelona vs rayo vallecano",
+          "keyword": "rosanna scotto cries live on air",
           "volume": 84,
+          "change": 31,
+          "category": "Tech",
+          "history": [
+            57,
+            45,
+            57,
+            67,
+            47,
+            44,
+            62
+          ]
+        },
+        {
+          "keyword": "john roberts white house dissent",
+          "volume": 76,
+          "change": 21,
+          "category": "Actualité",
+          "history": [
+            82,
+            77,
+            69,
+            50,
+            55,
+            43,
+            53
+          ]
+        },
+        {
+          "keyword": "dyson toothbrush",
+          "volume": 68,
+          "change": 59,
+          "category": "Actualité",
+          "history": [
+            89,
+            88,
+            81,
+            76,
+            61,
+            42,
+            45
+          ]
+        },
+        {
+          "keyword": "giants vs pirates",
+          "volume": 60,
+          "change": 21,
+          "category": "Actualité",
+          "history": [
+            66,
+            72,
+            68,
+            63,
+            41,
+            78,
+            58
+          ]
+        },
+        {
+          "keyword": "mike johnson",
+          "volume": 52,
+          "change": 30,
+          "category": "Actualité",
+          "history": [
+            42,
+            69,
+            83,
+            88,
+            85,
+            67,
+            71
+          ]
+        },
+        {
+          "keyword": "braves vs nationals",
+          "volume": 44,
+          "change": 22,
+          "category": "Actualité",
+          "history": [
+            46,
+            49,
+            77,
+            58,
+            69,
+            71,
+            43
+          ]
+        },
+        {
+          "keyword": "stan kroenke",
+          "volume": 36,
           "change": 38,
           "category": "Actualité",
           "history": [
-            80,
-            55,
-            48,
-            85,
-            40,
-            62,
-            84
-          ]
-        },
-        {
-          "keyword": "brewers vs cubs",
-          "volume": 76,
-          "change": 20,
-          "category": "Actualité",
-          "history": [
-            51,
-            90,
-            88,
-            62,
-            59,
-            52,
-            67
-          ]
-        },
-        {
-          "keyword": "barcelona - rayo vallecano",
-          "volume": 68,
-          "change": 58,
-          "category": "Actualité",
-          "history": [
-            52,
-            73,
-            75,
-            61,
-            48,
-            52,
-            67
-          ]
-        },
-        {
-          "keyword": "yankees vs angels",
-          "volume": 60,
-          "change": 54,
-          "category": "Actualité",
-          "history": [
-            64,
-            62,
-            86,
-            56,
-            60,
-            42,
-            76
-          ]
-        },
-        {
-          "keyword": "phillies vs diamondbacks",
-          "volume": 52,
-          "change": 33,
-          "category": "Actualité",
-          "history": [
-            63,
-            52,
-            47,
-            52,
-            47,
-            47,
-            57
-          ]
-        },
-        {
-          "keyword": "xylitol cardiovascular risk study",
-          "volume": 44,
-          "change": 35,
-          "category": "Actualité",
-          "history": [
-            73,
-            61,
-            57,
-            51,
-            84,
-            61,
-            88
-          ]
-        },
-        {
-          "keyword": "mariners vs red sox",
-          "volume": 36,
-          "change": 34,
-          "category": "Actualité",
-          "history": [
-            40,
-            85,
-            83,
-            43,
-            48,
-            82,
-            85
-          ]
-        },
-        {
-          "keyword": "tropical storm houston",
-          "volume": 28,
-          "change": 46,
-          "category": "Actualité",
-          "history": [
-            82,
             66,
-            75,
-            52,
-            59,
-            62,
-            43
+            82,
+            65,
+            68,
+            72,
+            78,
+            87
+          ]
+        },
+        {
+          "keyword": "blue jays vs guardians",
+          "volume": 28,
+          "change": 52,
+          "category": "Actualité",
+          "history": [
+            58,
+            51,
+            46,
+            58,
+            82,
+            85,
+            44
           ]
         }
       ],
-      "updatedAt": "2026-09-01T10:35:12.862Z",
+      "updatedAt": "2026-09-02T10:00:19.148Z",
       "source": "api"
     },
     {
@@ -975,157 +975,157 @@
       "hl": "en-IN",
       "trends": [
         {
-          "keyword": "lionel richie",
+          "keyword": "erin piacenti",
           "volume": 100,
-          "change": 59,
+          "change": 37,
           "category": "Actualité",
           "history": [
-            43,
-            50,
-            55,
-            79,
-            65,
-            80,
-            43
-          ]
-        },
-        {
-          "keyword": "tupac",
-          "volume": 92,
-          "change": 36,
-          "category": "Actualité",
-          "history": [
-            70,
-            43,
-            84,
-            90,
-            77,
-            78,
-            61
-          ]
-        },
-        {
-          "keyword": "barcelona vs rayo vallecano",
-          "volume": 84,
-          "change": 55,
-          "category": "Actualité",
-          "history": [
-            50,
-            54,
-            47,
-            90,
-            54,
-            71,
-            88
-          ]
-        },
-        {
-          "keyword": "brewers vs cubs",
-          "volume": 76,
-          "change": 24,
-          "category": "Actualité",
-          "history": [
-            45,
-            78,
-            82,
-            65,
-            74,
-            50,
-            89
-          ]
-        },
-        {
-          "keyword": "barcelona - rayo vallecano",
-          "volume": 68,
-          "change": 59,
-          "category": "Actualité",
-          "history": [
-            49,
-            68,
-            43,
-            41,
-            75,
-            66,
-            51
-          ]
-        },
-        {
-          "keyword": "yankees vs angels",
-          "volume": 60,
-          "change": 56,
-          "category": "Actualité",
-          "history": [
-            73,
-            54,
-            59,
-            44,
             57,
-            80,
-            84
-          ]
-        },
-        {
-          "keyword": "phillies vs diamondbacks",
-          "volume": 52,
-          "change": 39,
-          "category": "Actualité",
-          "history": [
-            62,
-            89,
-            90,
-            80,
-            62,
-            83,
+            54,
+            45,
+            45,
+            54,
+            45,
             62
           ]
         },
         {
-          "keyword": "xylitol cardiovascular risk study",
-          "volume": 44,
+          "keyword": "cardinals vs dodgers",
+          "volume": 92,
+          "change": 54,
+          "category": "Actualité",
+          "history": [
+            52,
+            67,
+            61,
+            84,
+            87,
+            67,
+            79
+          ]
+        },
+        {
+          "keyword": "rosanna scotto cries live on air",
+          "volume": 84,
+          "change": 54,
+          "category": "Tech",
+          "history": [
+            54,
+            43,
+            46,
+            49,
+            86,
+            42,
+            73
+          ]
+        },
+        {
+          "keyword": "john roberts white house dissent",
+          "volume": 76,
+          "change": 39,
+          "category": "Actualité",
+          "history": [
+            71,
+            88,
+            89,
+            42,
+            78,
+            49,
+            47
+          ]
+        },
+        {
+          "keyword": "dyson toothbrush",
+          "volume": 68,
+          "change": 48,
+          "category": "Actualité",
+          "history": [
+            75,
+            40,
+            49,
+            42,
+            47,
+            68,
+            60
+          ]
+        },
+        {
+          "keyword": "giants vs pirates",
+          "volume": 60,
           "change": 45,
           "category": "Actualité",
           "history": [
-            65,
-            55,
-            83,
-            42,
+            54,
+            56,
+            57,
             72,
-            59,
-            69
+            70,
+            53,
+            74
           ]
         },
         {
-          "keyword": "mariners vs red sox",
-          "volume": 36,
-          "change": 58,
+          "keyword": "mike johnson",
+          "volume": 52,
+          "change": 57,
           "category": "Actualité",
           "history": [
-            51,
-            63,
-            51,
-            67,
-            55,
-            72,
-            63
+            45,
+            87,
+            70,
+            79,
+            62,
+            80,
+            67
           ]
         },
         {
-          "keyword": "tropical storm houston",
-          "volume": 28,
+          "keyword": "braves vs nationals",
+          "volume": 44,
           "change": 27,
           "category": "Actualité",
           "history": [
-            61,
-            61,
+            42,
+            52,
+            63,
+            48,
+            45,
+            69,
+            51
+          ]
+        },
+        {
+          "keyword": "stan kroenke",
+          "volume": 36,
+          "change": 49,
+          "category": "Actualité",
+          "history": [
+            84,
+            49,
+            65,
+            88,
             44,
-            59,
-            76,
-            61,
-            68
+            86,
+            57
+          ]
+        },
+        {
+          "keyword": "blue jays vs guardians",
+          "volume": 28,
+          "change": 41,
+          "category": "Actualité",
+          "history": [
+            62,
+            77,
+            41,
+            89,
+            84,
+            41,
+            58
           ]
         }
       ],
-      "updatedAt": "2026-09-01T10:35:14.547Z",
+      "updatedAt": "2026-09-02T10:00:20.823Z",
       "source": "api"
     },
     {
@@ -1136,157 +1136,157 @@
       "hl": "ko-KR",
       "trends": [
         {
-          "keyword": "lionel richie",
+          "keyword": "erin piacenti",
           "volume": 100,
-          "change": 40,
-          "category": "Actualité",
-          "history": [
-            67,
-            65,
-            68,
-            83,
-            57,
-            43,
-            58
-          ]
-        },
-        {
-          "keyword": "tupac",
-          "volume": 92,
-          "change": 55,
-          "category": "Actualité",
-          "history": [
-            90,
-            69,
-            89,
-            50,
-            75,
-            48,
-            75
-          ]
-        },
-        {
-          "keyword": "barcelona vs rayo vallecano",
-          "volume": 84,
-          "change": 44,
+          "change": 59,
           "category": "Actualité",
           "history": [
             40,
-            41,
-            61,
-            87,
-            75,
-            54,
-            72
-          ]
-        },
-        {
-          "keyword": "brewers vs cubs",
-          "volume": 76,
-          "change": 53,
-          "category": "Actualité",
-          "history": [
-            41,
-            87,
-            47,
-            51,
-            59,
+            70,
+            88,
+            88,
+            82,
             65,
-            90
-          ]
-        },
-        {
-          "keyword": "barcelona - rayo vallecano",
-          "volume": 68,
-          "change": 41,
-          "category": "Actualité",
-          "history": [
-            42,
-            75,
-            62,
-            59,
-            44,
-            68,
-            77
-          ]
-        },
-        {
-          "keyword": "yankees vs angels",
-          "volume": 60,
-          "change": 41,
-          "category": "Actualité",
-          "history": [
-            65,
-            47,
-            41,
-            86,
-            75,
-            40,
             47
           ]
         },
         {
-          "keyword": "phillies vs diamondbacks",
-          "volume": 52,
-          "change": 27,
+          "keyword": "cardinals vs dodgers",
+          "volume": 92,
+          "change": 47,
           "category": "Actualité",
           "history": [
-            45,
-            52,
-            47,
-            67,
-            78,
-            89,
+            49,
+            66,
+            79,
+            41,
+            53,
+            53,
             46
           ]
         },
         {
-          "keyword": "xylitol cardiovascular risk study",
-          "volume": 44,
-          "change": 22,
-          "category": "Actualité",
+          "keyword": "rosanna scotto cries live on air",
+          "volume": 84,
+          "change": 41,
+          "category": "Tech",
           "history": [
-            49,
-            62,
-            86,
-            69,
-            86,
-            44,
-            74
-          ]
-        },
-        {
-          "keyword": "mariners vs red sox",
-          "volume": 36,
-          "change": 28,
-          "category": "Actualité",
-          "history": [
-            83,
-            76,
-            82,
-            73,
-            53,
-            73,
-            82
-          ]
-        },
-        {
-          "keyword": "tropical storm houston",
-          "volume": 28,
-          "change": 35,
-          "category": "Actualité",
-          "history": [
-            50,
-            86,
-            74,
             71,
-            88,
+            42,
+            83,
+            53,
             63,
-            61
+            45,
+            53
+          ]
+        },
+        {
+          "keyword": "john roberts white house dissent",
+          "volume": 76,
+          "change": 39,
+          "category": "Actualité",
+          "history": [
+            85,
+            75,
+            82,
+            41,
+            79,
+            72,
+            54
+          ]
+        },
+        {
+          "keyword": "dyson toothbrush",
+          "volume": 68,
+          "change": 50,
+          "category": "Actualité",
+          "history": [
+            42,
+            60,
+            45,
+            42,
+            74,
+            85,
+            43
+          ]
+        },
+        {
+          "keyword": "giants vs pirates",
+          "volume": 60,
+          "change": 50,
+          "category": "Actualité",
+          "history": [
+            67,
+            77,
+            51,
+            74,
+            55,
+            66,
+            76
+          ]
+        },
+        {
+          "keyword": "mike johnson",
+          "volume": 52,
+          "change": 21,
+          "category": "Actualité",
+          "history": [
+            63,
+            62,
+            68,
+            46,
+            85,
+            48,
+            88
+          ]
+        },
+        {
+          "keyword": "braves vs nationals",
+          "volume": 44,
+          "change": 27,
+          "category": "Actualité",
+          "history": [
+            53,
+            90,
+            73,
+            74,
+            74,
+            50,
+            73
+          ]
+        },
+        {
+          "keyword": "stan kroenke",
+          "volume": 36,
+          "change": 34,
+          "category": "Actualité",
+          "history": [
+            51,
+            72,
+            54,
+            90,
+            42,
+            46,
+            79
+          ]
+        },
+        {
+          "keyword": "blue jays vs guardians",
+          "volume": 28,
+          "change": 46,
+          "category": "Actualité",
+          "history": [
+            68,
+            55,
+            55,
+            63,
+            85,
+            84,
+            63
           ]
         }
       ],
-      "updatedAt": "2026-09-01T10:35:16.201Z",
+      "updatedAt": "2026-09-02T10:00:22.585Z",
       "source": "api"
     },
     {
@@ -1297,157 +1297,157 @@
       "hl": "es-MX",
       "trends": [
         {
-          "keyword": "lionel richie",
+          "keyword": "erin piacenti",
           "volume": 100,
-          "change": 37,
+          "change": 34,
           "category": "Actualité",
           "history": [
-            86,
-            89,
-            79,
-            44,
-            78,
-            75,
-            87
-          ]
-        },
-        {
-          "keyword": "tupac",
-          "volume": 92,
-          "change": 54,
-          "category": "Actualité",
-          "history": [
-            68,
-            50,
-            56,
-            55,
-            53,
-            82,
+            70,
+            73,
+            81,
+            48,
+            85,
+            48,
             85
           ]
         },
         {
-          "keyword": "barcelona vs rayo vallecano",
-          "volume": 84,
-          "change": 55,
+          "keyword": "cardinals vs dodgers",
+          "volume": 92,
+          "change": 59,
           "category": "Actualité",
           "history": [
-            76,
-            57,
-            77,
-            61,
-            41,
-            57,
-            88
-          ]
-        },
-        {
-          "keyword": "brewers vs cubs",
-          "volume": 76,
-          "change": 26,
-          "category": "Actualité",
-          "history": [
-            57,
-            88,
-            88,
-            47,
-            80,
-            55,
-            54
-          ]
-        },
-        {
-          "keyword": "barcelona - rayo vallecano",
-          "volume": 68,
-          "change": 49,
-          "category": "Actualité",
-          "history": [
-            46,
-            77,
-            79,
-            60,
-            46,
-            84,
-            68
-          ]
-        },
-        {
-          "keyword": "yankees vs angels",
-          "volume": 60,
-          "change": 35,
-          "category": "Actualité",
-          "history": [
-            54,
-            80,
-            49,
-            50,
-            48,
-            88,
-            53
-          ]
-        },
-        {
-          "keyword": "phillies vs diamondbacks",
-          "volume": 52,
-          "change": 38,
-          "category": "Actualité",
-          "history": [
-            50,
-            55,
-            69,
             65,
-            86,
-            72,
-            77
+            77,
+            45,
+            41,
+            50,
+            43,
+            59
           ]
         },
         {
-          "keyword": "xylitol cardiovascular risk study",
-          "volume": 44,
-          "change": 38,
+          "keyword": "rosanna scotto cries live on air",
+          "volume": 84,
+          "change": 25,
+          "category": "Tech",
+          "history": [
+            72,
+            72,
+            62,
+            60,
+            56,
+            56,
+            48
+          ]
+        },
+        {
+          "keyword": "john roberts white house dissent",
+          "volume": 76,
+          "change": 43,
           "category": "Actualité",
           "history": [
-            87,
-            85,
-            52,
-            64,
-            70,
-            51,
-            51
+            81,
+            80,
+            55,
+            55,
+            66,
+            78,
+            85
           ]
         },
         {
-          "keyword": "mariners vs red sox",
-          "volume": 36,
+          "keyword": "dyson toothbrush",
+          "volume": 68,
           "change": 53,
           "category": "Actualité",
           "history": [
-            82,
-            64,
-            77,
-            59,
-            84,
-            43,
-            53
+            71,
+            80,
+            66,
+            44,
+            76,
+            51,
+            45
           ]
         },
         {
-          "keyword": "tropical storm houston",
-          "volume": 28,
-          "change": 42,
+          "keyword": "giants vs pirates",
+          "volume": 60,
+          "change": 50,
           "category": "Actualité",
           "history": [
-            57,
-            53,
-            89,
-            82,
+            76,
+            75,
+            63,
+            58,
             79,
+            68,
+            58
+          ]
+        },
+        {
+          "keyword": "mike johnson",
+          "volume": 52,
+          "change": 23,
+          "category": "Actualité",
+          "history": [
+            64,
+            43,
+            61,
+            62,
+            89,
+            80,
+            63
+          ]
+        },
+        {
+          "keyword": "braves vs nationals",
+          "volume": 44,
+          "change": 26,
+          "category": "Actualité",
+          "history": [
+            43,
+            50,
+            57,
+            55,
+            55,
+            87,
+            56
+          ]
+        },
+        {
+          "keyword": "stan kroenke",
+          "volume": 36,
+          "change": 31,
+          "category": "Actualité",
+          "history": [
+            45,
+            71,
+            52,
             85,
-            71
+            48,
+            83,
+            52
+          ]
+        },
+        {
+          "keyword": "blue jays vs guardians",
+          "volume": 28,
+          "change": 20,
+          "category": "Actualité",
+          "history": [
+            88,
+            47,
+            45,
+            43,
+            48,
+            57,
+            54
           ]
         }
       ],
-      "updatedAt": "2026-09-01T10:35:17.878Z",
+      "updatedAt": "2026-09-02T10:00:24.273Z",
       "source": "api"
     },
     {
@@ -1458,157 +1458,157 @@
       "hl": "en-NG",
       "trends": [
         {
-          "keyword": "lionel richie",
+          "keyword": "erin piacenti",
           "volume": 100,
-          "change": 40,
+          "change": 24,
           "category": "Actualité",
           "history": [
-            86,
-            85,
-            87,
-            57,
-            84,
-            54,
-            50
-          ]
-        },
-        {
-          "keyword": "tupac",
-          "volume": 92,
-          "change": 40,
-          "category": "Actualité",
-          "history": [
-            62,
-            84,
-            45,
-            79,
-            84,
-            61,
-            85
-          ]
-        },
-        {
-          "keyword": "barcelona vs rayo vallecano",
-          "volume": 84,
-          "change": 53,
-          "category": "Actualité",
-          "history": [
-            63,
             72,
-            69,
-            64,
-            48,
+            82,
             70,
-            60
+            56,
+            49,
+            46,
+            44
           ]
         },
         {
-          "keyword": "brewers vs cubs",
-          "volume": 76,
-          "change": 22,
+          "keyword": "cardinals vs dodgers",
+          "volume": 92,
+          "change": 42,
           "category": "Actualité",
           "history": [
-            59,
-            71,
-            58,
-            75,
+            81,
+            43,
+            65,
+            82,
+            62,
             55,
-            90,
             64
           ]
         },
         {
-          "keyword": "barcelona - rayo vallecano",
-          "volume": 68,
-          "change": 20,
-          "category": "Actualité",
-          "history": [
-            55,
-            78,
-            77,
-            62,
-            77,
-            87,
-            42
-          ]
-        },
-        {
-          "keyword": "yankees vs angels",
-          "volume": 60,
-          "change": 30,
-          "category": "Actualité",
-          "history": [
-            47,
-            57,
-            76,
-            79,
-            53,
-            57,
-            84
-          ]
-        },
-        {
-          "keyword": "phillies vs diamondbacks",
-          "volume": 52,
-          "change": 21,
-          "category": "Actualité",
-          "history": [
-            49,
-            61,
-            85,
-            61,
-            59,
-            81,
-            42
-          ]
-        },
-        {
-          "keyword": "xylitol cardiovascular risk study",
-          "volume": 44,
-          "change": 28,
-          "category": "Actualité",
-          "history": [
-            66,
-            85,
-            87,
-            76,
-            48,
-            45,
-            42
-          ]
-        },
-        {
-          "keyword": "mariners vs red sox",
-          "volume": 36,
-          "change": 25,
-          "category": "Actualité",
-          "history": [
-            80,
-            73,
-            64,
-            52,
-            51,
-            78,
-            87
-          ]
-        },
-        {
-          "keyword": "tropical storm houston",
-          "volume": 28,
+          "keyword": "rosanna scotto cries live on air",
+          "volume": 84,
           "change": 29,
+          "category": "Tech",
+          "history": [
+            64,
+            87,
+            55,
+            71,
+            64,
+            83,
+            48
+          ]
+        },
+        {
+          "keyword": "john roberts white house dissent",
+          "volume": 76,
+          "change": 22,
           "category": "Actualité",
           "history": [
+            58,
             49,
-            54,
+            47,
+            70,
             79,
+            49,
+            67
+          ]
+        },
+        {
+          "keyword": "dyson toothbrush",
+          "volume": 68,
+          "change": 46,
+          "category": "Actualité",
+          "history": [
             43,
+            84,
+            86,
+            50,
+            42,
+            42,
+            68
+          ]
+        },
+        {
+          "keyword": "giants vs pirates",
+          "volume": 60,
+          "change": 24,
+          "category": "Actualité",
+          "history": [
+            87,
+            45,
+            47,
+            81,
+            69,
+            50,
+            88
+          ]
+        },
+        {
+          "keyword": "mike johnson",
+          "volume": 52,
+          "change": 45,
+          "category": "Actualité",
+          "history": [
+            69,
+            40,
+            79,
+            72,
+            61,
+            48,
+            45
+          ]
+        },
+        {
+          "keyword": "braves vs nationals",
+          "volume": 44,
+          "change": 35,
+          "category": "Actualité",
+          "history": [
+            46,
+            51,
+            45,
+            86,
+            49,
             75,
+            70
+          ]
+        },
+        {
+          "keyword": "stan kroenke",
+          "volume": 36,
+          "change": 32,
+          "category": "Actualité",
+          "history": [
             59,
-            42
+            68,
+            67,
+            68,
+            55,
+            85,
+            75
+          ]
+        },
+        {
+          "keyword": "blue jays vs guardians",
+          "volume": 28,
+          "change": 46,
+          "category": "Actualité",
+          "history": [
+            75,
+            54,
+            85,
+            56,
+            55,
+            53,
+            61
           ]
         }
       ],
-      "updatedAt": "2026-09-01T10:35:19.562Z",
+      "updatedAt": "2026-09-02T10:00:25.918Z",
       "source": "api"
     }
   ]

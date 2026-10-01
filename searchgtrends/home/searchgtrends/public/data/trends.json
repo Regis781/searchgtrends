@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T11:26:09.287Z",
+  "generatedAt": "2026-10-01T11:53:38.659Z",
   "countries": [
     {
       "code": "FR",
@@ -9,158 +9,158 @@
       "hl": "fr-FR",
       "trends": [
         {
-          "keyword": "Ligue 1",
-          "volume": 95,
-          "change": 13,
+          "keyword": "christa pike execution",
+          "volume": 100,
+          "change": 20,
           "category": "Actualité",
           "history": [
-            62,
-            48,
-            55,
-            86,
-            86,
-            85,
-            77
+            47,
+            47,
+            76,
+            88,
+            83,
+            43,
+            46
           ]
         },
         {
-          "keyword": "IA générative",
-          "volume": 88,
-          "change": 16,
+          "keyword": "argentina vs bolivia",
+          "volume": 92,
+          "change": 47,
           "category": "Actualité",
           "history": [
-            51,
-            87,
-            84,
-            67,
-            58,
-            54,
-            81
-          ]
-        },
-        {
-          "keyword": "Météo Paris",
-          "volume": 81,
-          "change": 42,
-          "category": "Actualité",
-          "history": [
-            42,
-            51,
-            75,
-            81,
-            48,
-            62,
-            76
-          ]
-        },
-        {
-          "keyword": "Netflix",
-          "volume": 74,
-          "change": 10,
-          "category": "Divertissement",
-          "history": [
+            66,
             78,
-            89,
-            44,
-            59,
-            76,
-            63,
-            76
-          ]
-        },
-        {
-          "keyword": "CAC 40",
-          "volume": 67,
-          "change": 22,
-          "category": "Actualité",
-          "history": [
-            85,
-            48,
-            79,
-            64,
-            76,
-            72,
+            53,
+            57,
+            71,
+            78,
             58
           ]
         },
         {
-          "keyword": "Roland Garros",
-          "volume": 60,
-          "change": 6,
+          "keyword": "tj maxx closing",
+          "volume": 84,
+          "change": 22,
           "category": "Actualité",
-          "history": [
-            74,
-            61,
-            57,
-            56,
-            55,
-            84,
-            78
-          ]
-        },
-        {
-          "keyword": "ChatGPT",
-          "volume": 53,
-          "change": 13,
-          "category": "Tech",
-          "history": [
-            47,
-            58,
-            69,
-            62,
-            73,
-            89,
-            81
-          ]
-        },
-        {
-          "keyword": "Inflation",
-          "volume": 46,
-          "change": 33,
-          "category": "Sport",
           "history": [
             52,
-            40,
-            58,
-            55,
-            62,
-            51,
-            52
-          ]
-        },
-        {
-          "keyword": "Grève",
-          "volume": 39,
-          "change": 35,
-          "category": "Actualité",
-          "history": [
-            64,
-            48,
-            85,
-            41,
-            45,
-            82,
-            88
-          ]
-        },
-        {
-          "keyword": "Macron",
-          "volume": 32,
-          "change": 5,
-          "category": "Actualité",
-          "history": [
-            86,
-            73,
-            80,
             72,
-            86,
+            65,
+            43,
+            44,
+            51,
+            66
+          ]
+        },
+        {
+          "keyword": "joey porter jr",
+          "volume": 76,
+          "change": 42,
+          "category": "Actualité",
+          "history": [
+            78,
+            74,
+            60,
+            52,
+            61,
+            87,
+            66
+          ]
+        },
+        {
+          "keyword": "sud",
+          "volume": 68,
+          "change": 53,
+          "category": "Actualité",
+          "history": [
+            42,
+            71,
+            87,
+            43,
+            72,
+            74,
+            63
+          ]
+        },
+        {
+          "keyword": "argentina - bolivia",
+          "volume": 60,
+          "change": 24,
+          "category": "Actualité",
+          "history": [
+            73,
+            73,
+            61,
+            54,
+            43,
+            83,
+            79
+          ]
+        },
+        {
+          "keyword": "valkyries vs wings",
+          "volume": 52,
+          "change": 38,
+          "category": "Actualité",
+          "history": [
+            68,
+            65,
+            72,
+            42,
+            66,
+            51,
+            71
+          ]
+        },
+        {
+          "keyword": "state department visa crackdown donald trump",
+          "volume": 44,
+          "change": 55,
+          "category": "Actualité",
+          "history": [
+            46,
+            58,
+            69,
+            40,
+            68,
+            59,
+            72
+          ]
+        },
+        {
+          "keyword": "trump $500",
+          "volume": 36,
+          "change": 24,
+          "category": "Actualité",
+          "history": [
+            53,
+            55,
+            53,
+            59,
             79,
-            50
+            90,
+            74
+          ]
+        },
+        {
+          "keyword": "ken",
+          "volume": 28,
+          "change": 29,
+          "category": "Actualité",
+          "history": [
+            88,
+            83,
+            55,
+            43,
+            82,
+            55,
+            66
           ]
         }
       ],
-      "updatedAt": "2026-09-30T11:25:53.994Z",
-      "source": "fallback"
+      "updatedAt": "2026-10-01T11:53:22.330Z",
+      "source": "api"
     },
     {
       "code": "US",
@@ -170,158 +170,158 @@
       "hl": "en-US",
       "trends": [
         {
-          "keyword": "NBA",
-          "volume": 95,
-          "change": 5,
-          "category": "Sport",
+          "keyword": "christa pike execution",
+          "volume": 100,
+          "change": 42,
+          "category": "Actualité",
           "history": [
-            53,
-            43,
+            79,
             66,
-            52,
-            54,
-            68,
-            79
-          ]
-        },
-        {
-          "keyword": "GPT-5",
-          "volume": 88,
-          "change": 45,
-          "category": "Actualité",
-          "history": [
-            81,
-            62,
             67,
-            56,
-            54,
-            76,
-            44
-          ]
-        },
-        {
-          "keyword": "Taylor Swift",
-          "volume": 81,
-          "change": 26,
-          "category": "Actualité",
-          "history": [
-            41,
-            56,
-            51,
-            44,
-            42,
-            71,
-            82
-          ]
-        },
-        {
-          "keyword": "Stock market",
-          "volume": 74,
-          "change": 37,
-          "category": "Économie",
-          "history": [
-            89,
-            60,
-            43,
-            64,
-            72,
+            68,
             83,
-            75
+            51,
+            73
           ]
         },
         {
-          "keyword": "Hurricane",
-          "volume": 67,
-          "change": 49,
+          "keyword": "argentina vs bolivia",
+          "volume": 92,
+          "change": 27,
           "category": "Actualité",
           "history": [
             48,
-            67,
-            86,
-            49,
-            77,
+            82,
+            83,
+            83,
+            68,
+            83,
+            48
+          ]
+        },
+        {
+          "keyword": "tj maxx closing",
+          "volume": 84,
+          "change": 28,
+          "category": "Actualité",
+          "history": [
             60,
+            83,
+            68,
+            56,
+            56,
+            78,
+            81
+          ]
+        },
+        {
+          "keyword": "joey porter jr",
+          "volume": 76,
+          "change": 55,
+          "category": "Actualité",
+          "history": [
+            85,
+            81,
+            86,
+            77,
+            64,
+            42,
+            76
+          ]
+        },
+        {
+          "keyword": "sud",
+          "volume": 68,
+          "change": 29,
+          "category": "Actualité",
+          "history": [
+            58,
+            55,
+            47,
+            62,
+            83,
+            72,
+            45
+          ]
+        },
+        {
+          "keyword": "argentina - bolivia",
+          "volume": 60,
+          "change": 54,
+          "category": "Actualité",
+          "history": [
+            54,
+            40,
+            73,
+            66,
+            78,
+            78,
+            60
+          ]
+        },
+        {
+          "keyword": "valkyries vs wings",
+          "volume": 52,
+          "change": 48,
+          "category": "Actualité",
+          "history": [
+            52,
+            62,
+            73,
+            67,
+            69,
+            54,
+            50
+          ]
+        },
+        {
+          "keyword": "state department visa crackdown donald trump",
+          "volume": 44,
+          "change": 22,
+          "category": "Actualité",
+          "history": [
+            43,
+            47,
+            52,
+            40,
+            47,
+            45,
+            78
+          ]
+        },
+        {
+          "keyword": "trump $500",
+          "volume": 36,
+          "change": 56,
+          "category": "Actualité",
+          "history": [
+            47,
+            67,
+            59,
+            54,
+            83,
+            57,
             70
           ]
         },
         {
-          "keyword": "Apple",
-          "volume": 60,
-          "change": 19,
-          "category": "Tech",
-          "history": [
-            80,
-            51,
-            50,
-            45,
-            43,
-            68,
-            55
-          ]
-        },
-        {
-          "keyword": "Immigration",
-          "volume": 53,
-          "change": 20,
+          "keyword": "ken",
+          "volume": 28,
+          "change": 56,
           "category": "Actualité",
           "history": [
-            55,
-            65,
-            71,
-            81,
             85,
-            43,
-            65
-          ]
-        },
-        {
-          "keyword": "Bitcoin",
-          "volume": 46,
-          "change": 9,
-          "category": "Économie",
-          "history": [
-            54,
-            41,
-            50,
-            88,
-            85,
-            81,
-            56
-          ]
-        },
-        {
-          "keyword": "Super Bowl",
-          "volume": 39,
-          "change": 31,
-          "category": "Actualité",
-          "history": [
-            89,
-            86,
-            57,
+            56,
+            77,
             51,
-            41,
-            74,
-            47
-          ]
-        },
-        {
-          "keyword": "Netflix",
-          "volume": 32,
-          "change": 46,
-          "category": "Divertissement",
-          "history": [
-            58,
-            50,
             67,
-            85,
-            69,
-            50,
-            83
+            58,
+            68
           ]
         }
       ],
-      "updatedAt": "2026-09-30T11:25:55.531Z",
-      "source": "fallback"
+      "updatedAt": "2026-10-01T11:53:24.002Z",
+      "source": "api"
     },
     {
       "code": "GB",
@@ -331,158 +331,158 @@
       "hl": "en-GB",
       "trends": [
         {
-          "keyword": "Premier League",
-          "volume": 95,
-          "change": 24,
-          "category": "Sport",
-          "history": [
-            67,
-            61,
-            72,
-            44,
-            67,
-            76,
-            56
-          ]
-        },
-        {
-          "keyword": "NHS",
-          "volume": 88,
-          "change": 14,
+          "keyword": "christa pike execution",
+          "volume": 100,
+          "change": 25,
           "category": "Actualité",
           "history": [
-            79,
-            72,
-            48,
-            49,
-            63,
-            71,
-            55
-          ]
-        },
-        {
-          "keyword": "AI regulation",
-          "volume": 81,
-          "change": 50,
-          "category": "Tech",
-          "history": [
-            67,
-            52,
-            50,
-            59,
-            41,
-            69,
-            88
-          ]
-        },
-        {
-          "keyword": "Cost of living",
-          "volume": 74,
-          "change": 40,
-          "category": "Actualité",
-          "history": [
-            71,
-            87,
-            71,
-            54,
-            44,
-            73,
-            57
-          ]
-        },
-        {
-          "keyword": "Wimbledon",
-          "volume": 67,
-          "change": 40,
-          "category": "Actualité",
-          "history": [
-            83,
-            61,
-            64,
-            87,
-            78,
-            43,
-            82
-          ]
-        },
-        {
-          "keyword": "FTSE",
-          "volume": 60,
-          "change": 16,
-          "category": "Actualité",
-          "history": [
-            46,
-            42,
-            42,
-            53,
-            50,
-            41,
-            89
-          ]
-        },
-        {
-          "keyword": "Labour Party",
-          "volume": 53,
-          "change": 35,
-          "category": "Actualité",
-          "history": [
-            52,
-            61,
-            45,
-            62,
-            85,
             51,
+            78,
+            46,
+            40,
+            43,
+            74,
+            50
+          ]
+        },
+        {
+          "keyword": "argentina vs bolivia",
+          "volume": 92,
+          "change": 40,
+          "category": "Actualité",
+          "history": [
+            65,
+            89,
+            86,
+            59,
+            54,
+            53,
+            51
+          ]
+        },
+        {
+          "keyword": "tj maxx closing",
+          "volume": 84,
+          "change": 40,
+          "category": "Actualité",
+          "history": [
+            86,
+            40,
+            77,
+            86,
+            58,
+            52,
             63
           ]
         },
         {
-          "keyword": "BBC",
-          "volume": 46,
-          "change": 5,
+          "keyword": "joey porter jr",
+          "volume": 76,
+          "change": 34,
           "category": "Actualité",
           "history": [
-            75,
-            57,
+            72,
+            53,
+            66,
             55,
-            69,
-            80,
-            70,
-            56
+            57,
+            42,
+            55
           ]
         },
         {
-          "keyword": "King Charles",
-          "volume": 39,
-          "change": 36,
+          "keyword": "sud",
+          "volume": 68,
+          "change": 32,
           "category": "Actualité",
           "history": [
-            77,
-            76,
-            44,
-            56,
-            80,
-            87,
-            79
-          ]
-        },
-        {
-          "keyword": "Brexit",
-          "volume": 32,
-          "change": 37,
-          "category": "Actualité",
-          "history": [
-            78,
-            45,
-            80,
-            81,
+            66,
             61,
-            67,
-            70
+            86,
+            64,
+            77,
+            52,
+            60
+          ]
+        },
+        {
+          "keyword": "argentina - bolivia",
+          "volume": 60,
+          "change": 54,
+          "category": "Actualité",
+          "history": [
+            49,
+            42,
+            48,
+            52,
+            56,
+            56,
+            68
+          ]
+        },
+        {
+          "keyword": "valkyries vs wings",
+          "volume": 52,
+          "change": 21,
+          "category": "Actualité",
+          "history": [
+            66,
+            74,
+            43,
+            46,
+            43,
+            89,
+            50
+          ]
+        },
+        {
+          "keyword": "state department visa crackdown donald trump",
+          "volume": 44,
+          "change": 39,
+          "category": "Actualité",
+          "history": [
+            71,
+            56,
+            86,
+            64,
+            45,
+            41,
+            43
+          ]
+        },
+        {
+          "keyword": "trump $500",
+          "volume": 36,
+          "change": 56,
+          "category": "Actualité",
+          "history": [
+            87,
+            77,
+            64,
+            53,
+            44,
+            84,
+            54
+          ]
+        },
+        {
+          "keyword": "ken",
+          "volume": 28,
+          "change": 56,
+          "category": "Actualité",
+          "history": [
+            47,
+            74,
+            80,
+            69,
+            47,
+            79,
+            80
           ]
         }
       ],
-      "updatedAt": "2026-09-30T11:25:57.064Z",
-      "source": "fallback"
+      "updatedAt": "2026-10-01T11:53:25.617Z",
+      "source": "api"
     },
     {
       "code": "DE",
@@ -492,158 +492,158 @@
       "hl": "de-DE",
       "trends": [
         {
-          "keyword": "Bundesliga",
-          "volume": 95,
-          "change": 46,
-          "category": "Sport",
+          "keyword": "christa pike execution",
+          "volume": 100,
+          "change": 36,
+          "category": "Actualité",
           "history": [
-            72,
-            47,
-            66,
-            83,
-            52,
+            55,
+            61,
+            55,
+            69,
             68,
-            70
+            49,
+            44
           ]
         },
         {
-          "keyword": "KI",
-          "volume": 88,
-          "change": 5,
+          "keyword": "argentina vs bolivia",
+          "volume": 92,
+          "change": 41,
           "category": "Actualité",
           "history": [
-            68,
-            55,
-            74,
-            41,
-            81,
+            63,
+            83,
+            62,
+            85,
+            88,
+            89,
+            84
+          ]
+        },
+        {
+          "keyword": "tj maxx closing",
+          "volume": 84,
+          "change": 21,
+          "category": "Actualité",
+          "history": [
+            51,
+            83,
+            88,
             79,
+            69,
+            41,
             66
           ]
         },
         {
-          "keyword": "Energiekosten",
-          "volume": 81,
-          "change": 20,
+          "keyword": "joey porter jr",
+          "volume": 76,
+          "change": 52,
           "category": "Actualité",
           "history": [
+            60,
+            88,
+            82,
+            83,
+            82,
+            62,
+            53
+          ]
+        },
+        {
+          "keyword": "sud",
+          "volume": 68,
+          "change": 29,
+          "category": "Actualité",
+          "history": [
+            51,
+            75,
+            41,
+            68,
+            72,
             63,
-            60,
-            57,
-            85,
-            44,
-            44,
-            46
+            70
           ]
         },
         {
-          "keyword": "Oktoberfest",
-          "volume": 74,
-          "change": 31,
-          "category": "Actualité",
-          "history": [
-            66,
-            67,
-            81,
-            74,
-            77,
-            49,
-            86
-          ]
-        },
-        {
-          "keyword": "Bundestag",
-          "volume": 67,
-          "change": 5,
-          "category": "Actualité",
-          "history": [
-            60,
-            58,
-            53,
-            50,
-            69,
-            84,
-            46
-          ]
-        },
-        {
-          "keyword": "Tesla",
+          "keyword": "argentina - bolivia",
           "volume": 60,
-          "change": 10,
+          "change": 33,
           "category": "Actualité",
           "history": [
-            51,
-            51,
-            61,
-            50,
+            49,
+            58,
+            87,
+            44,
+            47,
             65,
-            73,
-            82
+            83
           ]
         },
         {
-          "keyword": "DAX",
-          "volume": 53,
+          "keyword": "valkyries vs wings",
+          "volume": 52,
           "change": 24,
           "category": "Actualité",
           "history": [
-            70,
-            54,
-            85,
-            58,
+            76,
+            50,
+            67,
             48,
-            85,
-            51
+            79,
+            69,
+            72
           ]
         },
         {
-          "keyword": "Champions League",
-          "volume": 46,
-          "change": 33,
-          "category": "Sport",
-          "history": [
-            41,
-            58,
-            58,
-            52,
-            44,
-            83,
-            55
-          ]
-        },
-        {
-          "keyword": "Wetter",
-          "volume": 39,
-          "change": 35,
+          "keyword": "state department visa crackdown donald trump",
+          "volume": 44,
+          "change": 47,
           "category": "Actualité",
           "history": [
-            87,
-            86,
-            81,
-            59,
-            84,
-            88,
-            49
+            45,
+            45,
+            46,
+            40,
+            43,
+            80,
+            79
           ]
         },
         {
-          "keyword": "Inflation",
-          "volume": 32,
-          "change": 4,
-          "category": "Sport",
+          "keyword": "trump $500",
+          "volume": 36,
+          "change": 25,
+          "category": "Actualité",
           "history": [
-            77,
-            84,
-            46,
-            57,
-            75,
-            49,
+            90,
+            85,
+            51,
+            44,
+            58,
+            56,
+            42
+          ]
+        },
+        {
+          "keyword": "ken",
+          "volume": 28,
+          "change": 57,
+          "category": "Actualité",
+          "history": [
+            41,
+            54,
+            80,
+            45,
+            67,
+            88,
             79
           ]
         }
       ],
-      "updatedAt": "2026-09-30T11:25:58.596Z",
-      "source": "fallback"
+      "updatedAt": "2026-10-01T11:53:27.249Z",
+      "source": "api"
     },
     {
       "code": "JP",
@@ -653,158 +653,158 @@
       "hl": "ja-JP",
       "trends": [
         {
-          "keyword": "アニメ",
-          "volume": 95,
-          "change": 28,
+          "keyword": "christa pike execution",
+          "volume": 100,
+          "change": 22,
           "category": "Actualité",
           "history": [
-            68,
+            55,
             47,
-            57,
-            60,
-            63,
-            50,
-            67
+            49,
+            40,
+            59,
+            71,
+            68
           ]
         },
         {
-          "keyword": "地震",
-          "volume": 88,
-          "change": 43,
-          "category": "Actualité",
-          "history": [
-            47,
-            84,
-            67,
-            51,
-            73,
-            69,
-            76
-          ]
-        },
-        {
-          "keyword": "Nvidia",
-          "volume": 81,
-          "change": 51,
-          "category": "Actualité",
-          "history": [
-            77,
-            63,
-            79,
-            66,
-            70,
-            81,
-            73
-          ]
-        },
-        {
-          "keyword": "野球",
-          "volume": 74,
-          "change": 36,
+          "keyword": "argentina vs bolivia",
+          "volume": 92,
+          "change": 47,
           "category": "Actualité",
           "history": [
             45,
+            57,
+            53,
+            55,
+            62,
+            59,
+            69
+          ]
+        },
+        {
+          "keyword": "tj maxx closing",
+          "volume": 84,
+          "change": 48,
+          "category": "Actualité",
+          "history": [
+            72,
+            84,
+            59,
+            79,
+            49,
+            50,
+            57
+          ]
+        },
+        {
+          "keyword": "joey porter jr",
+          "volume": 76,
+          "change": 34,
+          "category": "Actualité",
+          "history": [
+            72,
+            75,
+            71,
+            69,
+            41,
+            56,
+            58
+          ]
+        },
+        {
+          "keyword": "sud",
+          "volume": 68,
+          "change": 28,
+          "category": "Actualité",
+          "history": [
+            49,
+            54,
+            42,
+            79,
+            62,
+            78,
+            85
+          ]
+        },
+        {
+          "keyword": "argentina - bolivia",
+          "volume": 60,
+          "change": 44,
+          "category": "Actualité",
+          "history": [
+            67,
+            80,
+            73,
             86,
             58,
-            85,
-            89,
-            73,
-            61
+            80,
+            64
           ]
         },
         {
-          "keyword": "ChatGPT",
-          "volume": 67,
-          "change": 34,
-          "category": "Tech",
-          "history": [
-            85,
-            66,
-            82,
-            75,
-            87,
-            90,
-            54
-          ]
-        },
-        {
-          "keyword": "花粉症",
-          "volume": 60,
-          "change": 30,
+          "keyword": "valkyries vs wings",
+          "volume": 52,
+          "change": 44,
           "category": "Actualité",
           "history": [
-            53,
-            59,
-            51,
-            69,
-            70,
-            87,
-            56
-          ]
-        },
-        {
-          "keyword": "円安",
-          "volume": 53,
-          "change": 11,
-          "category": "Actualité",
-          "history": [
-            44,
-            56,
-            61,
-            74,
-            69,
-            59,
-            83
-          ]
-        },
-        {
-          "keyword": "Netflix",
-          "volume": 46,
-          "change": 19,
-          "category": "Divertissement",
-          "history": [
-            59,
-            74,
-            87,
-            47,
-            47,
-            62,
-            41
-          ]
-        },
-        {
-          "keyword": "オリンピック",
-          "volume": 39,
-          "change": 43,
-          "category": "Actualité",
-          "history": [
-            43,
-            78,
-            46,
-            68,
-            43,
+            48,
+            79,
+            83,
+            63,
+            67,
             41,
-            55
+            46
           ]
         },
         {
-          "keyword": "選挙",
-          "volume": 32,
-          "change": 42,
+          "keyword": "state department visa crackdown donald trump",
+          "volume": 44,
+          "change": 50,
           "category": "Actualité",
           "history": [
-            47,
+            81,
+            79,
             74,
-            74,
-            43,
-            61,
+            78,
+            73,
+            78,
+            50
+          ]
+        },
+        {
+          "keyword": "trump $500",
+          "volume": 36,
+          "change": 48,
+          "category": "Actualité",
+          "history": [
+            83,
             69,
-            63
+            54,
+            41,
+            70,
+            57,
+            50
+          ]
+        },
+        {
+          "keyword": "ken",
+          "volume": 28,
+          "change": 50,
+          "category": "Actualité",
+          "history": [
+            68,
+            81,
+            77,
+            73,
+            63,
+            59,
+            46
           ]
         }
       ],
-      "updatedAt": "2026-09-30T11:26:00.130Z",
-      "source": "fallback"
+      "updatedAt": "2026-10-01T11:53:28.869Z",
+      "source": "api"
     },
     {
       "code": "BR",
@@ -814,158 +814,158 @@
       "hl": "pt-BR",
       "trends": [
         {
-          "keyword": "Futebol",
-          "volume": 95,
-          "change": 42,
+          "keyword": "christa pike execution",
+          "volume": 100,
+          "change": 51,
           "category": "Actualité",
           "history": [
-            72,
-            46,
-            70,
-            58,
-            61,
             81,
+            67,
+            69,
+            67,
+            84,
+            50,
+            73
+          ]
+        },
+        {
+          "keyword": "argentina vs bolivia",
+          "volume": 92,
+          "change": 48,
+          "category": "Actualité",
+          "history": [
+            47,
+            64,
+            65,
+            60,
+            66,
+            84,
             52
           ]
         },
         {
-          "keyword": "Carnaval",
-          "volume": 88,
-          "change": 31,
+          "keyword": "tj maxx closing",
+          "volume": 84,
+          "change": 53,
           "category": "Actualité",
           "history": [
-            54,
-            57,
-            65,
-            81,
-            58,
-            71,
-            60
-          ]
-        },
-        {
-          "keyword": "IA",
-          "volume": 81,
-          "change": 26,
-          "category": "Actualité",
-          "history": [
-            75,
-            59,
-            69,
-            74,
-            85,
-            46,
-            65
-          ]
-        },
-        {
-          "keyword": "Lula",
-          "volume": 74,
-          "change": 9,
-          "category": "Actualité",
-          "history": [
-            50,
-            48,
             79,
-            87,
-            85,
-            88,
-            43
-          ]
-        },
-        {
-          "keyword": "Dólar",
-          "volume": 67,
-          "change": 23,
-          "category": "Actualité",
-          "history": [
-            70,
-            42,
-            85,
-            61,
-            66,
-            72,
-            46
-          ]
-        },
-        {
-          "keyword": "Dengue",
-          "volume": 60,
-          "change": 42,
-          "category": "Santé",
-          "history": [
-            61,
-            47,
-            78,
-            87,
-            68,
-            44,
-            72
-          ]
-        },
-        {
-          "keyword": "Netflix",
-          "volume": 53,
-          "change": 25,
-          "category": "Divertissement",
-          "history": [
-            40,
-            87,
-            60,
-            54,
+            62,
+            82,
+            59,
             48,
             83,
-            68
+            62
           ]
         },
         {
-          "keyword": "Bitcoin",
-          "volume": 46,
-          "change": 13,
-          "category": "Économie",
-          "history": [
-            56,
-            77,
-            63,
-            43,
-            72,
-            41,
-            54
-          ]
-        },
-        {
-          "keyword": "Neymar",
-          "volume": 39,
-          "change": 51,
+          "keyword": "joey porter jr",
+          "volume": 76,
+          "change": 27,
           "category": "Actualité",
           "history": [
-            70,
-            47,
-            70,
-            88,
-            57,
-            66,
-            69
+            61,
+            49,
+            86,
+            41,
+            42,
+            42,
+            87
           ]
         },
         {
-          "keyword": "ChatGPT",
-          "volume": 32,
-          "change": 5,
-          "category": "Tech",
+          "keyword": "sud",
+          "volume": 68,
+          "change": 44,
+          "category": "Actualité",
           "history": [
-            47,
-            69,
-            72,
-            42,
-            57,
-            48,
+            74,
+            88,
+            88,
+            85,
+            44,
+            50,
+            41
+          ]
+        },
+        {
+          "keyword": "argentina - bolivia",
+          "volume": 60,
+          "change": 54,
+          "category": "Actualité",
+          "history": [
+            61,
+            54,
+            75,
+            62,
+            46,
+            50,
+            67
+          ]
+        },
+        {
+          "keyword": "valkyries vs wings",
+          "volume": 52,
+          "change": 41,
+          "category": "Actualité",
+          "history": [
+            62,
+            79,
+            41,
+            67,
+            71,
+            70,
+            74
+          ]
+        },
+        {
+          "keyword": "state department visa crackdown donald trump",
+          "volume": 44,
+          "change": 43,
+          "category": "Actualité",
+          "history": [
+            77,
+            84,
+            59,
+            41,
+            81,
+            56,
+            88
+          ]
+        },
+        {
+          "keyword": "trump $500",
+          "volume": 36,
+          "change": 39,
+          "category": "Actualité",
+          "history": [
+            60,
+            77,
+            75,
+            84,
+            85,
+            53,
             86
+          ]
+        },
+        {
+          "keyword": "ken",
+          "volume": 28,
+          "change": 27,
+          "category": "Actualité",
+          "history": [
+            74,
+            67,
+            72,
+            73,
+            46,
+            45,
+            49
           ]
         }
       ],
-      "updatedAt": "2026-09-30T11:26:01.662Z",
-      "source": "fallback"
+      "updatedAt": "2026-10-01T11:53:30.490Z",
+      "source": "api"
     },
     {
       "code": "IN",
@@ -975,158 +975,158 @@
       "hl": "en-IN",
       "trends": [
         {
-          "keyword": "Cricket IPL",
-          "volume": 95,
-          "change": 46,
-          "category": "Sport",
+          "keyword": "christa pike execution",
+          "volume": 100,
+          "change": 33,
+          "category": "Actualité",
           "history": [
-            47,
-            69,
-            44,
-            90,
-            54,
-            41,
-            49
-          ]
-        },
-        {
-          "keyword": "AI Jobs",
-          "volume": 88,
-          "change": 48,
-          "category": "Tech",
-          "history": [
-            87,
-            71,
-            83,
-            76,
+            77,
             85,
-            41,
-            47
+            71,
+            43,
+            40,
+            81,
+            46
           ]
         },
         {
-          "keyword": "Monsoon",
-          "volume": 81,
-          "change": 50,
+          "keyword": "argentina vs bolivia",
+          "volume": 92,
+          "change": 28,
           "category": "Actualité",
           "history": [
-            62,
+            50,
+            43,
+            49,
+            73,
+            55,
+            57,
+            46
+          ]
+        },
+        {
+          "keyword": "tj maxx closing",
+          "volume": 84,
+          "change": 48,
+          "category": "Actualité",
+          "history": [
             59,
-            82,
-            51,
-            48,
-            80,
-            59
+            49,
+            78,
+            77,
+            67,
+            54,
+            90
           ]
         },
         {
-          "keyword": "Modi",
-          "volume": 74,
-          "change": 45,
+          "keyword": "joey porter jr",
+          "volume": 76,
+          "change": 36,
           "category": "Actualité",
           "history": [
-            66,
-            76,
-            47,
-            42,
-            80,
-            65,
-            40
+            58,
+            69,
+            53,
+            84,
+            68,
+            64,
+            43
           ]
         },
         {
-          "keyword": "Bollywood",
-          "volume": 67,
+          "keyword": "sud",
+          "volume": 68,
           "change": 49,
           "category": "Actualité",
           "history": [
-            54,
-            67,
+            42,
             61,
-            57,
-            84,
-            54,
-            86
+            68,
+            88,
+            81,
+            78,
+            79
           ]
         },
         {
-          "keyword": "Sensex",
+          "keyword": "argentina - bolivia",
           "volume": 60,
-          "change": 14,
+          "change": 36,
           "category": "Actualité",
           "history": [
-            70,
-            40,
             86,
-            84,
-            54,
-            72,
-            77
-          ]
-        },
-        {
-          "keyword": "ChatGPT",
-          "volume": 53,
-          "change": 9,
-          "category": "Tech",
-          "history": [
-            84,
-            74,
-            55,
-            45,
-            88,
-            80,
-            76
-          ]
-        },
-        {
-          "keyword": "Dengue",
-          "volume": 46,
-          "change": 48,
-          "category": "Santé",
-          "history": [
-            70,
-            79,
-            89,
-            66,
+            61,
+            73,
             41,
-            44,
+            67,
+            72,
+            71
+          ]
+        },
+        {
+          "keyword": "valkyries vs wings",
+          "volume": 52,
+          "change": 46,
+          "category": "Actualité",
+          "history": [
+            80,
+            56,
+            65,
+            66,
+            45,
+            85,
+            43
+          ]
+        },
+        {
+          "keyword": "state department visa crackdown donald trump",
+          "volume": 44,
+          "change": 22,
+          "category": "Actualité",
+          "history": [
+            59,
+            54,
+            58,
+            80,
+            83,
+            84,
+            55
+          ]
+        },
+        {
+          "keyword": "trump $500",
+          "volume": 36,
+          "change": 46,
+          "category": "Actualité",
+          "history": [
+            71,
+            81,
+            45,
+            57,
+            53,
+            81,
             65
           ]
         },
         {
-          "keyword": "Rupee",
-          "volume": 39,
-          "change": 31,
-          "category": "Économie",
-          "history": [
-            40,
-            58,
-            83,
-            88,
-            67,
-            61,
-            49
-          ]
-        },
-        {
-          "keyword": "Yoga",
-          "volume": 32,
-          "change": 30,
+          "keyword": "ken",
+          "volume": 28,
+          "change": 33,
           "category": "Actualité",
           "history": [
+            84,
+            57,
+            54,
             58,
-            83,
-            71,
-            46,
-            48,
-            88,
-            85
+            42,
+            82,
+            72
           ]
         }
       ],
-      "updatedAt": "2026-09-30T11:26:03.194Z",
-      "source": "fallback"
+      "updatedAt": "2026-10-01T11:53:32.257Z",
+      "source": "api"
     },
     {
       "code": "KR",
@@ -1136,158 +1136,158 @@
       "hl": "ko-KR",
       "trends": [
         {
-          "keyword": "K-드라마",
-          "volume": 95,
-          "change": 5,
+          "keyword": "christa pike execution",
+          "volume": 100,
+          "change": 47,
           "category": "Actualité",
           "history": [
-            55,
-            59,
-            57,
-            64,
-            46,
-            61,
-            60
-          ]
-        },
-        {
-          "keyword": "삼성",
-          "volume": 88,
-          "change": 36,
-          "category": "Actualité",
-          "history": [
-            48,
-            82,
-            83,
-            52,
-            88,
-            43,
-            82
-          ]
-        },
-        {
-          "keyword": "BTS",
-          "volume": 81,
-          "change": 12,
-          "category": "Divertissement",
-          "history": [
-            45,
-            77,
-            78,
-            78,
-            44,
-            54,
-            60
-          ]
-        },
-        {
-          "keyword": "코스피",
-          "volume": 74,
-          "change": 17,
-          "category": "Actualité",
-          "history": [
-            62,
-            48,
-            67,
-            49,
+            87,
+            71,
+            58,
             50,
-            54,
-            67
+            75,
+            84,
+            40
           ]
         },
         {
-          "keyword": "손흥민",
-          "volume": 67,
-          "change": 51,
+          "keyword": "argentina vs bolivia",
+          "volume": 92,
+          "change": 27,
           "category": "Actualité",
           "history": [
             41,
-            69,
-            46,
-            89,
             58,
-            54,
-            46
+            60,
+            63,
+            49,
+            86,
+            45
           ]
         },
         {
-          "keyword": "ChatGPT",
-          "volume": 60,
-          "change": 9,
-          "category": "Tech",
+          "keyword": "tj maxx closing",
+          "volume": 84,
+          "change": 21,
+          "category": "Actualité",
           "history": [
-            58,
-            63,
+            53,
+            89,
+            68,
             68,
             87,
-            87,
-            67,
-            70
+            69,
+            56
           ]
         },
         {
-          "keyword": "부동산",
-          "volume": 53,
+          "keyword": "joey porter jr",
+          "volume": 76,
+          "change": 43,
+          "category": "Actualité",
+          "history": [
+            62,
+            53,
+            72,
+            83,
+            60,
+            48,
+            48
+          ]
+        },
+        {
+          "keyword": "sud",
+          "volume": 68,
           "change": 32,
           "category": "Actualité",
           "history": [
             77,
-            62,
-            80,
-            50,
-            69,
-            83,
-            68
+            77,
+            56,
+            46,
+            88,
+            60,
+            53
           ]
         },
         {
-          "keyword": "건강",
-          "volume": 46,
+          "keyword": "argentina - bolivia",
+          "volume": 60,
           "change": 38,
           "category": "Actualité",
           "history": [
-            77,
-            51,
-            42,
-            68,
-            58,
-            40,
-            50
-          ]
-        },
-        {
-          "keyword": "선거",
-          "volume": 39,
-          "change": 14,
-          "category": "Actualité",
-          "history": [
-            65,
-            52,
-            50,
-            60,
-            74,
-            43,
-            64
-          ]
-        },
-        {
-          "keyword": "넷플릭스",
-          "volume": 32,
-          "change": 43,
-          "category": "Actualité",
-          "history": [
-            83,
+            70,
+            87,
             85,
-            62,
-            69,
-            57,
-            49,
-            68
+            82,
+            89,
+            70,
+            82
+          ]
+        },
+        {
+          "keyword": "valkyries vs wings",
+          "volume": 52,
+          "change": 27,
+          "category": "Actualité",
+          "history": [
+            54,
+            54,
+            80,
+            47,
+            89,
+            51,
+            67
+          ]
+        },
+        {
+          "keyword": "state department visa crackdown donald trump",
+          "volume": 44,
+          "change": 53,
+          "category": "Actualité",
+          "history": [
+            73,
+            64,
+            43,
+            59,
+            52,
+            54,
+            71
+          ]
+        },
+        {
+          "keyword": "trump $500",
+          "volume": 36,
+          "change": 41,
+          "category": "Actualité",
+          "history": [
+            72,
+            77,
+            54,
+            60,
+            73,
+            68,
+            74
+          ]
+        },
+        {
+          "keyword": "ken",
+          "volume": 28,
+          "change": 58,
+          "category": "Actualité",
+          "history": [
+            64,
+            85,
+            43,
+            54,
+            63,
+            89,
+            89
           ]
         }
       ],
-      "updatedAt": "2026-09-30T11:26:04.725Z",
-      "source": "fallback"
+      "updatedAt": "2026-10-01T11:53:33.936Z",
+      "source": "api"
     },
     {
       "code": "MX",
@@ -1297,158 +1297,158 @@
       "hl": "es-MX",
       "trends": [
         {
-          "keyword": "Liga MX",
-          "volume": 95,
-          "change": 49,
-          "category": "Sport",
-          "history": [
-            66,
-            70,
-            40,
-            78,
-            41,
-            76,
-            77
-          ]
-        },
-        {
-          "keyword": "Sheinbaum",
-          "volume": 88,
-          "change": 48,
-          "category": "Sport",
-          "history": [
-            63,
-            65,
-            75,
-            80,
-            63,
-            76,
-            45
-          ]
-        },
-        {
-          "keyword": "Peso",
-          "volume": 81,
-          "change": 31,
-          "category": "Économie",
-          "history": [
-            49,
-            55,
-            44,
-            71,
-            67,
-            47,
-            70
-          ]
-        },
-        {
-          "keyword": "Narcos",
-          "volume": 74,
-          "change": 39,
+          "keyword": "christa pike execution",
+          "volume": 100,
+          "change": 54,
           "category": "Actualité",
           "history": [
-            73,
-            45,
-            50,
-            60,
-            76,
-            71,
-            56
-          ]
-        },
-        {
-          "keyword": "IA",
-          "volume": 67,
-          "change": 6,
-          "category": "Actualité",
-          "history": [
-            78,
-            66,
-            75,
-            67,
-            44,
-            51,
-            72
-          ]
-        },
-        {
-          "keyword": "Telenovela",
-          "volume": 60,
-          "change": 17,
-          "category": "Actualité",
-          "history": [
-            71,
-            58,
-            57,
-            83,
-            54,
-            70,
-            66
-          ]
-        },
-        {
-          "keyword": "Diabetes",
-          "volume": 53,
-          "change": 23,
-          "category": "Actualité",
-          "history": [
-            49,
-            89,
             86,
-            64,
-            81,
-            81,
-            75
+            53,
+            53,
+            76,
+            80,
+            41,
+            81
           ]
         },
         {
-          "keyword": "Bitcoin",
-          "volume": 46,
-          "change": 24,
-          "category": "Économie",
+          "keyword": "argentina vs bolivia",
+          "volume": 92,
+          "change": 25,
+          "category": "Actualité",
           "history": [
-            78,
-            77,
+            81,
+            85,
+            54,
+            84,
+            47,
+            45,
+            49
+          ]
+        },
+        {
+          "keyword": "tj maxx closing",
+          "volume": 84,
+          "change": 34,
+          "category": "Actualité",
+          "history": [
+            81,
+            55,
+            84,
+            55,
+            60,
+            63,
+            86
+          ]
+        },
+        {
+          "keyword": "joey porter jr",
+          "volume": 76,
+          "change": 42,
+          "category": "Actualité",
+          "history": [
             58,
-            72,
             52,
-            41,
+            54,
+            53,
+            45,
+            76,
             55
           ]
         },
         {
-          "keyword": "Copa",
-          "volume": 39,
-          "change": 26,
+          "keyword": "sud",
+          "volume": 68,
+          "change": 53,
           "category": "Actualité",
           "history": [
-            50,
-            88,
-            60,
-            67,
-            75,
-            75,
-            72
+            73,
+            87,
+            56,
+            48,
+            90,
+            90,
+            70
           ]
         },
         {
-          "keyword": "ChatGPT",
-          "volume": 32,
-          "change": 50,
-          "category": "Tech",
+          "keyword": "argentina - bolivia",
+          "volume": 60,
+          "change": 36,
+          "category": "Actualité",
           "history": [
-            60,
-            55,
             66,
-            60,
-            52,
-            53,
-            41
+            47,
+            85,
+            56,
+            62,
+            78,
+            69
+          ]
+        },
+        {
+          "keyword": "valkyries vs wings",
+          "volume": 52,
+          "change": 34,
+          "category": "Actualité",
+          "history": [
+            77,
+            61,
+            47,
+            46,
+            80,
+            59,
+            45
+          ]
+        },
+        {
+          "keyword": "state department visa crackdown donald trump",
+          "volume": 44,
+          "change": 45,
+          "category": "Actualité",
+          "history": [
+            82,
+            64,
+            50,
+            70,
+            47,
+            73,
+            59
+          ]
+        },
+        {
+          "keyword": "trump $500",
+          "volume": 36,
+          "change": 34,
+          "category": "Actualité",
+          "history": [
+            56,
+            57,
+            69,
+            51,
+            79,
+            77,
+            73
+          ]
+        },
+        {
+          "keyword": "ken",
+          "volume": 28,
+          "change": 29,
+          "category": "Actualité",
+          "history": [
+            67,
+            83,
+            79,
+            70,
+            81,
+            40,
+            52
           ]
         }
       ],
-      "updatedAt": "2026-09-30T11:26:06.255Z",
-      "source": "fallback"
+      "updatedAt": "2026-10-01T11:53:35.544Z",
+      "source": "api"
     },
     {
       "code": "NG",
@@ -1458,158 +1458,158 @@
       "hl": "en-NG",
       "trends": [
         {
-          "keyword": "AFCON",
-          "volume": 95,
-          "change": 17,
+          "keyword": "christa pike execution",
+          "volume": 100,
+          "change": 55,
           "category": "Actualité",
           "history": [
-            66,
-            44,
-            62,
-            74,
-            66,
-            75,
-            72
+            88,
+            81,
+            85,
+            77,
+            71,
+            69,
+            84
           ]
         },
         {
-          "keyword": "Naira",
-          "volume": 88,
-          "change": 42,
-          "category": "Tech",
-          "history": [
-            70,
-            42,
-            41,
-            62,
-            50,
-            72,
-            90
-          ]
-        },
-        {
-          "keyword": "Afrobeats",
-          "volume": 81,
-          "change": 27,
+          "keyword": "argentina vs bolivia",
+          "volume": 92,
+          "change": 36,
           "category": "Actualité",
           "history": [
-            59,
-            86,
+            57,
+            67,
             61,
-            66,
-            80,
+            51,
+            83,
+            48,
+            86
+          ]
+        },
+        {
+          "keyword": "tj maxx closing",
+          "volume": 84,
+          "change": 36,
+          "category": "Actualité",
+          "history": [
             43,
+            64,
+            62,
+            66,
+            63,
+            56,
+            44
+          ]
+        },
+        {
+          "keyword": "joey porter jr",
+          "volume": 76,
+          "change": 22,
+          "category": "Actualité",
+          "history": [
+            46,
+            86,
+            55,
+            44,
+            84,
+            66,
+            83
+          ]
+        },
+        {
+          "keyword": "sud",
+          "volume": 68,
+          "change": 40,
+          "category": "Actualité",
+          "history": [
+            82,
+            45,
+            67,
+            83,
+            86,
+            43,
+            67
+          ]
+        },
+        {
+          "keyword": "argentina - bolivia",
+          "volume": 60,
+          "change": 28,
+          "category": "Actualité",
+          "history": [
+            60,
+            51,
+            43,
+            44,
+            80,
+            80,
             43
           ]
         },
         {
-          "keyword": "Fintech",
-          "volume": 74,
-          "change": 44,
-          "category": "Tech",
-          "history": [
-            79,
-            45,
-            83,
-            62,
-            48,
-            44,
-            72
-          ]
-        },
-        {
-          "keyword": "Tinubu",
-          "volume": 67,
-          "change": 14,
+          "keyword": "valkyries vs wings",
+          "volume": 52,
+          "change": 28,
           "category": "Actualité",
           "history": [
-            44,
-            49,
-            52,
-            45,
-            52,
-            53,
-            69
-          ]
-        },
-        {
-          "keyword": "Nollywood",
-          "volume": 60,
-          "change": 4,
-          "category": "Actualité",
-          "history": [
-            64,
-            62,
-            56,
-            54,
-            66,
-            89,
-            68
-          ]
-        },
-        {
-          "keyword": "Malaria",
-          "volume": 53,
-          "change": 26,
-          "category": "Actualité",
-          "history": [
-            64,
-            63,
-            86,
-            89,
-            66,
-            60,
-            77
-          ]
-        },
-        {
-          "keyword": "Bitcoin",
-          "volume": 46,
-          "change": 46,
-          "category": "Économie",
-          "history": [
-            77,
-            48,
-            43,
-            68,
-            58,
-            51,
-            82
-          ]
-        },
-        {
-          "keyword": "AI Africa",
-          "volume": 39,
-          "change": 9,
-          "category": "Tech",
-          "history": [
-            52,
-            55,
-            42,
-            86,
-            53,
-            84,
-            46
-          ]
-        },
-        {
-          "keyword": "Lagos",
-          "volume": 32,
-          "change": 20,
-          "category": "Actualité",
-          "history": [
-            78,
-            43,
-            78,
+            81,
+            65,
+            73,
             57,
-            88,
-            64,
+            78,
+            52,
             73
+          ]
+        },
+        {
+          "keyword": "state department visa crackdown donald trump",
+          "volume": 44,
+          "change": 27,
+          "category": "Actualité",
+          "history": [
+            62,
+            73,
+            52,
+            85,
+            71,
+            42,
+            84
+          ]
+        },
+        {
+          "keyword": "trump $500",
+          "volume": 36,
+          "change": 55,
+          "category": "Actualité",
+          "history": [
+            85,
+            55,
+            60,
+            82,
+            57,
+            61,
+            41
+          ]
+        },
+        {
+          "keyword": "ken",
+          "volume": 28,
+          "change": 45,
+          "category": "Actualité",
+          "history": [
+            88,
+            73,
+            71,
+            57,
+            82,
+            69,
+            57
           ]
         }
       ],
-      "updatedAt": "2026-09-30T11:26:07.788Z",
-      "source": "fallback"
+      "updatedAt": "2026-10-01T11:53:37.159Z",
+      "source": "api"
     }
   ]
 }

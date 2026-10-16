@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T10:25:09.191Z",
+  "generatedAt": "2026-10-16T10:12:35.136Z",
   "countries": [
     {
       "code": "FR",
@@ -14,118 +14,118 @@
           "change": 27,
           "category": "Actualité",
           "history": [
-            63,
-            56,
+            65,
             79,
-            69,
-            74,
-            83,
-            42
+            42,
+            50,
+            63,
+            63,
+            72
           ]
         },
         {
           "keyword": "IA générative",
           "volume": 88,
-          "change": 21,
+          "change": 27,
           "category": "Actualité",
           "history": [
-            89,
-            65,
-            49,
-            69,
-            84,
-            53,
-            79
+            79,
+            79,
+            78,
+            58,
+            47,
+            55,
+            71
           ]
         },
         {
           "keyword": "Météo Paris",
           "volume": 81,
-          "change": 18,
+          "change": 27,
           "category": "Actualité",
           "history": [
-            87,
-            80,
-            41,
+            84,
+            62,
             76,
-            90,
-            86,
-            42
+            61,
+            73,
+            63,
+            48
           ]
         },
         {
           "keyword": "Netflix",
           "volume": 74,
-          "change": 6,
+          "change": 46,
           "category": "Divertissement",
           "history": [
-            74,
-            86,
-            84,
-            86,
-            56,
-            42,
-            52
+            83,
+            83,
+            62,
+            87,
+            47,
+            68,
+            47
           ]
         },
         {
           "keyword": "CAC 40",
           "volume": 67,
-          "change": 40,
+          "change": 37,
           "category": "Actualité",
           "history": [
-            90,
-            55,
-            64,
-            52,
-            53,
-            77,
-            86
+            83,
+            41,
+            73,
+            61,
+            75,
+            60,
+            88
           ]
         },
         {
           "keyword": "Roland Garros",
           "volume": 60,
-          "change": 33,
+          "change": 2,
           "category": "Actualité",
           "history": [
-            69,
-            65,
-            72,
-            47,
             64,
-            66,
-            82
+            78,
+            82,
+            52,
+            55,
+            56,
+            64
           ]
         },
         {
           "keyword": "ChatGPT",
           "volume": 53,
-          "change": 18,
+          "change": 31,
           "category": "Tech",
           "history": [
-            71,
-            87,
-            87,
+            41,
             66,
-            43,
-            80,
-            75
+            53,
+            61,
+            63,
+            74,
+            80
           ]
         },
         {
           "keyword": "Inflation",
           "volume": 46,
-          "change": 14,
+          "change": 27,
           "category": "Sport",
           "history": [
-            42,
-            60,
-            86,
-            50,
-            59,
-            49,
-            66
+            84,
+            84,
+            57,
+            75,
+            90,
+            52,
+            81
           ]
         },
         {
@@ -134,32 +134,32 @@
           "change": 45,
           "category": "Actualité",
           "history": [
-            69,
-            56,
-            56,
-            42,
-            58,
-            69,
-            76
+            68,
+            64,
+            46,
+            49,
+            77,
+            72,
+            41
           ]
         },
         {
           "keyword": "Macron",
           "volume": 32,
-          "change": 7,
+          "change": 34,
           "category": "Actualité",
           "history": [
-            46,
-            69,
-            49,
-            46,
+            80,
+            82,
+            81,
+            80,
             74,
-            47,
-            47
+            72,
+            80
           ]
         }
       ],
-      "updatedAt": "2026-10-15T10:24:53.988Z",
+      "updatedAt": "2026-10-16T10:12:19.965Z",
       "source": "fallback"
     },
     {
@@ -172,155 +172,155 @@
         {
           "keyword": "NBA",
           "volume": 95,
-          "change": 18,
+          "change": 34,
           "category": "Sport",
           "history": [
-            87,
-            56,
-            46,
+            68,
+            86,
+            86,
+            67,
+            86,
             69,
-            43,
-            52,
-            73
+            47
           ]
         },
         {
           "keyword": "GPT-5",
           "volume": 88,
-          "change": 35,
+          "change": 42,
           "category": "Actualité",
           "history": [
-            48,
-            89,
-            48,
+            66,
+            79,
+            86,
             67,
-            69,
-            90,
-            60
+            41,
+            65,
+            80
           ]
         },
         {
           "keyword": "Taylor Swift",
           "volume": 81,
-          "change": 20,
+          "change": 45,
           "category": "Actualité",
           "history": [
-            56,
-            49,
-            51,
-            50,
+            73,
+            41,
+            54,
             68,
-            76,
-            69
+            67,
+            75,
+            43
           ]
         },
         {
           "keyword": "Stock market",
           "volume": 74,
-          "change": 32,
+          "change": 3,
           "category": "Économie",
           "history": [
             74,
-            65,
-            49,
-            79,
             45,
-            43,
-            65
+            64,
+            80,
+            51,
+            74,
+            49
           ]
         },
         {
           "keyword": "Hurricane",
           "volume": 67,
-          "change": 11,
+          "change": 49,
           "category": "Actualité",
           "history": [
-            56,
-            58,
-            87,
-            64,
-            88,
-            73,
-            78
+            69,
+            63,
+            83,
+            78,
+            47,
+            75,
+            52
           ]
         },
         {
           "keyword": "Apple",
           "volume": 60,
-          "change": 20,
+          "change": 18,
           "category": "Tech",
           "history": [
-            90,
-            87,
-            51,
-            85,
-            47,
-            70,
-            68
+            60,
+            43,
+            48,
+            63,
+            57,
+            56,
+            79
           ]
         },
         {
           "keyword": "Immigration",
           "volume": 53,
-          "change": 34,
+          "change": 45,
           "category": "Actualité",
           "history": [
-            78,
-            64,
-            89,
-            78,
-            47,
-            85,
-            50
+            81,
+            84,
+            42,
+            73,
+            52,
+            60,
+            47
           ]
         },
         {
           "keyword": "Bitcoin",
           "volume": 46,
-          "change": 32,
+          "change": 13,
           "category": "Économie",
           "history": [
-            71,
-            49,
-            48,
-            81,
-            41,
-            54,
-            40
+            51,
+            59,
+            86,
+            86,
+            68,
+            69,
+            73
           ]
         },
         {
           "keyword": "Super Bowl",
           "volume": 39,
-          "change": 9,
+          "change": 4,
           "category": "Actualité",
           "history": [
-            46,
-            67,
-            52,
-            84,
-            40,
-            66,
-            82
+            47,
+            75,
+            77,
+            49,
+            41,
+            57,
+            83
           ]
         },
         {
           "keyword": "Netflix",
           "volume": 32,
-          "change": 39,
+          "change": 27,
           "category": "Divertissement",
           "history": [
-            49,
-            45,
+            40,
+            56,
+            61,
+            55,
+            75,
             80,
-            87,
-            45,
-            63,
-            51
+            59
           ]
         }
       ],
-      "updatedAt": "2026-10-15T10:24:55.510Z",
+      "updatedAt": "2026-10-16T10:12:21.491Z",
       "source": "fallback"
     },
     {
@@ -333,155 +333,155 @@
         {
           "keyword": "Premier League",
           "volume": 95,
-          "change": 49,
+          "change": 32,
           "category": "Sport",
           "history": [
+            47,
             56,
-            41,
-            52,
-            49,
-            52,
-            60,
-            56
+            87,
+            43,
+            56,
+            44,
+            41
           ]
         },
         {
           "keyword": "NHS",
           "volume": 88,
-          "change": 6,
+          "change": 11,
           "category": "Actualité",
           "history": [
-            77,
-            77,
-            72,
-            74,
-            84,
-            56,
-            66
+            59,
+            81,
+            82,
+            57,
+            54,
+            62,
+            71
           ]
         },
         {
           "keyword": "AI regulation",
           "volume": 81,
-          "change": 39,
+          "change": 14,
           "category": "Tech",
           "history": [
-            90,
-            57,
-            49,
             62,
-            78,
-            58,
-            67
+            60,
+            69,
+            67,
+            56,
+            84,
+            76
           ]
         },
         {
           "keyword": "Cost of living",
           "volume": 74,
-          "change": 42,
+          "change": 22,
           "category": "Actualité",
           "history": [
-            84,
-            61,
-            75,
-            70,
-            66,
-            65,
-            82
+            57,
+            53,
+            87,
+            52,
+            56,
+            68,
+            69
           ]
         },
         {
           "keyword": "Wimbledon",
           "volume": 67,
-          "change": 21,
+          "change": 49,
           "category": "Actualité",
           "history": [
-            65,
-            80,
-            80,
-            51,
-            52,
-            59,
-            86
+            63,
+            58,
+            81,
+            88,
+            61,
+            62,
+            89
           ]
         },
         {
           "keyword": "FTSE",
           "volume": 60,
-          "change": 28,
+          "change": 15,
           "category": "Actualité",
           "history": [
-            49,
-            61,
-            63,
-            56,
-            50,
             54,
-            68
+            82,
+            57,
+            51,
+            71,
+            58,
+            69
           ]
         },
         {
           "keyword": "Labour Party",
           "volume": 53,
-          "change": 51,
+          "change": 18,
           "category": "Actualité",
           "history": [
-            83,
-            54,
-            76,
-            67,
-            84,
-            53,
-            61
+            46,
+            61,
+            41,
+            74,
+            86,
+            82,
+            43
           ]
         },
         {
           "keyword": "BBC",
           "volume": 46,
-          "change": 14,
+          "change": 47,
           "category": "Actualité",
           "history": [
-            48,
-            84,
-            54,
-            66,
-            42,
-            71,
-            67
+            87,
+            41,
+            88,
+            45,
+            52,
+            57,
+            80
           ]
         },
         {
           "keyword": "King Charles",
           "volume": 39,
-          "change": 30,
+          "change": 19,
           "category": "Actualité",
           "history": [
-            70,
-            45,
-            63,
-            65,
-            88,
+            85,
+            52,
+            62,
             78,
-            77
+            46,
+            63,
+            69
           ]
         },
         {
           "keyword": "Brexit",
           "volume": 32,
-          "change": 10,
+          "change": 14,
           "category": "Actualité",
           "history": [
-            65,
-            70,
-            41,
-            50,
+            83,
+            75,
+            69,
             78,
-            58,
-            87
+            85,
+            88,
+            44
           ]
         }
       ],
-      "updatedAt": "2026-10-15T10:24:57.026Z",
+      "updatedAt": "2026-10-16T10:12:23.011Z",
       "source": "fallback"
     },
     {
@@ -494,155 +494,155 @@
         {
           "keyword": "Bundesliga",
           "volume": 95,
-          "change": 17,
+          "change": 51,
           "category": "Sport",
           "history": [
-            54,
-            52,
-            75,
-            69,
-            55,
+            76,
+            80,
             82,
-            69
+            82,
+            47,
+            57,
+            85
           ]
         },
         {
           "keyword": "KI",
           "volume": 88,
-          "change": 12,
+          "change": 28,
           "category": "Actualité",
           "history": [
-            83,
-            41,
-            78,
-            43,
-            41,
-            76,
-            85
+            42,
+            56,
+            61,
+            58,
+            55,
+            73,
+            83
           ]
         },
         {
           "keyword": "Energiekosten",
           "volume": 81,
-          "change": 15,
+          "change": 46,
           "category": "Actualité",
           "history": [
-            76,
-            44,
-            63,
-            73,
-            82,
-            57,
-            87
+            60,
+            77,
+            56,
+            88,
+            59,
+            77,
+            77
           ]
         },
         {
           "keyword": "Oktoberfest",
           "volume": 74,
-          "change": 47,
+          "change": 18,
           "category": "Actualité",
           "history": [
-            86,
-            59,
-            72,
-            68,
-            83,
-            53,
-            68
+            69,
+            63,
+            57,
+            42,
+            60,
+            76,
+            53
           ]
         },
         {
           "keyword": "Bundestag",
           "volume": 67,
-          "change": 22,
+          "change": 32,
           "category": "Actualité",
           "history": [
-            45,
-            60,
-            60,
-            41,
-            50,
-            72,
-            56
+            58,
+            48,
+            46,
+            89,
+            87,
+            71,
+            67
           ]
         },
         {
           "keyword": "Tesla",
           "volume": 60,
-          "change": 30,
+          "change": 13,
           "category": "Actualité",
           "history": [
-            82,
-            66,
-            73,
-            85,
-            59,
-            73,
-            82
+            51,
+            68,
+            86,
+            69,
+            78,
+            70,
+            41
           ]
         },
         {
           "keyword": "DAX",
           "volume": 53,
-          "change": 39,
+          "change": 3,
           "category": "Actualité",
           "history": [
-            70,
-            51,
-            58,
-            67,
-            79,
-            65,
-            41
+            61,
+            64,
+            52,
+            45,
+            49,
+            72,
+            55
           ]
         },
         {
           "keyword": "Champions League",
           "volume": 46,
-          "change": 48,
+          "change": 27,
           "category": "Sport",
           "history": [
-            75,
-            83,
-            54,
-            51,
-            68,
+            62,
+            78,
+            79,
+            50,
             55,
-            56
+            48,
+            66
           ]
         },
         {
           "keyword": "Wetter",
           "volume": 39,
-          "change": 32,
+          "change": 26,
           "category": "Actualité",
           "history": [
-            66,
-            58,
-            85,
-            65,
-            48,
-            41,
-            42
+            90,
+            88,
+            78,
+            46,
+            51,
+            45,
+            51
           ]
         },
         {
           "keyword": "Inflation",
           "volume": 32,
-          "change": 39,
+          "change": 2,
           "category": "Sport",
           "history": [
-            71,
-            60,
-            78,
-            52,
-            76,
-            55,
-            77
+            42,
+            86,
+            41,
+            83,
+            75,
+            58,
+            87
           ]
         }
       ],
-      "updatedAt": "2026-10-15T10:24:58.551Z",
+      "updatedAt": "2026-10-16T10:12:24.534Z",
       "source": "fallback"
     },
     {
@@ -655,155 +655,155 @@
         {
           "keyword": "アニメ",
           "volume": 95,
-          "change": 22,
+          "change": 49,
           "category": "Actualité",
           "history": [
-            81,
-            83,
-            72,
-            51,
-            83,
-            48,
-            66
+            57,
+            42,
+            73,
+            76,
+            68,
+            74,
+            40
           ]
         },
         {
           "keyword": "地震",
           "volume": 88,
-          "change": 21,
+          "change": 15,
           "category": "Actualité",
           "history": [
-            40,
-            69,
-            59,
-            41,
-            88,
-            61,
-            82
+            51,
+            85,
+            63,
+            81,
+            58,
+            73,
+            80
           ]
         },
         {
           "keyword": "Nvidia",
           "volume": 81,
-          "change": 6,
+          "change": 50,
           "category": "Actualité",
           "history": [
-            88,
             80,
-            51,
-            86,
-            47,
-            90,
-            49
+            48,
+            65,
+            61,
+            57,
+            80,
+            42
           ]
         },
         {
           "keyword": "野球",
           "volume": 74,
-          "change": 26,
+          "change": 44,
           "category": "Actualité",
           "history": [
-            52,
-            75,
-            58,
+            78,
             56,
-            52,
-            80,
-            70
+            48,
+            84,
+            45,
+            49,
+            47
           ]
         },
         {
           "keyword": "ChatGPT",
           "volume": 67,
-          "change": 8,
+          "change": 35,
           "category": "Tech",
           "history": [
-            52,
+            65,
+            47,
+            81,
+            55,
             69,
-            75,
-            90,
-            72,
-            57,
-            68
+            45,
+            78
           ]
         },
         {
           "keyword": "花粉症",
           "volume": 60,
-          "change": 19,
+          "change": 22,
           "category": "Actualité",
           "history": [
-            84,
-            72,
-            59,
-            52,
-            90,
-            85,
-            88
+            56,
+            68,
+            81,
+            58,
+            87,
+            43,
+            52
           ]
         },
         {
           "keyword": "円安",
           "volume": 53,
-          "change": 35,
+          "change": 28,
           "category": "Actualité",
           "history": [
-            56,
             71,
-            46,
+            48,
+            68,
+            48,
             49,
-            53,
-            58,
-            68
+            71,
+            46
           ]
         },
         {
           "keyword": "Netflix",
           "volume": 46,
-          "change": 50,
+          "change": 45,
           "category": "Divertissement",
           "history": [
-            42,
-            40,
+            62,
             51,
-            86,
-            61,
-            83,
-            65
+            64,
+            49,
+            59,
+            71,
+            50
           ]
         },
         {
           "keyword": "オリンピック",
           "volume": 39,
-          "change": 17,
+          "change": 43,
           "category": "Actualité",
           "history": [
-            43,
-            70,
+            53,
+            73,
+            44,
             45,
-            76,
-            48,
-            57,
-            62
+            63,
+            61,
+            58
           ]
         },
         {
           "keyword": "選挙",
           "volume": 32,
-          "change": 28,
+          "change": 13,
           "category": "Actualité",
           "history": [
-            58,
-            64,
-            43,
+            53,
             44,
-            41,
-            74,
-            63
+            55,
+            75,
+            53,
+            52,
+            68
           ]
         }
       ],
-      "updatedAt": "2026-10-15T10:25:00.074Z",
+      "updatedAt": "2026-10-16T10:12:26.052Z",
       "source": "fallback"
     },
     {
@@ -816,155 +816,155 @@
         {
           "keyword": "Futebol",
           "volume": 95,
-          "change": 28,
+          "change": 3,
           "category": "Actualité",
           "history": [
-            83,
-            69,
-            68,
-            86,
-            74,
-            84,
-            85
+            79,
+            80,
+            67,
+            44,
+            77,
+            52,
+            78
           ]
         },
         {
           "keyword": "Carnaval",
           "volume": 88,
-          "change": 9,
+          "change": 8,
           "category": "Actualité",
           "history": [
-            68,
-            64,
             54,
-            62,
-            42,
             45,
-            64
+            51,
+            59,
+            74,
+            43,
+            78
           ]
         },
         {
           "keyword": "IA",
           "volume": 81,
-          "change": 11,
+          "change": 2,
           "category": "Actualité",
           "history": [
-            60,
-            58,
-            40,
             53,
-            79,
-            60,
-            51
+            82,
+            51,
+            83,
+            71,
+            41,
+            77
           ]
         },
         {
           "keyword": "Lula",
           "volume": 74,
-          "change": 38,
+          "change": 46,
           "category": "Actualité",
           "history": [
-            83,
-            61,
+            49,
+            69,
+            53,
             67,
-            59,
-            43,
-            59,
-            68
+            55,
+            89,
+            70
           ]
         },
         {
           "keyword": "Dólar",
           "volume": 67,
-          "change": 4,
+          "change": 37,
           "category": "Actualité",
           "history": [
-            68,
-            58,
-            78,
-            69,
-            69,
+            43,
+            43,
+            81,
+            84,
+            85,
             54,
-            85
+            63
           ]
         },
         {
           "keyword": "Dengue",
           "volume": 60,
-          "change": 22,
+          "change": 27,
           "category": "Santé",
           "history": [
-            42,
-            82,
-            85,
+            57,
+            89,
+            64,
+            46,
             53,
-            49,
-            88,
-            73
+            70,
+            77
           ]
         },
         {
           "keyword": "Netflix",
           "volume": 53,
-          "change": 47,
+          "change": 36,
           "category": "Divertissement",
           "history": [
-            60,
-            89,
-            43,
-            64,
-            41,
-            60,
-            83
+            86,
+            84,
+            53,
+            88,
+            86,
+            55,
+            45
           ]
         },
         {
           "keyword": "Bitcoin",
           "volume": 46,
-          "change": 17,
+          "change": 21,
           "category": "Économie",
           "history": [
-            44,
-            85,
-            89,
-            43,
-            71,
-            41,
-            88
+            63,
+            86,
+            47,
+            81,
+            47,
+            70,
+            49
           ]
         },
         {
           "keyword": "Neymar",
           "volume": 39,
-          "change": 4,
+          "change": 9,
           "category": "Actualité",
           "history": [
-            80,
-            88,
-            57,
-            68,
-            88,
+            82,
+            81,
+            42,
+            41,
             48,
-            68
+            85,
+            50
           ]
         },
         {
           "keyword": "ChatGPT",
           "volume": 32,
-          "change": 34,
+          "change": 36,
           "category": "Tech",
           "history": [
-            78,
-            64,
-            54,
-            48,
-            61,
-            65,
-            85
+            75,
+            71,
+            70,
+            41,
+            63,
+            59,
+            83
           ]
         }
       ],
-      "updatedAt": "2026-10-15T10:25:01.592Z",
+      "updatedAt": "2026-10-16T10:12:27.573Z",
       "source": "fallback"
     },
     {
@@ -977,155 +977,155 @@
         {
           "keyword": "Cricket IPL",
           "volume": 95,
-          "change": 21,
+          "change": 6,
           "category": "Sport",
           "history": [
+            85,
+            77,
             81,
-            43,
-            67,
-            74,
-            79,
-            58,
-            64
+            65,
+            80,
+            62,
+            59
           ]
         },
         {
           "keyword": "AI Jobs",
           "volume": 88,
-          "change": 4,
+          "change": 29,
           "category": "Tech",
           "history": [
-            79,
-            71,
+            86,
+            61,
+            86,
+            59,
             87,
-            82,
-            82,
-            63,
-            43
+            89,
+            45
           ]
         },
         {
           "keyword": "Monsoon",
           "volume": 81,
-          "change": 9,
+          "change": 43,
           "category": "Actualité",
           "history": [
-            41,
-            56,
-            82,
-            40,
-            52,
-            75,
-            74
+            71,
+            51,
+            58,
+            60,
+            57,
+            83,
+            52
           ]
         },
         {
           "keyword": "Modi",
           "volume": 74,
-          "change": 52,
+          "change": 17,
           "category": "Actualité",
           "history": [
-            51,
             77,
-            62,
-            70,
-            59,
-            46,
-            41
+            81,
+            86,
+            49,
+            79,
+            49,
+            51
           ]
         },
         {
           "keyword": "Bollywood",
           "volume": 67,
-          "change": 15,
+          "change": 51,
           "category": "Actualité",
           "history": [
-            47,
-            70,
-            70,
-            46,
-            71,
-            59,
-            68
+            51,
+            41,
+            62,
+            77,
+            81,
+            73,
+            69
           ]
         },
         {
           "keyword": "Sensex",
           "volume": 60,
-          "change": 46,
+          "change": 41,
           "category": "Actualité",
           "history": [
-            83,
-            89,
-            49,
+            55,
+            81,
+            46,
             53,
-            85,
-            56,
-            70
+            52,
+            59,
+            82
           ]
         },
         {
           "keyword": "ChatGPT",
           "volume": 53,
-          "change": 6,
+          "change": 19,
           "category": "Tech",
           "history": [
-            47,
-            66,
-            73,
-            50,
-            53,
-            56,
-            81
+            51,
+            51,
+            81,
+            65,
+            59,
+            65,
+            88
           ]
         },
         {
           "keyword": "Dengue",
           "volume": 46,
-          "change": 6,
+          "change": 12,
           "category": "Santé",
           "history": [
-            76,
-            53,
-            41,
-            40,
-            51,
-            73,
-            45
+            60,
+            62,
+            70,
+            71,
+            86,
+            89,
+            70
           ]
         },
         {
           "keyword": "Rupee",
           "volume": 39,
-          "change": 17,
+          "change": 4,
           "category": "Économie",
           "history": [
-            60,
-            74,
-            65,
-            89,
-            58,
-            87,
+            71,
+            53,
+            72,
+            75,
+            84,
+            42,
             47
           ]
         },
         {
           "keyword": "Yoga",
           "volume": 32,
-          "change": 3,
+          "change": 4,
           "category": "Actualité",
           "history": [
-            53,
-            74,
-            47,
-            85,
-            68,
-            59,
-            44
+            89,
+            43,
+            56,
+            76,
+            54,
+            70,
+            74
           ]
         }
       ],
-      "updatedAt": "2026-10-15T10:25:03.115Z",
+      "updatedAt": "2026-10-16T10:12:29.088Z",
       "source": "fallback"
     },
     {
@@ -1138,61 +1138,61 @@
         {
           "keyword": "K-드라마",
           "volume": 95,
-          "change": 31,
+          "change": 25,
           "category": "Actualité",
           "history": [
-            47,
-            63,
-            84,
-            68,
-            54,
+            46,
             49,
-            47
+            73,
+            89,
+            50,
+            50,
+            53
           ]
         },
         {
           "keyword": "삼성",
           "volume": 88,
-          "change": 2,
+          "change": 4,
           "category": "Actualité",
           "history": [
-            42,
-            69,
+            77,
+            68,
+            40,
+            58,
             75,
-            67,
-            46,
-            50,
-            59
+            58,
+            78
           ]
         },
         {
           "keyword": "BTS",
           "volume": 81,
-          "change": 9,
+          "change": 41,
           "category": "Divertissement",
           "history": [
-            52,
-            64,
-            42,
-            65,
-            49,
-            83,
-            87
+            68,
+            43,
+            41,
+            44,
+            62,
+            79,
+            89
           ]
         },
         {
           "keyword": "코스피",
           "volume": 74,
-          "change": 52,
+          "change": 14,
           "category": "Actualité",
           "history": [
-            50,
-            88,
-            49,
-            58,
-            81,
-            77,
-            85
+            57,
+            64,
+            44,
+            43,
+            61,
+            84,
+            76
           ]
         },
         {
@@ -1201,92 +1201,92 @@
           "change": 29,
           "category": "Actualité",
           "history": [
-            68,
-            48,
-            78,
-            81,
-            87,
-            53,
-            83
+            40,
+            58,
+            63,
+            54,
+            58,
+            85,
+            51
           ]
         },
         {
           "keyword": "ChatGPT",
           "volume": 60,
-          "change": 15,
+          "change": 51,
           "category": "Tech",
           "history": [
-            89,
-            78,
-            52,
-            63,
-            84,
-            50,
-            65
+            57,
+            66,
+            86,
+            65,
+            70,
+            82,
+            49
           ]
         },
         {
           "keyword": "부동산",
           "volume": 53,
-          "change": 20,
+          "change": 3,
           "category": "Actualité",
           "history": [
-            66,
-            56,
-            63,
-            89,
-            61,
-            66,
-            79
+            78,
+            43,
+            69,
+            76,
+            87,
+            42,
+            54
           ]
         },
         {
           "keyword": "건강",
           "volume": 46,
-          "change": 5,
+          "change": 15,
           "category": "Actualité",
           "history": [
-            76,
-            82,
-            63,
-            60,
-            55,
-            42,
-            63
+            66,
+            89,
+            72,
+            49,
+            49,
+            84,
+            67
           ]
         },
         {
           "keyword": "선거",
           "volume": 39,
-          "change": 51,
+          "change": 8,
           "category": "Actualité",
           "history": [
-            61,
-            83,
-            84,
-            49,
+            76,
+            90,
+            52,
+            75,
             72,
-            79,
-            89
+            80,
+            57
           ]
         },
         {
           "keyword": "넷플릭스",
           "volume": 32,
-          "change": 44,
+          "change": 33,
           "category": "Actualité",
           "history": [
-            53,
-            65,
-            71,
-            61,
-            87,
-            54,
-            46
+            68,
+            80,
+            69,
+            42,
+            77,
+            79,
+            59
           ]
         }
       ],
-      "updatedAt": "2026-10-15T10:25:04.640Z",
+      "updatedAt": "2026-10-16T10:12:30.604Z",
       "source": "fallback"
     },
     {
@@ -1299,155 +1299,155 @@
         {
           "keyword": "Liga MX",
           "volume": 95,
-          "change": 4,
+          "change": 22,
           "category": "Sport",
           "history": [
-            66,
-            81,
-            89,
             56,
-            52,
-            57,
-            81
+            79,
+            76,
+            48,
+            81,
+            63,
+            73
           ]
         },
         {
           "keyword": "Sheinbaum",
           "volume": 88,
-          "change": 39,
+          "change": 33,
           "category": "Sport",
           "history": [
-            79,
-            55,
-            49,
-            73,
-            64,
             42,
-            76
+            67,
+            48,
+            58,
+            53,
+            82,
+            52
           ]
         },
         {
           "keyword": "Peso",
           "volume": 81,
-          "change": 51,
+          "change": 24,
           "category": "Économie",
           "history": [
-            79,
-            89,
-            59,
-            87,
+            64,
             49,
-            73,
-            42
+            76,
+            42,
+            54,
+            88,
+            75
           ]
         },
         {
           "keyword": "Narcos",
           "volume": 74,
-          "change": 46,
+          "change": 7,
           "category": "Actualité",
           "history": [
-            85,
-            73,
-            62,
-            63,
-            51,
-            56,
-            57
+            55,
+            66,
+            68,
+            42,
+            70,
+            84,
+            64
           ]
         },
         {
           "keyword": "IA",
           "volume": 67,
-          "change": 19,
+          "change": 29,
           "category": "Actualité",
           "history": [
-            77,
-            57,
-            42,
-            68,
-            69,
-            45,
-            56
+            70,
+            44,
+            52,
+            76,
+            89,
+            40,
+            85
           ]
         },
         {
           "keyword": "Telenovela",
           "volume": 60,
-          "change": 11,
+          "change": 13,
           "category": "Actualité",
           "history": [
-            57,
-            61,
-            85,
-            40,
-            57,
-            81,
-            44
+            63,
+            50,
+            71,
+            76,
+            63,
+            87,
+            64
           ]
         },
         {
           "keyword": "Diabetes",
           "volume": 53,
-          "change": 6,
+          "change": 28,
           "category": "Actualité",
           "history": [
-            58,
-            71,
+            45,
+            61,
             77,
-            64,
-            86,
-            74,
-            70
+            78,
+            41,
+            55,
+            52
           ]
         },
         {
           "keyword": "Bitcoin",
           "volume": 46,
-          "change": 29,
+          "change": 15,
           "category": "Économie",
           "history": [
-            80,
-            81,
-            84,
-            86,
-            60,
-            73,
-            77
+            69,
+            41,
+            87,
+            63,
+            42,
+            44,
+            42
           ]
         },
         {
           "keyword": "Copa",
           "volume": 39,
-          "change": 12,
+          "change": 52,
           "category": "Actualité",
           "history": [
-            47,
-            61,
+            81,
+            78,
+            66,
+            63,
+            76,
             69,
-            56,
-            57,
-            43,
-            85
+            53
           ]
         },
         {
           "keyword": "ChatGPT",
           "volume": 32,
-          "change": 40,
+          "change": 33,
           "category": "Tech",
           "history": [
-            66,
-            85,
+            83,
+            49,
+            89,
             72,
-            48,
-            67,
-            46,
-            67
+            89,
+            41,
+            87
           ]
         }
       ],
-      "updatedAt": "2026-10-15T10:25:06.170Z",
+      "updatedAt": "2026-10-16T10:12:32.116Z",
       "source": "fallback"
     },
     {
@@ -1460,155 +1460,155 @@
         {
           "keyword": "AFCON",
           "volume": 95,
-          "change": 32,
+          "change": 51,
           "category": "Actualité",
           "history": [
-            85,
-            77,
-            61,
-            70,
-            63,
-            66,
-            67
+            60,
+            74,
+            45,
+            90,
+            47,
+            60,
+            77
           ]
         },
         {
           "keyword": "Naira",
           "volume": 88,
-          "change": 30,
+          "change": 19,
           "category": "Tech",
           "history": [
-            77,
-            74,
-            56,
-            56,
-            71,
-            61,
-            62
+            48,
+            42,
+            86,
+            68,
+            70,
+            47,
+            81
           ]
         },
         {
           "keyword": "Afrobeats",
           "volume": 81,
-          "change": 37,
+          "change": 13,
           "category": "Actualité",
           "history": [
-            63,
-            60,
-            69,
-            76,
-            51,
-            51,
-            55
+            70,
+            45,
+            46,
+            49,
+            78,
+            80,
+            78
           ]
         },
         {
           "keyword": "Fintech",
           "volume": 74,
-          "change": 22,
+          "change": 27,
           "category": "Tech",
           "history": [
-            75,
-            75,
-            46,
-            45,
+            70,
+            53,
+            52,
+            56,
             69,
-            63,
-            63
+            57,
+            71
           ]
         },
         {
           "keyword": "Tinubu",
           "volume": 67,
-          "change": 9,
+          "change": 16,
           "category": "Actualité",
           "history": [
+            51,
             43,
-            89,
-            64,
-            87,
-            73,
-            54,
-            49
+            70,
+            86,
+            69,
+            55,
+            64
           ]
         },
         {
           "keyword": "Nollywood",
           "volume": 60,
-          "change": 38,
+          "change": 25,
           "category": "Actualité",
           "history": [
-            45,
-            89,
-            87,
-            64,
             83,
+            69,
+            52,
             60,
-            63
+            63,
+            43,
+            86
           ]
         },
         {
           "keyword": "Malaria",
           "volume": 53,
-          "change": 31,
+          "change": 33,
           "category": "Actualité",
           "history": [
-            77,
-            75,
-            79,
-            85,
-            63,
-            55,
-            67
+            74,
+            47,
+            72,
+            43,
+            53,
+            43,
+            74
           ]
         },
         {
           "keyword": "Bitcoin",
           "volume": 46,
-          "change": 13,
+          "change": 3,
           "category": "Économie",
           "history": [
-            63,
-            66,
-            56,
-            87,
+            65,
+            84,
             52,
+            48,
+            65,
             62,
-            84
+            81
           ]
         },
         {
           "keyword": "AI Africa",
           "volume": 39,
-          "change": 9,
+          "change": 20,
           "category": "Tech",
           "history": [
+            40,
+            62,
             71,
-            73,
+            57,
+            70,
             41,
-            44,
-            56,
-            75,
-            74
+            65
           ]
         },
         {
           "keyword": "Lagos",
           "volume": 32,
-          "change": 29,
+          "change": 21,
           "category": "Actualité",
           "history": [
-            73,
-            53,
-            72,
-            41,
-            87,
-            63,
-            74
+            67,
+            74,
+            47,
+            86,
+            50,
+            42,
+            81
           ]
         }
       ],
-      "updatedAt": "2026-10-15T10:25:07.691Z",
+      "updatedAt": "2026-10-16T10:12:33.636Z",
       "source": "fallback"
     }
   ]

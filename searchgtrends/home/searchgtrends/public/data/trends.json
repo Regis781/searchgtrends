@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T11:17:31.038Z",
+  "generatedAt": "2026-11-01T12:06:49.592Z",
   "countries": [
     {
       "code": "FR",
@@ -9,158 +9,158 @@
       "hl": "fr-FR",
       "trends": [
         {
-          "keyword": "Ligue 1",
-          "volume": 95,
-          "change": 41,
+          "keyword": "daylight savings",
+          "volume": 100,
+          "change": 59,
           "category": "Actualité",
           "history": [
-            68,
+            64,
+            81,
+            74,
+            71,
+            64,
             78,
-            42,
-            56,
-            61,
-            41,
-            41
+            85
           ]
         },
         {
-          "keyword": "IA générative",
-          "volume": 88,
-          "change": 42,
-          "category": "Actualité",
-          "history": [
-            76,
-            80,
-            52,
-            43,
-            54,
-            75,
-            68
-          ]
-        },
-        {
-          "keyword": "Météo Paris",
-          "volume": 81,
+          "keyword": "ohio state vs usc",
+          "volume": 92,
           "change": 50,
           "category": "Actualité",
           "history": [
-            78,
-            49,
-            44,
-            57,
-            44,
-            65,
-            71
-          ]
-        },
-        {
-          "keyword": "Netflix",
-          "volume": 74,
-          "change": 23,
-          "category": "Divertissement",
-          "history": [
+            79,
+            81,
+            62,
+            43,
             48,
-            56,
-            65,
-            69,
-            71,
-            44,
-            54
+            86,
+            85
           ]
         },
         {
-          "keyword": "CAC 40",
-          "volume": 67,
-          "change": 5,
+          "keyword": "florida vs georgia",
+          "volume": 84,
+          "change": 45,
           "category": "Actualité",
           "history": [
-            65,
-            43,
+            89,
             73,
-            45,
-            88,
-            71,
+            64,
+            48,
+            43,
+            90,
+            51
+          ]
+        },
+        {
+          "keyword": "miami fl vs unc",
+          "volume": 76,
+          "change": 46,
+          "category": "Actualité",
+          "history": [
+            66,
+            75,
+            66,
+            76,
+            55,
+            74,
+            84
+          ]
+        },
+        {
+          "keyword": "ms state vs texas",
+          "volume": 68,
+          "change": 57,
+          "category": "Actualité",
+          "history": [
+            86,
+            89,
+            44,
+            82,
+            77,
+            62,
             87
           ]
         },
         {
-          "keyword": "Roland Garros",
+          "keyword": "clemson vs florida state",
           "volume": 60,
-          "change": 15,
+          "change": 40,
           "category": "Actualité",
           "history": [
-            53,
-            77,
-            82,
-            53,
-            85,
-            44,
-            74
-          ]
-        },
-        {
-          "keyword": "ChatGPT",
-          "volume": 53,
-          "change": 16,
-          "category": "Tech",
-          "history": [
-            75,
-            60,
-            89,
-            74,
-            85,
-            76,
-            90
-          ]
-        },
-        {
-          "keyword": "Inflation",
-          "volume": 46,
-          "change": 28,
-          "category": "Sport",
-          "history": [
-            67,
-            46,
-            49,
-            49,
-            48,
-            89,
-            56
-          ]
-        },
-        {
-          "keyword": "Grève",
-          "volume": 39,
-          "change": 34,
-          "category": "Actualité",
-          "history": [
-            46,
-            49,
-            75,
-            85,
-            62,
+            71,
             70,
-            88
+            48,
+            80,
+            88,
+            88,
+            64
           ]
         },
         {
-          "keyword": "Macron",
-          "volume": 32,
+          "keyword": "barcelona vs alavés",
+          "volume": 52,
+          "change": 28,
+          "category": "Actualité",
+          "history": [
+            55,
+            41,
+            88,
+            40,
+            80,
+            74,
+            51
+          ]
+        },
+        {
+          "keyword": "minnesota vs indiana",
+          "volume": 44,
+          "change": 55,
+          "category": "Actualité",
+          "history": [
+            68,
+            77,
+            57,
+            87,
+            65,
+            83,
+            61
+          ]
+        },
+        {
+          "keyword": "timberwolves vs spurs",
+          "volume": 36,
           "change": 48,
           "category": "Actualité",
           "history": [
-            83,
-            78,
+            74,
+            88,
+            81,
+            75,
             61,
+            41,
+            87
+          ]
+        },
+        {
+          "keyword": "76ers vs hornets",
+          "volume": 28,
+          "change": 23,
+          "category": "Actualité",
+          "history": [
+            42,
+            82,
+            90,
             58,
-            71,
-            54,
-            74
+            49,
+            87,
+            73
           ]
         }
       ],
-      "updatedAt": "2026-10-31T11:17:15.522Z",
-      "source": "fallback"
+      "updatedAt": "2026-11-01T12:06:33.094Z",
+      "source": "api"
     },
     {
       "code": "US",
@@ -170,158 +170,158 @@
       "hl": "en-US",
       "trends": [
         {
-          "keyword": "NBA",
-          "volume": 95,
-          "change": 50,
-          "category": "Sport",
-          "history": [
-            59,
-            75,
-            44,
-            47,
-            78,
-            68,
-            64
-          ]
-        },
-        {
-          "keyword": "GPT-5",
-          "volume": 88,
-          "change": 17,
-          "category": "Actualité",
-          "history": [
-            42,
-            56,
-            86,
-            71,
-            49,
-            82,
-            75
-          ]
-        },
-        {
-          "keyword": "Taylor Swift",
-          "volume": 81,
-          "change": 41,
-          "category": "Actualité",
-          "history": [
-            85,
-            47,
-            75,
-            79,
-            73,
-            56,
-            43
-          ]
-        },
-        {
-          "keyword": "Stock market",
-          "volume": 74,
-          "change": 47,
-          "category": "Économie",
-          "history": [
-            46,
-            54,
-            49,
-            81,
-            75,
-            70,
-            86
-          ]
-        },
-        {
-          "keyword": "Hurricane",
-          "volume": 67,
-          "change": 23,
-          "category": "Actualité",
-          "history": [
-            61,
-            42,
-            61,
-            74,
-            63,
-            41,
-            43
-          ]
-        },
-        {
-          "keyword": "Apple",
-          "volume": 60,
-          "change": 22,
-          "category": "Tech",
-          "history": [
-            75,
-            68,
-            74,
-            74,
-            59,
-            67,
-            43
-          ]
-        },
-        {
-          "keyword": "Immigration",
-          "volume": 53,
-          "change": 28,
-          "category": "Actualité",
-          "history": [
-            68,
-            68,
-            89,
-            79,
-            84,
-            44,
-            81
-          ]
-        },
-        {
-          "keyword": "Bitcoin",
-          "volume": 46,
-          "change": 32,
-          "category": "Économie",
-          "history": [
-            41,
-            42,
-            76,
-            63,
-            69,
-            43,
-            64
-          ]
-        },
-        {
-          "keyword": "Super Bowl",
-          "volume": 39,
-          "change": 9,
-          "category": "Actualité",
-          "history": [
-            57,
-            61,
-            58,
-            65,
-            67,
-            76,
-            73
-          ]
-        },
-        {
-          "keyword": "Netflix",
-          "volume": 32,
+          "keyword": "daylight savings",
+          "volume": 100,
           "change": 24,
-          "category": "Divertissement",
+          "category": "Actualité",
           "history": [
+            90,
+            44,
+            50,
+            80,
+            50,
+            84,
+            61
+          ]
+        },
+        {
+          "keyword": "ohio state vs usc",
+          "volume": 92,
+          "change": 52,
+          "category": "Actualité",
+          "history": [
+            72,
+            88,
+            88,
             74,
-            73,
-            41,
-            70,
+            45,
             64,
+            57
+          ]
+        },
+        {
+          "keyword": "florida vs georgia",
+          "volume": 84,
+          "change": 32,
+          "category": "Actualité",
+          "history": [
+            83,
+            88,
+            60,
+            45,
+            55,
+            63,
+            56
+          ]
+        },
+        {
+          "keyword": "miami fl vs unc",
+          "volume": 76,
+          "change": 57,
+          "category": "Actualité",
+          "history": [
+            54,
+            73,
             46,
-            71
+            43,
+            54,
+            63,
+            77
+          ]
+        },
+        {
+          "keyword": "ms state vs texas",
+          "volume": 68,
+          "change": 56,
+          "category": "Actualité",
+          "history": [
+            49,
+            78,
+            65,
+            50,
+            85,
+            87,
+            77
+          ]
+        },
+        {
+          "keyword": "clemson vs florida state",
+          "volume": 60,
+          "change": 37,
+          "category": "Actualité",
+          "history": [
+            58,
+            88,
+            54,
+            81,
+            51,
+            62,
+            79
+          ]
+        },
+        {
+          "keyword": "barcelona vs alavés",
+          "volume": 52,
+          "change": 34,
+          "category": "Actualité",
+          "history": [
+            52,
+            84,
+            78,
+            64,
+            47,
+            48,
+            47
+          ]
+        },
+        {
+          "keyword": "minnesota vs indiana",
+          "volume": 44,
+          "change": 51,
+          "category": "Actualité",
+          "history": [
+            89,
+            77,
+            50,
+            56,
+            84,
+            86,
+            60
+          ]
+        },
+        {
+          "keyword": "timberwolves vs spurs",
+          "volume": 36,
+          "change": 46,
+          "category": "Actualité",
+          "history": [
+            58,
+            69,
+            40,
+            70,
+            68,
+            70,
+            51
+          ]
+        },
+        {
+          "keyword": "76ers vs hornets",
+          "volume": 28,
+          "change": 52,
+          "category": "Actualité",
+          "history": [
+            47,
+            85,
+            44,
+            64,
+            65,
+            78,
+            78
           ]
         }
       ],
-      "updatedAt": "2026-10-31T11:17:17.075Z",
-      "source": "fallback"
+      "updatedAt": "2026-11-01T12:06:34.771Z",
+      "source": "api"
     },
     {
       "code": "GB",
@@ -331,158 +331,158 @@
       "hl": "en-GB",
       "trends": [
         {
-          "keyword": "Premier League",
-          "volume": 95,
-          "change": 19,
-          "category": "Sport",
-          "history": [
-            49,
-            74,
-            59,
-            65,
-            85,
-            62,
-            75
-          ]
-        },
-        {
-          "keyword": "NHS",
-          "volume": 88,
-          "change": 18,
+          "keyword": "daylight savings",
+          "volume": 100,
+          "change": 58,
           "category": "Actualité",
           "history": [
             74,
-            50,
-            80,
-            81,
-            79,
-            58,
-            82
-          ]
-        },
-        {
-          "keyword": "AI regulation",
-          "volume": 81,
-          "change": 45,
-          "category": "Tech",
-          "history": [
-            49,
+            84,
+            44,
+            84,
+            52,
             63,
-            62,
-            68,
-            64,
-            70,
-            85
+            89
           ]
         },
         {
-          "keyword": "Cost of living",
-          "volume": 74,
-          "change": 4,
+          "keyword": "ohio state vs usc",
+          "volume": 92,
+          "change": 25,
           "category": "Actualité",
           "history": [
-            86,
-            81,
-            74,
-            77,
-            78,
-            69,
+            55,
+            72,
+            52,
+            88,
+            79,
+            52,
             68
           ]
         },
         {
-          "keyword": "Wimbledon",
-          "volume": 67,
-          "change": 49,
+          "keyword": "florida vs georgia",
+          "volume": 84,
+          "change": 42,
           "category": "Actualité",
           "history": [
-            62,
-            64,
-            88,
             40,
-            48,
-            47,
-            74
-          ]
-        },
-        {
-          "keyword": "FTSE",
-          "volume": 60,
-          "change": 35,
-          "category": "Actualité",
-          "history": [
-            54,
-            83,
-            41,
-            71,
+            62,
             84,
-            49,
-            41
-          ]
-        },
-        {
-          "keyword": "Labour Party",
-          "volume": 53,
-          "change": 8,
-          "category": "Actualité",
-          "history": [
-            63,
-            54,
-            55,
-            71,
-            42,
+            43,
             81,
-            47
+            64,
+            62
           ]
         },
         {
-          "keyword": "BBC",
-          "volume": 46,
-          "change": 12,
+          "keyword": "miami fl vs unc",
+          "volume": 76,
+          "change": 40,
           "category": "Actualité",
           "history": [
-            60,
-            50,
-            84,
-            68,
             49,
-            67,
-            80
-          ]
-        },
-        {
-          "keyword": "King Charles",
-          "volume": 39,
-          "change": 18,
-          "category": "Actualité",
-          "history": [
-            59,
-            74,
             58,
-            87,
-            41,
-            89,
-            44
+            76,
+            75,
+            83,
+            76,
+            82
           ]
         },
         {
-          "keyword": "Brexit",
-          "volume": 32,
-          "change": 52,
+          "keyword": "ms state vs texas",
+          "volume": 68,
+          "change": 24,
           "category": "Actualité",
           "history": [
-            45,
-            70,
             78,
-            42,
+            40,
+            81,
+            65,
+            72,
+            58,
+            59
+          ]
+        },
+        {
+          "keyword": "clemson vs florida state",
+          "volume": 60,
+          "change": 40,
+          "category": "Actualité",
+          "history": [
+            48,
+            57,
+            76,
+            83,
+            70,
+            83,
+            42
+          ]
+        },
+        {
+          "keyword": "barcelona vs alavés",
+          "volume": 52,
+          "change": 54,
+          "category": "Actualité",
+          "history": [
+            43,
+            47,
+            72,
+            59,
+            85,
+            52,
+            90
+          ]
+        },
+        {
+          "keyword": "minnesota vs indiana",
+          "volume": 44,
+          "change": 26,
+          "category": "Actualité",
+          "history": [
+            75,
+            90,
+            65,
+            66,
+            76,
+            66,
+            67
+          ]
+        },
+        {
+          "keyword": "timberwolves vs spurs",
+          "volume": 36,
+          "change": 43,
+          "category": "Actualité",
+          "history": [
+            70,
+            70,
+            60,
+            43,
+            85,
+            79,
+            60
+          ]
+        },
+        {
+          "keyword": "76ers vs hornets",
+          "volume": 28,
+          "change": 34,
+          "category": "Actualité",
+          "history": [
             77,
-            51,
-            79
+            54,
+            63,
+            65,
+            72,
+            65,
+            88
           ]
         }
       ],
-      "updatedAt": "2026-10-31T11:17:18.623Z",
-      "source": "fallback"
+      "updatedAt": "2026-11-01T12:06:36.450Z",
+      "source": "api"
     },
     {
       "code": "DE",
@@ -492,158 +492,158 @@
       "hl": "de-DE",
       "trends": [
         {
-          "keyword": "Bundesliga",
-          "volume": 95,
-          "change": 44,
-          "category": "Sport",
+          "keyword": "daylight savings",
+          "volume": 100,
+          "change": 39,
+          "category": "Actualité",
           "history": [
-            42,
+            88,
+            52,
             73,
-            70,
-            47,
+            55,
+            67,
             79,
-            48,
-            52
+            48
           ]
         },
         {
-          "keyword": "KI",
-          "volume": 88,
-          "change": 28,
+          "keyword": "ohio state vs usc",
+          "volume": 92,
+          "change": 51,
           "category": "Actualité",
           "history": [
+            87,
+            42,
+            46,
             77,
-            78,
-            80,
-            73,
-            89,
-            81,
-            81
+            54,
+            42,
+            43
           ]
         },
         {
-          "keyword": "Energiekosten",
-          "volume": 81,
-          "change": 21,
+          "keyword": "florida vs georgia",
+          "volume": 84,
+          "change": 47,
           "category": "Actualité",
           "history": [
+            86,
             74,
-            40,
-            78,
-            75,
-            84,
             43,
-            74
+            52,
+            59,
+            48,
+            86
           ]
         },
         {
-          "keyword": "Oktoberfest",
-          "volume": 74,
+          "keyword": "miami fl vs unc",
+          "volume": 76,
+          "change": 22,
+          "category": "Actualité",
+          "history": [
+            54,
+            81,
+            82,
+            47,
+            43,
+            72,
+            55
+          ]
+        },
+        {
+          "keyword": "ms state vs texas",
+          "volume": 68,
+          "change": 39,
+          "category": "Actualité",
+          "history": [
+            54,
+            51,
+            46,
+            73,
+            57,
+            84,
+            49
+          ]
+        },
+        {
+          "keyword": "clemson vs florida state",
+          "volume": 60,
           "change": 32,
           "category": "Actualité",
           "history": [
+            50,
             42,
-            54,
-            59,
-            66,
-            61,
-            50,
-            74
-          ]
-        },
-        {
-          "keyword": "Bundestag",
-          "volume": 67,
-          "change": 50,
-          "category": "Actualité",
-          "history": [
             71,
+            89,
+            89,
             41,
-            50,
-            66,
-            74,
-            82,
-            60
+            66
           ]
         },
         {
-          "keyword": "Tesla",
-          "volume": 60,
-          "change": 36,
+          "keyword": "barcelona vs alavés",
+          "volume": 52,
+          "change": 35,
           "category": "Actualité",
           "history": [
-            65,
-            83,
+            64,
+            77,
+            73,
             46,
-            76,
-            53,
-            40,
-            44
+            85,
+            61,
+            86
           ]
         },
         {
-          "keyword": "DAX",
-          "volume": 53,
-          "change": 16,
+          "keyword": "minnesota vs indiana",
+          "volume": 44,
+          "change": 30,
           "category": "Actualité",
           "history": [
-            44,
-            85,
+            62,
             48,
             76,
+            61,
             67,
-            72,
-            62
+            74,
+            42
           ]
         },
         {
-          "keyword": "Champions League",
-          "volume": 46,
-          "change": 34,
-          "category": "Sport",
-          "history": [
-            77,
-            80,
-            72,
-            54,
-            85,
-            69,
-            84
-          ]
-        },
-        {
-          "keyword": "Wetter",
-          "volume": 39,
+          "keyword": "timberwolves vs spurs",
+          "volume": 36,
           "change": 46,
           "category": "Actualité",
           "history": [
-            45,
-            75,
-            76,
-            79,
-            48,
-            73,
-            65
+            42,
+            72,
+            50,
+            80,
+            54,
+            81,
+            55
           ]
         },
         {
-          "keyword": "Inflation",
-          "volume": 32,
-          "change": 38,
-          "category": "Sport",
+          "keyword": "76ers vs hornets",
+          "volume": 28,
+          "change": 32,
+          "category": "Actualité",
           "history": [
-            49,
-            44,
-            87,
-            55,
-            84,
+            59,
+            58,
+            65,
+            47,
             77,
-            42
+            77,
+            41
           ]
         }
       ],
-      "updatedAt": "2026-10-31T11:17:20.163Z",
-      "source": "fallback"
+      "updatedAt": "2026-11-01T12:06:38.098Z",
+      "source": "api"
     },
     {
       "code": "JP",
@@ -653,158 +653,158 @@
       "hl": "ja-JP",
       "trends": [
         {
-          "keyword": "アニメ",
-          "volume": 95,
-          "change": 5,
+          "keyword": "daylight savings",
+          "volume": 100,
+          "change": 60,
           "category": "Actualité",
           "history": [
+            67,
+            48,
+            48,
+            64,
+            56,
+            73,
+            43
+          ]
+        },
+        {
+          "keyword": "ohio state vs usc",
+          "volume": 92,
+          "change": 36,
+          "category": "Actualité",
+          "history": [
+            69,
+            84,
+            75,
             46,
-            68,
-            61,
+            44,
+            47,
+            85
+          ]
+        },
+        {
+          "keyword": "florida vs georgia",
+          "volume": 84,
+          "change": 24,
+          "category": "Actualité",
+          "history": [
+            48,
+            79,
+            42,
+            56,
             51,
-            55,
-            72,
+            63,
             83
           ]
         },
         {
-          "keyword": "地震",
-          "volume": 88,
-          "change": 41,
+          "keyword": "miami fl vs unc",
+          "volume": 76,
+          "change": 25,
           "category": "Actualité",
           "history": [
-            62,
-            51,
-            44,
-            41,
-            70,
-            79,
-            41
-          ]
-        },
-        {
-          "keyword": "Nvidia",
-          "volume": 81,
-          "change": 37,
-          "category": "Actualité",
-          "history": [
-            74,
-            79,
-            47,
+            63,
+            52,
+            53,
+            76,
+            58,
             72,
-            61,
-            54,
-            58
+            47
           ]
         },
         {
-          "keyword": "野球",
-          "volume": 74,
-          "change": 2,
+          "keyword": "ms state vs texas",
+          "volume": 68,
+          "change": 50,
           "category": "Actualité",
           "history": [
-            81,
-            44,
-            74,
-            53,
-            53,
-            81,
+            67,
+            78,
+            57,
+            89,
+            87,
+            84,
+            81
+          ]
+        },
+        {
+          "keyword": "clemson vs florida state",
+          "volume": 60,
+          "change": 25,
+          "category": "Actualité",
+          "history": [
+            50,
+            83,
+            50,
+            57,
+            64,
+            66,
             73
           ]
         },
         {
-          "keyword": "ChatGPT",
-          "volume": 67,
-          "change": 43,
-          "category": "Tech",
-          "history": [
-            73,
-            52,
-            63,
-            89,
-            85,
-            84,
-            62
-          ]
-        },
-        {
-          "keyword": "花粉症",
-          "volume": 60,
-          "change": 17,
+          "keyword": "barcelona vs alavés",
+          "volume": 52,
+          "change": 36,
           "category": "Actualité",
           "history": [
-            87,
-            71,
-            83,
-            89,
-            49,
-            61,
-            59
-          ]
-        },
-        {
-          "keyword": "円安",
-          "volume": 53,
-          "change": 20,
-          "category": "Actualité",
-          "history": [
-            54,
-            61,
-            42,
-            60,
-            42,
             82,
-            86
-          ]
-        },
-        {
-          "keyword": "Netflix",
-          "volume": 46,
-          "change": 9,
-          "category": "Divertissement",
-          "history": [
-            47,
-            49,
-            48,
-            60,
             66,
-            45,
-            84
-          ]
-        },
-        {
-          "keyword": "オリンピック",
-          "volume": 39,
-          "change": 47,
-          "category": "Actualité",
-          "history": [
-            69,
-            61,
             81,
-            73,
-            73,
-            58,
-            51
+            71,
+            79,
+            45,
+            57
           ]
         },
         {
-          "keyword": "選挙",
-          "volume": 32,
-          "change": 16,
+          "keyword": "minnesota vs indiana",
+          "volume": 44,
+          "change": 46,
           "category": "Actualité",
           "history": [
-            47,
-            49,
-            72,
-            55,
+            73,
             53,
-            74,
-            41
+            44,
+            52,
+            67,
+            68,
+            82
+          ]
+        },
+        {
+          "keyword": "timberwolves vs spurs",
+          "volume": 36,
+          "change": 55,
+          "category": "Actualité",
+          "history": [
+            78,
+            42,
+            86,
+            87,
+            84,
+            80,
+            65
+          ]
+        },
+        {
+          "keyword": "76ers vs hornets",
+          "volume": 28,
+          "change": 60,
+          "category": "Actualité",
+          "history": [
+            89,
+            75,
+            67,
+            86,
+            88,
+            75,
+            76
           ]
         }
       ],
-      "updatedAt": "2026-10-31T11:17:21.715Z",
-      "source": "fallback"
+      "updatedAt": "2026-11-01T12:06:39.788Z",
+      "source": "api"
     },
     {
       "code": "BR",
@@ -814,158 +814,158 @@
       "hl": "pt-BR",
       "trends": [
         {
-          "keyword": "Futebol",
-          "volume": 95,
-          "change": 19,
+          "keyword": "daylight savings",
+          "volume": 100,
+          "change": 27,
           "category": "Actualité",
           "history": [
-            74,
-            54,
-            85,
-            58,
-            89,
-            47,
-            70
-          ]
-        },
-        {
-          "keyword": "Carnaval",
-          "volume": 88,
-          "change": 25,
-          "category": "Actualité",
-          "history": [
-            86,
-            43,
-            63,
-            41,
-            43,
-            41,
-            61
-          ]
-        },
-        {
-          "keyword": "IA",
-          "volume": 81,
-          "change": 4,
-          "category": "Actualité",
-          "history": [
-            79,
-            84,
-            76,
-            77,
-            51,
-            57,
-            53
-          ]
-        },
-        {
-          "keyword": "Lula",
-          "volume": 74,
-          "change": 15,
-          "category": "Actualité",
-          "history": [
-            88,
-            55,
-            77,
-            75,
-            58,
-            50,
-            66
-          ]
-        },
-        {
-          "keyword": "Dólar",
-          "volume": 67,
-          "change": 40,
-          "category": "Actualité",
-          "history": [
-            80,
-            84,
-            70,
-            77,
-            79,
-            63,
-            73
-          ]
-        },
-        {
-          "keyword": "Dengue",
-          "volume": 60,
-          "change": 45,
-          "category": "Santé",
-          "history": [
-            52,
-            55,
             81,
-            47,
-            73,
-            63,
-            66
+            88,
+            75,
+            72,
+            86,
+            46,
+            74
           ]
         },
         {
-          "keyword": "Netflix",
-          "volume": 53,
-          "change": 40,
-          "category": "Divertissement",
+          "keyword": "ohio state vs usc",
+          "volume": 92,
+          "change": 53,
+          "category": "Actualité",
           "history": [
-            59,
+            73,
+            50,
+            57,
+            85,
             72,
-            47,
-            62,
+            84,
+            45
+          ]
+        },
+        {
+          "keyword": "florida vs georgia",
+          "volume": 84,
+          "change": 43,
+          "category": "Actualité",
+          "history": [
+            54,
+            52,
+            69,
+            40,
+            82,
+            82,
+            56
+          ]
+        },
+        {
+          "keyword": "miami fl vs unc",
+          "volume": 76,
+          "change": 42,
+          "category": "Actualité",
+          "history": [
+            50,
+            57,
+            68,
+            57,
+            68,
+            58,
+            67
+          ]
+        },
+        {
+          "keyword": "ms state vs texas",
+          "volume": 68,
+          "change": 58,
+          "category": "Actualité",
+          "history": [
+            69,
+            75,
+            52,
+            74,
             71,
+            78,
+            83
+          ]
+        },
+        {
+          "keyword": "clemson vs florida state",
+          "volume": 60,
+          "change": 42,
+          "category": "Actualité",
+          "history": [
+            60,
+            77,
+            61,
+            44,
+            65,
+            51,
+            80
+          ]
+        },
+        {
+          "keyword": "barcelona vs alavés",
+          "volume": 52,
+          "change": 51,
+          "category": "Actualité",
+          "history": [
+            89,
+            79,
+            90,
+            87,
+            41,
             70,
             76
           ]
         },
         {
-          "keyword": "Bitcoin",
-          "volume": 46,
-          "change": 9,
-          "category": "Économie",
-          "history": [
-            63,
-            75,
-            61,
-            49,
-            87,
-            89,
-            66
-          ]
-        },
-        {
-          "keyword": "Neymar",
-          "volume": 39,
-          "change": 32,
+          "keyword": "minnesota vs indiana",
+          "volume": 44,
+          "change": 48,
           "category": "Actualité",
           "history": [
-            65,
+            60,
+            51,
+            64,
             55,
-            83,
-            80,
-            87,
+            65,
             71,
-            87
+            56
           ]
         },
         {
-          "keyword": "ChatGPT",
-          "volume": 32,
-          "change": 46,
-          "category": "Tech",
+          "keyword": "timberwolves vs spurs",
+          "volume": 36,
+          "change": 55,
+          "category": "Actualité",
           "history": [
-            69,
-            63,
-            60,
+            80,
+            68,
+            61,
+            58,
             87,
-            84,
             85,
-            83
+            42
+          ]
+        },
+        {
+          "keyword": "76ers vs hornets",
+          "volume": 28,
+          "change": 59,
+          "category": "Actualité",
+          "history": [
+            48,
+            46,
+            71,
+            84,
+            55,
+            74,
+            87
           ]
         }
       ],
-      "updatedAt": "2026-10-31T11:17:23.254Z",
-      "source": "fallback"
+      "updatedAt": "2026-11-01T12:06:41.450Z",
+      "source": "api"
     },
     {
       "code": "IN",
@@ -975,158 +975,158 @@
       "hl": "en-IN",
       "trends": [
         {
-          "keyword": "Cricket IPL",
-          "volume": 95,
-          "change": 14,
-          "category": "Sport",
+          "keyword": "daylight savings",
+          "volume": 100,
+          "change": 24,
+          "category": "Actualité",
           "history": [
-            45,
-            48,
-            57,
-            66,
-            60,
-            78,
-            56
-          ]
-        },
-        {
-          "keyword": "AI Jobs",
-          "volume": 88,
-          "change": 37,
-          "category": "Tech",
-          "history": [
-            61,
-            81,
-            81,
-            54,
-            61,
+            53,
+            47,
             64,
-            65
-          ]
-        },
-        {
-          "keyword": "Monsoon",
-          "volume": 81,
-          "change": 8,
-          "category": "Actualité",
-          "history": [
-            50,
-            89,
             48,
-            44,
-            75,
-            83,
-            69
-          ]
-        },
-        {
-          "keyword": "Modi",
-          "volume": 74,
-          "change": 33,
-          "category": "Actualité",
-          "history": [
-            74,
-            78,
-            48,
-            51,
-            85,
-            67,
-            75
-          ]
-        },
-        {
-          "keyword": "Bollywood",
-          "volume": 67,
-          "change": 16,
-          "category": "Actualité",
-          "history": [
-            52,
-            40,
-            78,
-            46,
             80,
-            56,
-            89
+            89,
+            81
           ]
         },
         {
-          "keyword": "Sensex",
-          "volume": 60,
-          "change": 31,
+          "keyword": "ohio state vs usc",
+          "volume": 92,
+          "change": 49,
           "category": "Actualité",
           "history": [
-            66,
-            61,
-            74,
-            58,
-            58,
-            44,
-            53
-          ]
-        },
-        {
-          "keyword": "ChatGPT",
-          "volume": 53,
-          "change": 5,
-          "category": "Tech",
-          "history": [
-            86,
-            84,
-            44,
-            83,
+            57,
+            89,
             76,
-            82,
-            67
+            62,
+            55,
+            68,
+            59
           ]
         },
         {
-          "keyword": "Dengue",
-          "volume": 46,
-          "change": 4,
-          "category": "Santé",
+          "keyword": "florida vs georgia",
+          "volume": 84,
+          "change": 32,
+          "category": "Actualité",
+          "history": [
+            58,
+            64,
+            69,
+            74,
+            59,
+            63,
+            57
+          ]
+        },
+        {
+          "keyword": "miami fl vs unc",
+          "volume": 76,
+          "change": 57,
+          "category": "Actualité",
+          "history": [
+            68,
+            41,
+            82,
+            86,
+            90,
+            44,
+            71
+          ]
+        },
+        {
+          "keyword": "ms state vs texas",
+          "volume": 68,
+          "change": 46,
+          "category": "Actualité",
+          "history": [
+            81,
+            70,
+            62,
+            55,
+            71,
+            59,
+            57
+          ]
+        },
+        {
+          "keyword": "clemson vs florida state",
+          "volume": 60,
+          "change": 39,
+          "category": "Actualité",
+          "history": [
+            60,
+            61,
+            85,
+            71,
+            44,
+            55,
+            77
+          ]
+        },
+        {
+          "keyword": "barcelona vs alavés",
+          "volume": 52,
+          "change": 55,
+          "category": "Actualité",
+          "history": [
+            49,
+            51,
+            43,
+            43,
+            79,
+            83,
+            59
+          ]
+        },
+        {
+          "keyword": "minnesota vs indiana",
+          "volume": 44,
+          "change": 28,
+          "category": "Actualité",
+          "history": [
+            71,
+            70,
+            70,
+            89,
+            64,
+            90,
+            40
+          ]
+        },
+        {
+          "keyword": "timberwolves vs spurs",
+          "volume": 36,
+          "change": 54,
+          "category": "Actualité",
           "history": [
             56,
-            87,
-            44,
-            67,
-            68,
-            61,
-            42
-          ]
-        },
-        {
-          "keyword": "Rupee",
-          "volume": 39,
-          "change": 51,
-          "category": "Économie",
-          "history": [
-            58,
-            51,
-            74,
-            89,
-            83,
+            52,
             59,
-            70
+            63,
+            75,
+            42,
+            81
           ]
         },
         {
-          "keyword": "Yoga",
-          "volume": 32,
+          "keyword": "76ers vs hornets",
+          "volume": 28,
           "change": 22,
           "category": "Actualité",
           "history": [
-            84,
-            53,
-            71,
-            46,
-            59,
-            70,
-            66
+            57,
+            65,
+            87,
+            82,
+            82,
+            74,
+            71
           ]
         }
       ],
-      "updatedAt": "2026-10-31T11:17:24.805Z",
-      "source": "fallback"
+      "updatedAt": "2026-11-01T12:06:43.108Z",
+      "source": "api"
     },
     {
       "code": "KR",
@@ -1136,158 +1136,158 @@
       "hl": "ko-KR",
       "trends": [
         {
-          "keyword": "K-드라마",
-          "volume": 95,
-          "change": 4,
+          "keyword": "daylight savings",
+          "volume": 100,
+          "change": 58,
           "category": "Actualité",
           "history": [
-            46,
-            79,
-            73,
-            58,
+            84,
+            51,
             75,
-            41,
-            74
+            72,
+            65,
+            81,
+            62
           ]
         },
         {
-          "keyword": "삼성",
-          "volume": 88,
+          "keyword": "ohio state vs usc",
+          "volume": 92,
+          "change": 36,
+          "category": "Actualité",
+          "history": [
+            84,
+            43,
+            42,
+            48,
+            53,
+            44,
+            48
+          ]
+        },
+        {
+          "keyword": "florida vs georgia",
+          "volume": 84,
+          "change": 30,
+          "category": "Actualité",
+          "history": [
+            59,
+            60,
+            72,
+            73,
+            55,
+            79,
+            46
+          ]
+        },
+        {
+          "keyword": "miami fl vs unc",
+          "volume": 76,
+          "change": 27,
+          "category": "Actualité",
+          "history": [
+            51,
+            78,
+            52,
+            86,
+            85,
+            56,
+            71
+          ]
+        },
+        {
+          "keyword": "ms state vs texas",
+          "volume": 68,
           "change": 34,
           "category": "Actualité",
           "history": [
-            61,
-            82,
-            72,
-            77,
-            76,
-            57,
-            79
+            68,
+            74,
+            42,
+            45,
+            64,
+            45,
+            62
           ]
         },
         {
-          "keyword": "BTS",
-          "volume": 81,
-          "change": 26,
-          "category": "Divertissement",
+          "keyword": "clemson vs florida state",
+          "volume": 60,
+          "change": 35,
+          "category": "Actualité",
           "history": [
-            57,
-            74,
-            68,
-            73,
+            66,
+            75,
             40,
-            55,
+            48,
+            41,
+            74,
+            49
+          ]
+        },
+        {
+          "keyword": "barcelona vs alavés",
+          "volume": 52,
+          "change": 58,
+          "category": "Actualité",
+          "history": [
+            65,
+            64,
+            57,
+            50,
+            75,
+            89,
             47
           ]
         },
         {
-          "keyword": "코스피",
-          "volume": 74,
-          "change": 19,
+          "keyword": "minnesota vs indiana",
+          "volume": 44,
+          "change": 54,
           "category": "Actualité",
           "history": [
-            78,
-            83,
-            85,
-            63,
-            85,
-            57,
-            72
-          ]
-        },
-        {
-          "keyword": "손흥민",
-          "volume": 67,
-          "change": 13,
-          "category": "Actualité",
-          "history": [
-            79,
-            87,
-            59,
-            73,
-            75,
-            87,
-            61
-          ]
-        },
-        {
-          "keyword": "ChatGPT",
-          "volume": 60,
-          "change": 9,
-          "category": "Tech",
-          "history": [
-            87,
-            71,
-            77,
-            42,
-            82,
-            47,
-            66
-          ]
-        },
-        {
-          "keyword": "부동산",
-          "volume": 53,
-          "change": 24,
-          "category": "Actualité",
-          "history": [
-            44,
-            74,
-            58,
             45,
-            42,
-            56,
-            67
-          ]
-        },
-        {
-          "keyword": "건강",
-          "volume": 46,
-          "change": 35,
-          "category": "Actualité",
-          "history": [
-            90,
-            86,
-            61,
-            74,
             57,
-            82,
-            57
-          ]
-        },
-        {
-          "keyword": "선거",
-          "volume": 39,
-          "change": 47,
-          "category": "Actualité",
-          "history": [
-            65,
-            89,
-            44,
-            72,
-            61,
-            42,
-            82
-          ]
-        },
-        {
-          "keyword": "넷플릭스",
-          "volume": 32,
-          "change": 19,
-          "category": "Actualité",
-          "history": [
+            60,
+            79,
             78,
-            70,
-            84,
+            40,
+            44
+          ]
+        },
+        {
+          "keyword": "timberwolves vs spurs",
+          "volume": 36,
+          "change": 49,
+          "category": "Actualité",
+          "history": [
+            50,
+            54,
+            44,
+            50,
             55,
-            89,
-            86,
-            67
+            80,
+            68
+          ]
+        },
+        {
+          "keyword": "76ers vs hornets",
+          "volume": 28,
+          "change": 41,
+          "category": "Actualité",
+          "history": [
+            57,
+            83,
+            77,
+            78,
+            79,
+            57,
+            48
           ]
         }
       ],
-      "updatedAt": "2026-10-31T11:17:26.393Z",
-      "source": "fallback"
+      "updatedAt": "2026-11-01T12:06:44.765Z",
+      "source": "api"
     },
     {
       "code": "MX",
@@ -1297,158 +1297,158 @@
       "hl": "es-MX",
       "trends": [
         {
-          "keyword": "Liga MX",
-          "volume": 95,
-          "change": 24,
-          "category": "Sport",
+          "keyword": "daylight savings",
+          "volume": 100,
+          "change": 30,
+          "category": "Actualité",
           "history": [
-            84,
+            69,
+            53,
+            76,
+            64,
+            42,
+            54,
+            87
+          ]
+        },
+        {
+          "keyword": "ohio state vs usc",
+          "volume": 92,
+          "change": 20,
+          "category": "Actualité",
+          "history": [
+            42,
+            59,
+            82,
+            76,
             51,
-            85,
-            48,
-            54,
-            58,
-            60
-          ]
-        },
-        {
-          "keyword": "Sheinbaum",
-          "volume": 88,
-          "change": 41,
-          "category": "Sport",
-          "history": [
-            72,
-            54,
-            83,
-            79,
-            58,
-            67,
-            83
-          ]
-        },
-        {
-          "keyword": "Peso",
-          "volume": 81,
-          "change": 9,
-          "category": "Économie",
-          "history": [
-            45,
             46,
-            71,
-            41,
-            41,
-            88,
             75
           ]
         },
         {
-          "keyword": "Narcos",
-          "volume": 74,
-          "change": 40,
+          "keyword": "florida vs georgia",
+          "volume": 84,
+          "change": 42,
           "category": "Actualité",
           "history": [
-            54,
-            80,
-            74,
-            66,
-            85,
-            53,
-            55
+            70,
+            86,
+            48,
+            75,
+            60,
+            77,
+            50
           ]
         },
         {
-          "keyword": "IA",
-          "volume": 67,
-          "change": 33,
+          "keyword": "miami fl vs unc",
+          "volume": 76,
+          "change": 34,
           "category": "Actualité",
           "history": [
-            69,
+            46,
+            74,
+            73,
+            74,
+            63,
+            70,
+            62
+          ]
+        },
+        {
+          "keyword": "ms state vs texas",
+          "volume": 68,
+          "change": 58,
+          "category": "Actualité",
+          "history": [
+            63,
+            48,
             43,
             61,
-            48,
-            63,
-            58,
-            85
-          ]
-        },
-        {
-          "keyword": "Telenovela",
-          "volume": 60,
-          "change": 32,
-          "category": "Actualité",
-          "history": [
-            86,
-            46,
             77,
-            62,
-            51,
-            88,
-            45
-          ]
-        },
-        {
-          "keyword": "Diabetes",
-          "volume": 53,
-          "change": 12,
-          "category": "Actualité",
-          "history": [
             81,
-            76,
-            55,
-            67,
-            71,
-            90,
-            58
-          ]
-        },
-        {
-          "keyword": "Bitcoin",
-          "volume": 46,
-          "change": 24,
-          "category": "Économie",
-          "history": [
-            68,
-            87,
-            65,
-            81,
-            52,
-            84,
             52
           ]
         },
         {
-          "keyword": "Copa",
-          "volume": 39,
-          "change": 8,
+          "keyword": "clemson vs florida state",
+          "volume": 60,
+          "change": 23,
           "category": "Actualité",
           "history": [
-            81,
-            90,
+            47,
+            45,
+            69,
+            54,
             64,
-            63,
-            73,
-            62,
-            45
+            88,
+            52
           ]
         },
         {
-          "keyword": "ChatGPT",
-          "volume": 32,
-          "change": 41,
-          "category": "Tech",
+          "keyword": "barcelona vs alavés",
+          "volume": 52,
+          "change": 43,
+          "category": "Actualité",
           "history": [
-            74,
-            40,
-            88,
+            50,
+            68,
             49,
-            87,
+            63,
+            80,
+            74,
+            47
+          ]
+        },
+        {
+          "keyword": "minnesota vs indiana",
+          "volume": 44,
+          "change": 35,
+          "category": "Actualité",
+          "history": [
+            67,
+            67,
+            44,
+            43,
+            43,
+            89,
+            71
+          ]
+        },
+        {
+          "keyword": "timberwolves vs spurs",
+          "volume": 36,
+          "change": 54,
+          "category": "Actualité",
+          "history": [
+            49,
+            65,
+            59,
+            52,
+            49,
+            49,
+            61
+          ]
+        },
+        {
+          "keyword": "76ers vs hornets",
+          "volume": 28,
+          "change": 31,
+          "category": "Actualité",
+          "history": [
+            62,
+            44,
             45,
-            89
+            70,
+            70,
+            74,
+            67
           ]
         }
       ],
-      "updatedAt": "2026-10-31T11:17:27.941Z",
-      "source": "fallback"
+      "updatedAt": "2026-11-01T12:06:46.429Z",
+      "source": "api"
     },
     {
       "code": "NG",
@@ -1458,158 +1458,158 @@
       "hl": "en-NG",
       "trends": [
         {
-          "keyword": "AFCON",
-          "volume": 95,
-          "change": 8,
+          "keyword": "daylight savings",
+          "volume": 100,
+          "change": 57,
           "category": "Actualité",
           "history": [
+            60,
+            51,
+            44,
+            44,
             79,
-            85,
-            74,
-            67,
-            71,
-            82,
-            87
+            65,
+            57
           ]
         },
         {
-          "keyword": "Naira",
-          "volume": 88,
-          "change": 32,
-          "category": "Tech",
-          "history": [
-            45,
-            58,
-            82,
-            57,
-            52,
-            83,
-            78
-          ]
-        },
-        {
-          "keyword": "Afrobeats",
-          "volume": 81,
-          "change": 25,
+          "keyword": "ohio state vs usc",
+          "volume": 92,
+          "change": 28,
           "category": "Actualité",
           "history": [
-            69,
-            71,
-            56,
-            45,
-            45,
+            81,
             47,
-            55
-          ]
-        },
-        {
-          "keyword": "Fintech",
-          "volume": 74,
-          "change": 32,
-          "category": "Tech",
-          "history": [
-            73,
-            77,
-            63,
-            67,
-            73,
-            51,
-            42
-          ]
-        },
-        {
-          "keyword": "Tinubu",
-          "volume": 67,
-          "change": 30,
-          "category": "Actualité",
-          "history": [
-            76,
-            67,
-            78,
-            48,
-            51,
-            76,
-            47
-          ]
-        },
-        {
-          "keyword": "Nollywood",
-          "volume": 60,
-          "change": 49,
-          "category": "Actualité",
-          "history": [
-            63,
-            45,
-            43,
-            54,
-            76,
-            67,
-            78
-          ]
-        },
-        {
-          "keyword": "Malaria",
-          "volume": 53,
-          "change": 29,
-          "category": "Actualité",
-          "history": [
-            81,
-            41,
-            44,
-            81,
-            57,
-            90,
-            48
-          ]
-        },
-        {
-          "keyword": "Bitcoin",
-          "volume": 46,
-          "change": 45,
-          "category": "Économie",
-          "history": [
-            41,
-            81,
             42,
-            44,
-            77,
-            85,
-            84
+            71,
+            54,
+            57,
+            59
           ]
         },
         {
-          "keyword": "AI Africa",
-          "volume": 39,
+          "keyword": "florida vs georgia",
+          "volume": 84,
           "change": 22,
-          "category": "Tech",
-          "history": [
-            90,
-            79,
-            59,
-            85,
-            52,
-            43,
-            89
-          ]
-        },
-        {
-          "keyword": "Lagos",
-          "volume": 32,
-          "change": 3,
           "category": "Actualité",
           "history": [
-            83,
-            40,
-            57,
-            86,
+            64,
+            49,
+            85,
+            59,
+            64,
+            48,
+            67
+          ]
+        },
+        {
+          "keyword": "miami fl vs unc",
+          "volume": 76,
+          "change": 58,
+          "category": "Actualité",
+          "history": [
+            73,
+            42,
+            50,
+            56,
+            42,
+            61,
+            66
+          ]
+        },
+        {
+          "keyword": "ms state vs texas",
+          "volume": 68,
+          "change": 26,
+          "category": "Actualité",
+          "history": [
+            56,
+            60,
+            67,
+            66,
             81,
-            43,
-            84
+            82,
+            46
+          ]
+        },
+        {
+          "keyword": "clemson vs florida state",
+          "volume": 60,
+          "change": 41,
+          "category": "Actualité",
+          "history": [
+            87,
+            49,
+            62,
+            51,
+            86,
+            75,
+            67
+          ]
+        },
+        {
+          "keyword": "barcelona vs alavés",
+          "volume": 52,
+          "change": 31,
+          "category": "Actualité",
+          "history": [
+            58,
+            79,
+            87,
+            57,
+            87,
+            75,
+            81
+          ]
+        },
+        {
+          "keyword": "minnesota vs indiana",
+          "volume": 44,
+          "change": 48,
+          "category": "Actualité",
+          "history": [
+            85,
+            44,
+            75,
+            84,
+            54,
+            84,
+            64
+          ]
+        },
+        {
+          "keyword": "timberwolves vs spurs",
+          "volume": 36,
+          "change": 57,
+          "category": "Actualité",
+          "history": [
+            52,
+            89,
+            57,
+            85,
+            78,
+            63,
+            58
+          ]
+        },
+        {
+          "keyword": "76ers vs hornets",
+          "volume": 28,
+          "change": 37,
+          "category": "Actualité",
+          "history": [
+            77,
+            65,
+            86,
+            60,
+            57,
+            75,
+            47
           ]
         }
       ],
-      "updatedAt": "2026-10-31T11:17:29.537Z",
-      "source": "fallback"
+      "updatedAt": "2026-11-01T12:06:48.090Z",
+      "source": "api"
     }
   ]
 }
